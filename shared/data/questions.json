@@ -1,0 +1,1623 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "sci-largest-planet",
+      "category": "science",
+      "text": "Which is the largest planet in our solar system?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune",
+        "Earth"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — Jupiter facts",
+      "fact": "Jupiter is more than twice as massive as all the other planets combined."
+    },
+    {
+      "id": "sci-octopus-hearts",
+      "category": "science",
+      "text": "How many hearts does an octopus have?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "8"
+      ],
+      "correctIndex": 1,
+      "source": "Smithsonian Ocean — Octopuses",
+      "fact": "Two hearts pump blood through the gills and the third pumps it around the body."
+    },
+    {
+      "id": "sci-water-boils",
+      "category": "science",
+      "text": "At sea level, water boils at what temperature in degrees Celsius?",
+      "options": [
+        "90 °C",
+        "120 °C",
+        "100 °C",
+        "212 °C"
+      ],
+      "correctIndex": 2,
+      "source": "NIST — Temperature scales (water boils at 100 °C / 212 °F at standard pressure)",
+      "fact": "212 is the boiling point in Fahrenheit — a classic trap!"
+    },
+    {
+      "id": "sci-closest-star",
+      "category": "science",
+      "text": "What is the closest star to Earth?",
+      "options": [
+        "Proxima Centauri",
+        "Sirius",
+        "Polaris",
+        "The Sun"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — The Sun",
+      "fact": "Proxima Centauri is the closest star beyond the Sun, about 4.2 light-years away."
+    },
+    {
+      "id": "sci-hardest-mineral",
+      "category": "science",
+      "text": "What is the hardest naturally occurring mineral?",
+      "options": [
+        "Diamond",
+        "Quartz",
+        "Topaz",
+        "Corundum"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Mohs hardness scale",
+      "fact": "Diamond is a 10 on the Mohs scale, the top of the scale."
+    },
+    {
+      "id": "sci-photosynthesis-gas",
+      "category": "science",
+      "text": "Which gas do plants take in from the air to make their food?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Helium"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Photosynthesis",
+      "fact": "Plants use sunlight to turn carbon dioxide and water into sugar, releasing oxygen."
+    },
+    {
+      "id": "sci-adult-bones",
+      "category": "science",
+      "text": "How many bones are in a typical adult human body?",
+      "options": [
+        "186",
+        "226",
+        "206",
+        "306"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Human skeleton",
+      "fact": "Babies are born with around 300 bones; many fuse together as they grow."
+    },
+    {
+      "id": "sci-fastest-land-animal",
+      "category": "science",
+      "text": "What is the fastest land animal?",
+      "options": [
+        "Pronghorn",
+        "Lion",
+        "Greyhound",
+        "Cheetah"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian's National Zoo — Cheetah",
+      "fact": "Cheetahs can sprint at around 100–110 km/h (60–70 mph) in short bursts."
+    },
+    {
+      "id": "sci-red-planet",
+      "category": "science",
+      "text": "Which planet is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — Mars facts",
+      "fact": "Iron oxide (rust) in its dust and rocks gives Mars its reddish colour."
+    },
+    {
+      "id": "sci-spider-legs",
+      "category": "science",
+      "text": "How many legs does a spider have?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Spider",
+      "fact": "Insects have six legs; spiders are arachnids, not insects."
+    },
+    {
+      "id": "sci-largest-animal",
+      "category": "science",
+      "text": "What is the largest animal living on Earth today?",
+      "options": [
+        "African elephant",
+        "Whale shark",
+        "Blue whale",
+        "Giant squid"
+      ],
+      "correctIndex": 2,
+      "source": "NOAA Fisheries — Blue whale",
+      "fact": "Blue whales can grow to around 30 metres (nearly 100 feet) long."
+    },
+    {
+      "id": "sci-gold-symbol",
+      "category": "science",
+      "text": "What is the chemical symbol for gold?",
+      "options": [
+        "Ag",
+        "Go",
+        "Gd",
+        "Au"
+      ],
+      "correctIndex": 3,
+      "source": "Royal Society of Chemistry — Periodic Table: Gold",
+      "fact": "Au comes from 'aurum', the Latin word for gold. Ag is silver."
+    },
+    {
+      "id": "sci-hottest-planet",
+      "category": "science",
+      "text": "Which planet is the hottest in our solar system?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Jupiter"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — Venus facts",
+      "fact": "Mercury is closer to the Sun, but Venus's thick carbon-dioxide atmosphere traps heat, making it hotter."
+    },
+    {
+      "id": "sci-tomato",
+      "category": "science",
+      "text": "Botanically speaking, what is a tomato?",
+      "options": [
+        "A vegetable",
+        "A fruit",
+        "A root",
+        "A legume"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Tomato",
+      "fact": "Botanically, a tomato is a berry — the fruit of the tomato plant."
+    },
+    {
+      "id": "sci-no-penguins",
+      "category": "science",
+      "text": "Which of these places has NO wild penguins?",
+      "options": [
+        "Antarctica",
+        "South Africa",
+        "The Arctic",
+        "The Galápagos Islands"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Penguin",
+      "fact": "Galápagos penguins live right on the equator, but no penguins live wild in the Arctic."
+    },
+    {
+      "id": "sci-sound-vacuum",
+      "category": "science",
+      "text": "Sound cannot travel through which of these?",
+      "options": [
+        "Water",
+        "Steel",
+        "Air",
+        "Empty space (a vacuum)"
+      ],
+      "correctIndex": 3,
+      "source": "NASA — Sound needs a medium to travel through",
+      "fact": "Sound is a vibration of matter, so with no matter, there's no sound."
+    },
+    {
+      "id": "sci-dinosaur-extinction",
+      "category": "science",
+      "text": "Roughly how long ago did the non-bird dinosaurs die out?",
+      "options": [
+        "66 million years ago",
+        "6,600 years ago",
+        "660,000 years ago",
+        "660 million years ago"
+      ],
+      "correctIndex": 0,
+      "source": "Natural History Museum, London — How an asteroid ended the age of the dinosaurs",
+      "fact": "Birds are living dinosaurs — they're descended from the survivors."
+    },
+    {
+      "id": "spo-soccer-players",
+      "category": "sports",
+      "text": "How many players does each team have on the field in a soccer (association football) match?",
+      "options": [
+        "9",
+        "11",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "source": "IFAB Laws of the Game — Law 3: The Players"
+    },
+    {
+      "id": "spo-hoop-height",
+      "category": "sports",
+      "text": "How high above the floor is a regulation basketball rim?",
+      "options": [
+        "8 feet",
+        "9 feet",
+        "10 feet (3.05 m)",
+        "12 feet"
+      ],
+      "correctIndex": 2,
+      "source": "NBA Official Rules / FIBA Official Basketball Rules",
+      "fact": "Every level, from the NBA to the Olympics, uses the same 10-foot rim."
+    },
+    {
+      "id": "spo-olympic-rings",
+      "category": "sports",
+      "text": "How many rings are on the Olympic flag?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "correctIndex": 3,
+      "source": "International Olympic Committee — Olympic Charter (the Olympic symbol)",
+      "fact": "The five interlaced rings represent the union of the five continents."
+    },
+    {
+      "id": "spo-marathon",
+      "category": "sports",
+      "text": "How long is an official marathon?",
+      "options": [
+        "26.2 miles (42.195 km)",
+        "20 miles",
+        "24.8 miles",
+        "30 miles"
+      ],
+      "correctIndex": 0,
+      "source": "World Athletics — Road running rules"
+    },
+    {
+      "id": "spo-birdie",
+      "category": "sports",
+      "text": "In golf, what is a score of one stroke under par on a hole called?",
+      "options": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Golf: scoring terms",
+      "fact": "An eagle is two under par, and a bogey is one over."
+    },
+    {
+      "id": "spo-tennis-love",
+      "category": "sports",
+      "text": "In tennis, what word means a score of zero?",
+      "options": [
+        "Nil",
+        "Duck",
+        "Love",
+        "Blank"
+      ],
+      "correctIndex": 2,
+      "source": "International Tennis Federation — Rules of Tennis (scoring)"
+    },
+    {
+      "id": "spo-soccer-minutes",
+      "category": "sports",
+      "text": "How long is a standard professional soccer match, not counting stoppage time?",
+      "options": [
+        "60 minutes",
+        "80 minutes",
+        "100 minutes",
+        "90 minutes"
+      ],
+      "correctIndex": 3,
+      "source": "IFAB Laws of the Game — Law 7: The Duration of the Match",
+      "fact": "Two halves of 45 minutes each."
+    },
+    {
+      "id": "spo-strikeout",
+      "category": "sports",
+      "text": "In baseball, how many strikes make a strikeout?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctIndex": 0,
+      "source": "MLB Official Baseball Rules"
+    },
+    {
+      "id": "spo-perfect-bowling",
+      "category": "sports",
+      "text": "What is the highest possible score in a single game of ten-pin bowling?",
+      "options": [
+        "200",
+        "300",
+        "250",
+        "500"
+      ],
+      "correctIndex": 1,
+      "source": "United States Bowling Congress — Playing rules",
+      "fact": "A perfect game takes 12 strikes in a row."
+    },
+    {
+      "id": "spo-shuttlecock",
+      "category": "sports",
+      "text": "Which sport uses a shuttlecock?",
+      "options": [
+        "Squash",
+        "Table tennis",
+        "Badminton",
+        "Volleyball"
+      ],
+      "correctIndex": 2,
+      "source": "Badminton World Federation — Laws of Badminton"
+    },
+    {
+      "id": "spo-touchdown",
+      "category": "sports",
+      "text": "In American football, how many points is a touchdown worth?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "6"
+      ],
+      "correctIndex": 3,
+      "source": "NFL Rulebook — Rule 11: Scoring",
+      "fact": "The 7th point usually comes from the extra-point kick after the touchdown."
+    },
+    {
+      "id": "spo-first-modern-olympics",
+      "category": "sports",
+      "text": "In which city were the first modern Olympic Games held, in 1896?",
+      "options": [
+        "Athens",
+        "Paris",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 0,
+      "source": "International Olympic Committee — Athens 1896"
+    },
+    {
+      "id": "spo-tour-de-france",
+      "category": "sports",
+      "text": "The Tour de France is a famous race in which sport?",
+      "options": [
+        "Running",
+        "Cycling",
+        "Motor racing",
+        "Horse racing"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Tour de France",
+      "fact": "The race was first held in 1903."
+    },
+    {
+      "id": "spo-volleyball",
+      "category": "sports",
+      "text": "How many players per team are on the court in indoor volleyball?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "9"
+      ],
+      "correctIndex": 2,
+      "source": "FIVB Official Volleyball Rules",
+      "fact": "Beach volleyball is played two-a-side."
+    },
+    {
+      "id": "spo-sumo",
+      "category": "sports",
+      "text": "Sumo wrestling is traditionally associated with which country?",
+      "options": [
+        "China",
+        "Korea",
+        "Mongolia",
+        "Japan"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Sumo",
+      "fact": "Many modern sumo champions have come from Mongolia, but sumo is a Japanese tradition."
+    },
+    {
+      "id": "spo-golf-holes",
+      "category": "sports",
+      "text": "How many holes are played in a standard round of golf?",
+      "options": [
+        "18",
+        "9",
+        "12",
+        "21"
+      ],
+      "correctIndex": 0,
+      "source": "The R&A / USGA — Rules of Golf"
+    },
+    {
+      "id": "spo-hockey-puck",
+      "category": "sports",
+      "text": "In ice hockey, what do players shoot into the goal?",
+      "options": [
+        "A ball",
+        "A puck",
+        "A shuttlecock",
+        "A stone"
+      ],
+      "correctIndex": 1,
+      "source": "International Ice Hockey Federation — Official Rule Book",
+      "fact": "Curling is the sport that uses stones on ice."
+    },
+    {
+      "id": "ent-toy-story-cowboy",
+      "category": "entertainment",
+      "text": "In \"Toy Story\", what is the name of the cowboy doll?",
+      "options": [
+        "Buzz",
+        "Rex",
+        "Woody",
+        "Hamm"
+      ],
+      "correctIndex": 2,
+      "source": "Pixar Animation Studios — Toy Story (1995)"
+    },
+    {
+      "id": "ent-frozen-snowman",
+      "category": "entertainment",
+      "text": "What is the name of the talking snowman in Disney's \"Frozen\"?",
+      "options": [
+        "Sven",
+        "Kristoff",
+        "Hans",
+        "Olaf"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — Frozen (2013)",
+      "fact": "Sven is Kristoff's reindeer."
+    },
+    {
+      "id": "ent-timon",
+      "category": "entertainment",
+      "text": "In \"The Lion King\", what kind of animal is Timon?",
+      "options": [
+        "Meerkat",
+        "Warthog",
+        "Mongoose",
+        "Lemur"
+      ],
+      "correctIndex": 0,
+      "source": "Walt Disney Animation Studios — The Lion King (1994)",
+      "fact": "His best friend Pumbaa is the warthog."
+    },
+    {
+      "id": "ent-beatles",
+      "category": "entertainment",
+      "text": "How many members were in The Beatles' famous lineup?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — The Beatles",
+      "fact": "John, Paul, George and Ringo."
+    },
+    {
+      "id": "ent-hogwarts-house",
+      "category": "entertainment",
+      "text": "Which Hogwarts house is Harry Potter sorted into?",
+      "options": [
+        "Slytherin",
+        "Hufflepuff",
+        "Gryffindor",
+        "Ravenclaw"
+      ],
+      "correctIndex": 2,
+      "source": "J.K. Rowling — Harry Potter and the Philosopher's Stone (1997)"
+    },
+    {
+      "id": "ent-spongebob-house",
+      "category": "entertainment",
+      "text": "In \"SpongeBob SquarePants\", what does SpongeBob live in?",
+      "options": [
+        "A coconut",
+        "A rock",
+        "A shell",
+        "A pineapple"
+      ],
+      "correctIndex": 3,
+      "source": "Nickelodeon — SpongeBob SquarePants",
+      "fact": "His best friend Patrick lives under a rock."
+    },
+    {
+      "id": "ent-shrek-sidekick",
+      "category": "entertainment",
+      "text": "In \"Shrek\", Shrek's chatty sidekick is a talking what?",
+      "options": [
+        "Donkey",
+        "Horse",
+        "Cat",
+        "Dragon"
+      ],
+      "correctIndex": 0,
+      "source": "DreamWorks Animation — Shrek (2001)"
+    },
+    {
+      "id": "ent-mario-brother",
+      "category": "entertainment",
+      "text": "What is the name of Mario's brother in Nintendo's games?",
+      "options": [
+        "Wario",
+        "Luigi",
+        "Toad",
+        "Yoshi"
+      ],
+      "correctIndex": 1,
+      "source": "Nintendo — Super Mario Bros. (1985)"
+    },
+    {
+      "id": "ent-first-pixar",
+      "category": "entertainment",
+      "text": "What was Pixar's first feature-length film?",
+      "options": [
+        "A Bug's Life",
+        "Finding Nemo",
+        "Toy Story",
+        "Monsters, Inc."
+      ],
+      "correctIndex": 2,
+      "source": "Pixar Animation Studios — Our story",
+      "fact": "Released in 1995, it was the first entirely computer-animated feature film."
+    },
+    {
+      "id": "ent-ruby-slippers",
+      "category": "entertainment",
+      "text": "In the 1939 film \"The Wizard of Oz\", what colour are Dorothy's magic slippers?",
+      "options": [
+        "Silver",
+        "Gold",
+        "Emerald green",
+        "Ruby red"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian National Museum of American History — Ruby Slippers",
+      "fact": "In L. Frank Baum's original book they were silver — the film changed them to show off Technicolor."
+    },
+    {
+      "id": "ent-pikachu-type",
+      "category": "entertainment",
+      "text": "Pikachu is which type of Pokémon?",
+      "options": [
+        "Electric",
+        "Fire",
+        "Normal",
+        "Psychic"
+      ],
+      "correctIndex": 0,
+      "source": "The Pokémon Company — Pokédex: Pikachu"
+    },
+    {
+      "id": "ent-yoda",
+      "category": "entertainment",
+      "text": "Which small green Jedi Master trains Luke Skywalker in \"The Empire Strikes Back\"?",
+      "options": [
+        "Grogu",
+        "Yoda",
+        "Obi-Wan Kenobi",
+        "Mace Windu"
+      ],
+      "correctIndex": 1,
+      "source": "Lucasfilm — StarWars.com Databank: Yoda"
+    },
+    {
+      "id": "ent-nemo-fish",
+      "category": "entertainment",
+      "text": "In \"Finding Nemo\", what kind of fish is Nemo?",
+      "options": [
+        "Blue tang",
+        "Goldfish",
+        "Clownfish",
+        "Pufferfish"
+      ],
+      "correctIndex": 2,
+      "source": "Pixar Animation Studios — Finding Nemo (2003)",
+      "fact": "Dory is the blue tang."
+    },
+    {
+      "id": "ent-piano-keys",
+      "category": "entertainment",
+      "text": "How many keys does a standard modern piano have?",
+      "options": [
+        "76",
+        "92",
+        "100",
+        "88"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Piano",
+      "fact": "52 white keys and 36 black keys."
+    },
+    {
+      "id": "ent-creeper",
+      "category": "entertainment",
+      "text": "In Minecraft, what colour is a Creeper?",
+      "options": [
+        "Green",
+        "Grey",
+        "Black",
+        "Purple"
+      ],
+      "correctIndex": 0,
+      "source": "Mojang Studios — Minecraft"
+    },
+    {
+      "id": "ent-oscar",
+      "category": "entertainment",
+      "text": "What is the famous nickname of the Academy Award statuette?",
+      "options": [
+        "Emmy",
+        "Oscar",
+        "Tony",
+        "Grammy"
+      ],
+      "correctIndex": 1,
+      "source": "Academy of Motion Picture Arts and Sciences — The Oscar statuette"
+    },
+    {
+      "id": "ent-paddington",
+      "category": "entertainment",
+      "text": "Paddington Bear originally comes from which country?",
+      "options": [
+        "Bolivia",
+        "Brazil",
+        "Peru",
+        "Mexico"
+      ],
+      "correctIndex": 2,
+      "source": "Michael Bond — A Bear Called Paddington (1958)",
+      "fact": "He arrives in London from \"darkest Peru\" with a label saying \"Please look after this bear\"."
+    },
+    {
+      "id": "geo-largest-ocean",
+      "category": "geography",
+      "text": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA — How big is the Pacific Ocean?",
+      "fact": "The Pacific is larger than all of Earth's land area combined."
+    },
+    {
+      "id": "geo-australia-capital",
+      "category": "geography",
+      "text": "What is the capital city of Australia?",
+      "options": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "correctIndex": 0,
+      "source": "Australian Government — Australia's capital city",
+      "fact": "Canberra was purpose-built as a compromise between rivals Sydney and Melbourne."
+    },
+    {
+      "id": "geo-largest-desert",
+      "category": "geography",
+      "text": "Counting cold deserts too, what is the largest desert on Earth?",
+      "options": [
+        "Sahara",
+        "Antarctica",
+        "Gobi",
+        "Arabian Desert"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. Geological Survey / Encyclopaedia Britannica — Desert",
+      "fact": "A desert is defined by how little precipitation it gets, not by heat. The Sahara is the largest hot desert."
+    },
+    {
+      "id": "geo-continents",
+      "category": "geography",
+      "text": "Using the model most English-speaking schools teach, how many continents are there?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2,
+      "source": "National Geographic Education — Continent"
+    },
+    {
+      "id": "geo-highest-mountain",
+      "category": "geography",
+      "text": "What is the highest mountain above sea level?",
+      "options": [
+        "K2",
+        "Kilimanjaro",
+        "Denali",
+        "Mount Everest"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Mount Everest",
+      "fact": "Everest's summit is about 8,849 metres (29,032 feet) above sea level."
+    },
+    {
+      "id": "geo-canada-capital",
+      "category": "geography",
+      "text": "What is the capital city of Canada?",
+      "options": [
+        "Ottawa",
+        "Toronto",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctIndex": 0,
+      "source": "Government of Canada — Canada's capital"
+    },
+    {
+      "id": "geo-smallest-country",
+      "category": "geography",
+      "text": "What is the smallest country in the world by area?",
+      "options": [
+        "Monaco",
+        "Vatican City",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — Holy See (Vatican City)",
+      "fact": "It covers less than half a square kilometre."
+    },
+    {
+      "id": "geo-most-populous",
+      "category": "geography",
+      "text": "Which country has the largest population?",
+      "options": [
+        "China",
+        "United States",
+        "India",
+        "Indonesia"
+      ],
+      "correctIndex": 2,
+      "source": "United Nations DESA — World Population Prospects",
+      "fact": "India's population passed China's in 2023, according to UN estimates."
+    },
+    {
+      "id": "geo-statue-liberty",
+      "category": "geography",
+      "text": "In which U.S. city is the Statue of Liberty?",
+      "options": [
+        "Washington, D.C.",
+        "Boston",
+        "Philadelphia",
+        "New York City"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. National Park Service — Statue of Liberty National Monument"
+    },
+    {
+      "id": "geo-boot-country",
+      "category": "geography",
+      "text": "Which country is famously shaped like a boot?",
+      "options": [
+        "Italy",
+        "Greece",
+        "Spain",
+        "Portugal"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Italy"
+    },
+    {
+      "id": "geo-sahara-continent",
+      "category": "geography",
+      "text": "The Sahara Desert is on which continent?",
+      "options": [
+        "Asia",
+        "Africa",
+        "Australia",
+        "South America"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Sahara"
+    },
+    {
+      "id": "geo-us-states",
+      "category": "geography",
+      "text": "How many states are in the United States?",
+      "options": [
+        "48",
+        "51",
+        "50",
+        "52"
+      ],
+      "correctIndex": 2,
+      "source": "USA.gov — States"
+    },
+    {
+      "id": "geo-great-barrier-reef",
+      "category": "geography",
+      "text": "The Great Barrier Reef lies off the coast of which country?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "New Zealand",
+        "Australia"
+      ],
+      "correctIndex": 3,
+      "source": "Great Barrier Reef Marine Park Authority",
+      "fact": "It's the world's largest coral reef system."
+    },
+    {
+      "id": "geo-japan-capital",
+      "category": "geography",
+      "text": "What is the capital city of Japan?",
+      "options": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima"
+      ],
+      "correctIndex": 0,
+      "source": "Government of Japan — About Japan",
+      "fact": "Kyoto was the imperial capital for over a thousand years before Tokyo."
+    },
+    {
+      "id": "geo-machu-picchu",
+      "category": "geography",
+      "text": "In which country is Machu Picchu?",
+      "options": [
+        "Mexico",
+        "Peru",
+        "Chile",
+        "Bolivia"
+      ],
+      "correctIndex": 1,
+      "source": "UNESCO World Heritage Centre — Historic Sanctuary of Machu Picchu"
+    },
+    {
+      "id": "geo-kilimanjaro",
+      "category": "geography",
+      "text": "Mount Kilimanjaro, Africa's highest mountain, is in which country?",
+      "options": [
+        "Kenya",
+        "Uganda",
+        "Tanzania",
+        "Ethiopia"
+      ],
+      "correctIndex": 2,
+      "source": "UNESCO World Heritage Centre — Kilimanjaro National Park",
+      "fact": "It's often photographed from Kenya, but the mountain itself is in Tanzania."
+    },
+    {
+      "id": "geo-equator",
+      "category": "geography",
+      "text": "Which imaginary line divides Earth into the Northern and Southern Hemispheres?",
+      "options": [
+        "The Prime Meridian",
+        "The Tropic of Cancer",
+        "The International Date Line",
+        "The Equator"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA — Latitude and longitude",
+      "fact": "The Prime Meridian divides the Eastern and Western Hemispheres."
+    },
+    {
+      "id": "his-moon-landing",
+      "category": "history",
+      "text": "In which year did astronauts first land on the Moon?",
+      "options": [
+        "1969",
+        "1965",
+        "1972",
+        "1959"
+      ],
+      "correctIndex": 0,
+      "source": "NASA — Apollo 11 mission overview"
+    },
+    {
+      "id": "his-first-moonwalker",
+      "category": "history",
+      "text": "Who was the first person to walk on the Moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "John Glenn"
+      ],
+      "correctIndex": 1,
+      "source": "NASA — Apollo 11",
+      "fact": "Buzz Aldrin followed him about 20 minutes later."
+    },
+    {
+      "id": "his-first-president",
+      "category": "history",
+      "text": "Who was the first President of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "Abraham Lincoln"
+      ],
+      "correctIndex": 2,
+      "source": "The White House — Presidents"
+    },
+    {
+      "id": "his-titanic",
+      "category": "history",
+      "text": "In which year did the Titanic sink?",
+      "options": [
+        "1905",
+        "1915",
+        "1921",
+        "1912"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Titanic",
+      "fact": "It sank on its maiden voyage after hitting an iceberg."
+    },
+    {
+      "id": "his-wright-brothers",
+      "category": "history",
+      "text": "Who made the first controlled, powered airplane flights in 1903?",
+      "options": [
+        "The Wright brothers",
+        "Amelia Earhart",
+        "Charles Lindbergh",
+        "The Montgolfier brothers"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian National Air and Space Museum — The 1903 Wright Flyer",
+      "fact": "The Montgolfier brothers flew hot-air balloons in 1783 — not airplanes."
+    },
+    {
+      "id": "his-first-woman-nobel",
+      "category": "history",
+      "text": "Who was the first woman to win a Nobel Prize?",
+      "options": [
+        "Florence Nightingale",
+        "Marie Curie",
+        "Ada Lovelace",
+        "Jane Addams"
+      ],
+      "correctIndex": 1,
+      "source": "The Nobel Prize — Marie Curie facts",
+      "fact": "She won in Physics in 1903 and again in Chemistry in 1911."
+    },
+    {
+      "id": "his-columbus",
+      "category": "history",
+      "text": "In which year did Christopher Columbus first reach the Americas?",
+      "options": [
+        "1453",
+        "1512",
+        "1492",
+        "1607"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Christopher Columbus"
+    },
+    {
+      "id": "his-berlin-wall",
+      "category": "history",
+      "text": "In which year did the Berlin Wall fall?",
+      "options": [
+        "1961",
+        "1985",
+        "1991",
+        "1989"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Berlin Wall",
+      "fact": "1961 is the year it was built."
+    },
+    {
+      "id": "his-rome-language",
+      "category": "history",
+      "text": "What was the main language of ancient Rome?",
+      "options": [
+        "Latin",
+        "Italian",
+        "Greek",
+        "Etruscan"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Latin language"
+    },
+    {
+      "id": "his-telephone",
+      "category": "history",
+      "text": "Who was granted the first U.S. patent for the telephone in 1876?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Samuel Morse"
+      ],
+      "correctIndex": 1,
+      "source": "Library of Congress — Alexander Graham Bell Family Papers"
+    },
+    {
+      "id": "his-magna-carta",
+      "category": "history",
+      "text": "Magna Carta was sealed in 1215 by which English king?",
+      "options": [
+        "Henry VIII",
+        "Richard the Lionheart",
+        "King John",
+        "William the Conqueror"
+      ],
+      "correctIndex": 2,
+      "source": "The British Library — Magna Carta"
+    },
+    {
+      "id": "his-first-in-space",
+      "category": "history",
+      "text": "Who was the first human to travel into space?",
+      "options": [
+        "Neil Armstrong",
+        "Alan Shepard",
+        "John Glenn",
+        "Yuri Gagarin"
+      ],
+      "correctIndex": 3,
+      "source": "European Space Agency — Yuri Gagarin, first human in space (1961)"
+    },
+    {
+      "id": "his-liberty-gift",
+      "category": "history",
+      "text": "The Statue of Liberty was a gift to the United States from which country?",
+      "options": [
+        "France",
+        "England",
+        "Spain",
+        "Italy"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. National Park Service — Statue of Liberty history"
+    },
+    {
+      "id": "his-tutankhamun",
+      "category": "history",
+      "text": "Who led the 1922 discovery of King Tutankhamun's tomb?",
+      "options": [
+        "Heinrich Schliemann",
+        "Howard Carter",
+        "Hiram Bingham",
+        "Arthur Evans"
+      ],
+      "correctIndex": 1,
+      "source": "Griffith Institute, University of Oxford — Tutankhamun: Anatomy of an Excavation"
+    },
+    {
+      "id": "his-surviving-wonder",
+      "category": "history",
+      "text": "Which of the Seven Wonders of the Ancient World is still standing?",
+      "options": [
+        "The Hanging Gardens of Babylon",
+        "The Colossus of Rhodes",
+        "The Great Pyramid of Giza",
+        "The Lighthouse of Alexandria"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Seven Wonders of the World"
+    },
+    {
+      "id": "his-gutenberg",
+      "category": "history",
+      "text": "Around 1440, Johannes Gutenberg developed which invention in Europe?",
+      "options": [
+        "The telescope",
+        "The mechanical clock",
+        "The magnetic compass",
+        "The printing press with movable type"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Johannes Gutenberg"
+    },
+    {
+      "id": "wei-flamingo-pink",
+      "category": "weird",
+      "text": "Why are flamingos pink?",
+      "options": [
+        "Pigments in the food they eat",
+        "They are born pink",
+        "The sun tints their feathers",
+        "Pink feathers keep them cool"
+      ],
+      "correctIndex": 0,
+      "source": "San Diego Zoo Wildlife Alliance — Flamingo",
+      "fact": "Flamingo chicks hatch grey or white and turn pink from carotenoids in algae and shrimp."
+    },
+    {
+      "id": "wei-honey",
+      "category": "weird",
+      "text": "Which food can stay edible for thousands of years if it's sealed?",
+      "options": [
+        "Bread",
+        "Honey",
+        "Cheese",
+        "Milk"
+      ],
+      "correctIndex": 1,
+      "source": "Smithsonian Magazine — The Science Behind Honey's Eternal Shelf Life",
+      "fact": "Archaeologists have found still-edible honey in ancient Egyptian tombs."
+    },
+    {
+      "id": "wei-banana-berry",
+      "category": "weird",
+      "text": "Botanically, which of these is a true berry?",
+      "options": [
+        "Strawberry",
+        "Raspberry",
+        "Banana",
+        "Blackberry"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Berry",
+      "fact": "Strawberries and raspberries aren't true berries — but bananas are!"
+    },
+    {
+      "id": "wei-wombat",
+      "category": "weird",
+      "text": "Which animal produces cube-shaped poop?",
+      "options": [
+        "Koala",
+        "Kangaroo",
+        "Platypus",
+        "Wombat"
+      ],
+      "correctIndex": 3,
+      "source": "Yang et al., \"Intestines of non-uniform stiffness mold the corners of wombat feces\", Soft Matter (2021)"
+    },
+    {
+      "id": "wei-octopus-blood",
+      "category": "weird",
+      "text": "What colour is an octopus's blood?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Clear"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian Ocean — Octopuses",
+      "fact": "It contains copper-based hemocyanin instead of iron-based hemoglobin."
+    },
+    {
+      "id": "wei-eiffel-summer",
+      "category": "weird",
+      "text": "Why is the Eiffel Tower slightly taller in summer?",
+      "options": [
+        "Paris raises it for tourists",
+        "Heat makes its iron expand",
+        "It sinks into the ground in winter",
+        "Painters add extra layers each summer"
+      ],
+      "correctIndex": 1,
+      "source": "Official Eiffel Tower website (toureiffel.paris) — The tower's movements"
+    },
+    {
+      "id": "wei-koala-prints",
+      "category": "weird",
+      "text": "Which animal has fingerprints so similar to ours that they could confuse investigators?",
+      "options": [
+        "Kangaroo",
+        "Panda",
+        "Koala",
+        "Sloth"
+      ],
+      "correctIndex": 2,
+      "source": "Henneberg, Lambert & Leigh, \"Fingerprint homoplasy: koalas and humans\", Nature (1996)"
+    },
+    {
+      "id": "wei-venus-day",
+      "category": "weird",
+      "text": "Venus takes about 243 Earth days to spin once on its axis. How does that compare with its year (one trip around the Sun)?",
+      "options": [
+        "It's exactly the same",
+        "It's about half its year",
+        "It's a tenth of its year",
+        "It's longer than its year"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Venus facts",
+      "fact": "A Venus year is only about 225 Earth days."
+    },
+    {
+      "id": "wei-banana-radioactive",
+      "category": "weird",
+      "text": "Bananas are very slightly radioactive. Which element in them causes this?",
+      "options": [
+        "Potassium",
+        "Uranium",
+        "Iron",
+        "Calcium"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Environmental Protection Agency — Radioactivity in food",
+      "fact": "A tiny fraction of natural potassium is radioactive potassium-40. Totally harmless!"
+    },
+    {
+      "id": "wei-butterfly-taste",
+      "category": "weird",
+      "text": "Butterflies taste their food using their…",
+      "options": [
+        "Wings",
+        "Feet",
+        "Antennae",
+        "Eyes"
+      ],
+      "correctIndex": 1,
+      "source": "Natural History Museum, London — Butterflies",
+      "fact": "Taste sensors on their feet tell a butterfly if a leaf is good for laying eggs on."
+    },
+    {
+      "id": "wei-ketchup-medicine",
+      "category": "weird",
+      "text": "In the 1830s, tomato ketchup was sold in the United States as what?",
+      "options": [
+        "Hair dye",
+        "Paint",
+        "Medicine",
+        "Toothpaste"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Magazine — Ketchup was once sold as medicine (Andrew F. Smith, The Tomato in America)"
+    },
+    {
+      "id": "wei-sharks-trees",
+      "category": "weird",
+      "text": "Sharks have existed on Earth for longer than which of these?",
+      "options": [
+        "Jellyfish",
+        "Sponges",
+        "Bacteria",
+        "Trees"
+      ],
+      "correctIndex": 3,
+      "source": "Natural History Museum, London — Sharks",
+      "fact": "Sharks appeared about 450 million years ago; the first trees about 385 million years ago."
+    },
+    {
+      "id": "wei-cloud-weight",
+      "category": "weird",
+      "text": "Roughly how much does the water in one fluffy cumulus cloud weigh?",
+      "options": [
+        "As much as about 100 elephants",
+        "Less than a feather",
+        "About as much as a car",
+        "As much as Mount Everest"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Geological Survey — Water Science School: How much does a cloud weigh?",
+      "fact": "USGS estimates about 500,000 kg (1.1 million pounds) for a typical cumulus cloud."
+    },
+    {
+      "id": "wei-cats-sweet",
+      "category": "weird",
+      "text": "Which taste can cats NOT detect?",
+      "options": [
+        "Salty",
+        "Sweet",
+        "Sour",
+        "Bitter"
+      ],
+      "correctIndex": 1,
+      "source": "Li et al., PLoS Genetics (2005) — Monell Chemical Senses Center",
+      "fact": "Cats lack a working sweet-taste receptor gene."
+    },
+    {
+      "id": "wei-sea-star-brain",
+      "category": "weird",
+      "text": "How many brains does a sea star (starfish) have?",
+      "options": [
+        "1",
+        "2",
+        "None",
+        "5"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Ocean — Sea stars",
+      "fact": "Sea stars have a nerve net instead of a central brain — and they aren't fish either."
+    },
+    {
+      "id": "wei-ants-antarctica",
+      "category": "weird",
+      "text": "Which is the only continent with no native ants?",
+      "options": [
+        "Australia",
+        "Europe",
+        "South America",
+        "Antarctica"
+      ],
+      "correctIndex": 3,
+      "source": "Hölldobler & Wilson, The Ants (1990)"
+    },
+    {
+      "id": "wei-hummingbird",
+      "category": "weird",
+      "text": "Which bird is famous for being able to fly backwards?",
+      "options": [
+        "Hummingbird",
+        "Penguin",
+        "Ostrich",
+        "Owl"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian's National Zoo — Hummingbirds"
+    },
+    {
+      "id": "gen-rainbow",
+      "category": "general",
+      "text": "How many colours are traditionally named in a rainbow?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Rainbow (Isaac Newton's seven colours)",
+      "fact": "Red, orange, yellow, green, blue, indigo, violet."
+    },
+    {
+      "id": "gen-leap-year",
+      "category": "general",
+      "text": "How many days are in a leap year?",
+      "options": [
+        "364",
+        "365",
+        "366",
+        "367"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Leap year"
+    },
+    {
+      "id": "gen-hexagon",
+      "category": "general",
+      "text": "How many sides does a hexagon have?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Polygon",
+      "fact": "Honeybees build hexagonal honeycomb cells."
+    },
+    {
+      "id": "gen-not-primary",
+      "category": "general",
+      "text": "Which of these is NOT one of the traditional primary colours used in painting?",
+      "options": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Colour wheel",
+      "fact": "Mix blue and yellow paint to make green."
+    },
+    {
+      "id": "gen-freezing-f",
+      "category": "general",
+      "text": "At what temperature does water freeze on the Fahrenheit scale?",
+      "options": [
+        "0 °F",
+        "32 °F",
+        "10 °F",
+        "100 °F"
+      ],
+      "correctIndex": 1,
+      "source": "NIST — Temperature scales"
+    },
+    {
+      "id": "gen-bakers-dozen",
+      "category": "general",
+      "text": "How many items are in a \"baker's dozen\"?",
+      "options": [
+        "12",
+        "14",
+        "13",
+        "24"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Baker's dozen"
+    },
+    {
+      "id": "gen-alphabet",
+      "category": "general",
+      "text": "How many letters are in the English alphabet?",
+      "options": [
+        "24",
+        "25",
+        "28",
+        "26"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Alphabet"
+    },
+    {
+      "id": "gen-tallest-animal",
+      "category": "general",
+      "text": "What is the tallest animal in the world?",
+      "options": [
+        "Giraffe",
+        "African elephant",
+        "Ostrich",
+        "Moose"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian's National Zoo — Giraffe"
+    },
+    {
+      "id": "gen-yen",
+      "category": "general",
+      "text": "What is the currency of Japan?",
+      "options": [
+        "Won",
+        "Yen",
+        "Yuan",
+        "Ringgit"
+      ],
+      "correctIndex": 1,
+      "source": "Bank of Japan",
+      "fact": "The won is Korea's currency and the yuan is China's."
+    },
+    {
+      "id": "gen-roman-l",
+      "category": "general",
+      "text": "What number does the Roman numeral L stand for?",
+      "options": [
+        "5",
+        "100",
+        "50",
+        "500"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Roman numerals"
+    },
+    {
+      "id": "gen-longest-bone",
+      "category": "general",
+      "text": "What is the longest bone in the human body?",
+      "options": [
+        "Tibia (shin bone)",
+        "Humerus (upper-arm bone)",
+        "Spine",
+        "Femur (thigh bone)"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Femur"
+    },
+    {
+      "id": "gen-sushi",
+      "category": "general",
+      "text": "Which ingredient does every type of sushi include?",
+      "options": [
+        "Vinegared rice",
+        "Raw fish",
+        "Seaweed",
+        "Soy sauce"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Sushi",
+      "fact": "Raw fish on its own, without rice, is called sashimi."
+    },
+    {
+      "id": "gen-stop-sign",
+      "category": "general",
+      "text": "How many sides does a standard stop sign have?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "10"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. Federal Highway Administration — Manual on Uniform Traffic Control Devices",
+      "fact": "Its unique octagon shape means drivers can recognise it even from behind."
+    },
+    {
+      "id": "gen-bishop",
+      "category": "general",
+      "text": "In chess, which piece can move only diagonally?",
+      "options": [
+        "Rook",
+        "Knight",
+        "Bishop",
+        "Queen"
+      ],
+      "correctIndex": 2,
+      "source": "FIDE — Laws of Chess",
+      "fact": "The queen can move diagonally too, but not only diagonally."
+    },
+    {
+      "id": "gen-shortest-month",
+      "category": "general",
+      "text": "Which month has the fewest days?",
+      "options": [
+        "April",
+        "June",
+        "November",
+        "February"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Gregorian calendar"
+    },
+    {
+      "id": "gen-minutes-day",
+      "category": "general",
+      "text": "How many minutes are in one full day?",
+      "options": [
+        "1,440",
+        "1,000",
+        "1,240",
+        "2,400"
+      ],
+      "correctIndex": 0,
+      "source": "Arithmetic: 24 hours × 60 minutes"
+    },
+    {
+      "id": "gen-water-formula",
+      "category": "general",
+      "text": "What is the chemical formula for water?",
+      "options": [
+        "CO₂",
+        "H₂O",
+        "O₂",
+        "H₂O₂"
+      ],
+      "correctIndex": 1,
+      "source": "Royal Society of Chemistry — Water",
+      "fact": "H₂O₂ is hydrogen peroxide."
+    },
+    {
+      "id": "gen-clock-hands",
+      "category": "general",
+      "text": "On a 12-hour analog clock, how many times do the hour and minute hands overlap in 12 hours?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "24"
+      ],
+      "correctIndex": 2,
+      "source": "Arithmetic: the hands meet every 12/11 hours (about every 65.45 minutes)",
+      "fact": "They don't overlap between 11 and 1 except exactly at 12."
+    }
+  ]
+}
