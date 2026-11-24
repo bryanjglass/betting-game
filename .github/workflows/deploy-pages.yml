@@ -1,6 +1,6 @@
 # Builds the frontend and publishes it to GitHub Pages.
 # Required repository variable (Settings → Secrets and variables → Actions → Variables):
-#   VITE_SERVER_URL  e.g. https://who-said-that.<your-subdomain>.workers.dev
+#   VITE_SERVER_URL  e.g. https://betting-game.<your-subdomain>.workers.dev
 name: Deploy frontend to GitHub Pages
 
 on:

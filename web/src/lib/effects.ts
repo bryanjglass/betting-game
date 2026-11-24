@@ -6,7 +6,7 @@ export function prefersReducedMotion(): boolean {
 
 export function burstConfetti(intensity: "small" | "big" = "small") {
   if (prefersReducedMotion()) return;
-  const colors = ["#FFD23F", "#FF4F8B", "#2DE1FC", "#3DDC84", "#9B6BFF"];
+  const colors = ["#FFC83D", "#E63946", "#3A86FF", "#2DC653", "#9B5DE5", "#FFF7E6"];
   if (intensity === "small") {
     confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 }, colors, disableForReducedMotion: true });
     return;

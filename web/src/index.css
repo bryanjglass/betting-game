@@ -1,0 +1,114 @@
+@import "@fontsource/fredoka/400.css";
+@import "@fontsource/fredoka/500.css";
+@import "@fontsource/fredoka/600.css";
+@import "@fontsource/fredoka/700.css";
+@import "@fontsource/nunito/400.css";
+@import "@fontsource/nunito/700.css";
+@import "@fontsource/nunito/800.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-ink font-body text-cream antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+}
+
+/* Game-show backdrop: stage lights over a midnight curtain. */
+.bg-show {
+  background-color: #0b0720;
+  background-image:
+    radial-gradient(ellipse at 50% -10%, rgba(255, 200, 61, 0.28), transparent 45%),
+    radial-gradient(circle at 8% 30%, rgba(255, 79, 109, 0.22), transparent 35%),
+    radial-gradient(circle at 92% 30%, rgba(47, 140, 255, 0.22), transparent 35%),
+    radial-gradient(ellipse at 50% 120%, rgba(14, 107, 78, 0.55), transparent 55%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.025) 0 2px, transparent 2px 60px);
+}
+
+/* Card-table felt with a subtle weave. */
+.bg-felt {
+  background-color: #0e6b4e;
+  background-image:
+    radial-gradient(ellipse at 50% 40%, rgba(255, 255, 255, 0.12), transparent 60%),
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.06) 0 2px, transparent 2px 6px),
+    repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0 2px, transparent 2px 6px);
+}
+
+/* Gold foil text */
+.text-foil {
+  background: linear-gradient(180deg, #fff3c4 0%, #ffc83d 45%, #e09b00 55%, #ffe08a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Marquee light bulbs around a box */
+.marquee-lights {
+  background-image: radial-gradient(circle, #ffe08a 0 3px, transparent 4px);
+  background-size: 22px 22px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Native range input styled as a gold betting slider. */
+input[type="range"].wager-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 18px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ffc83d var(--fill, 0%), rgba(255, 255, 255, 0.12) var(--fill, 0%));
+  outline: none;
+}
+input[type="range"].wager-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 4px solid #0b0720;
+  background: radial-gradient(circle, #fff7e6 0 38%, #e63946 40% 100%);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+  cursor: grab;
+}
+input[type="range"].wager-slider::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid #0b0720;
+  background: radial-gradient(circle, #fff7e6 0 38%, #e63946 40% 100%);
+  cursor: grab;
+}
+input[type="range"].wager-slider:focus-visible {
+  box-shadow: 0 0 0 4px rgba(255, 200, 61, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Avoid iOS zoom-on-focus: inputs must be >= 16px */
+input,
+textarea,
+select {
+  font-size: max(16px, 1em);
+}

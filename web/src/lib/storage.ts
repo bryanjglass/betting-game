@@ -22,12 +22,12 @@ export interface PlayerSeat {
 }
 
 export const storage = {
-  hostToken: (code: string) => read<string>(`wst:host:${code}`),
-  setHostToken: (code: string, token: string) => write(`wst:host:${code}`, token),
-  seat: (code: string) => read<PlayerSeat>(`wst:seat:${code}`),
-  setSeat: (code: string, seat: PlayerSeat | null) => write(`wst:seat:${code}`, seat),
-  profile: () => read<{ name: string; avatar: number }>("wst:profile"),
-  setProfile: (p: { name: string; avatar: number }) => write("wst:profile", p),
-  sound: () => read<boolean>("wst:sound") ?? false,
-  setSound: (on: boolean) => write("wst:sound", on),
+  hostToken: (code: string) => read<string>(`btg:host:${code}`),
+  setHostToken: (code: string, token: string) => write(`btg:host:${code}`, token),
+  seat: (code: string) => read<PlayerSeat>(`btg:seat:${code}`),
+  setSeat: (code: string, seat: PlayerSeat | null) => write(`btg:seat:${code}`, seat),
+  profile: () => read<{ name: string; avatar: number }>("btg:profile"),
+  setProfile: (p: { name: string; avatar: number }) => write("btg:profile", p),
+  sound: () => read<boolean>("btg:sound") ?? false,
+  setSound: (on: boolean) => write("btg:sound", on),
 };

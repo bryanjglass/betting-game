@@ -52,6 +52,18 @@ export const sfx = {
   join() {
     if (enabled) tone(660, 0, 0.15, "sine", 0.12);
   },
+  chips(count = 3) {
+    if (!enabled) return;
+    for (let i = 0; i < Math.min(count, 8); i++) tone(2400 + (i % 3) * 300, i * 0.05, 0.05, "square", 0.04);
+  },
+  win() {
+    if (!enabled) return;
+    [659, 784, 988, 1319].forEach((f, i) => tone(f, i * 0.08, 0.3, "triangle", 0.12));
+  },
+  lose() {
+    if (!enabled) return;
+    [392, 330, 262].forEach((f, i) => tone(f, i * 0.16, 0.35, "sawtooth", 0.06));
+  },
   fanfare() {
     if (!enabled) return;
     [523, 523, 659, 784, 659, 784, 1047].forEach((f, i) => tone(f, i * 0.14, 0.35, "sawtooth", 0.07));

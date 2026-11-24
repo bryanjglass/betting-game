@@ -1,7 +1,7 @@
 /**
  * Runtime configuration.
  *
- *  VITE_SERVER_URL  Base URL of the Cloudflare Worker (e.g. https://who-said-that.you.workers.dev).
+ *  VITE_SERVER_URL  Base URL of the Cloudflare Worker (e.g. https://betting-game.you.workers.dev).
  *                   Leave unset in development: the Vite dev server proxies /api.
  *  VITE_PUBLIC_URL  Optional public URL of the frontend, used for the join QR
  *                   code (useful when the host opened the app via localhost).
