@@ -5,6 +5,7 @@
  */
 import { describe, expect, it } from "vitest";
 import { CHIPS, LIMITS } from "../../shared/constants";
+import { QUESTIONS } from "../../shared/questions";
 import type { ClientView } from "../../shared/views";
 import {
   correctChoice,
@@ -119,10 +120,23 @@ describe("lobby & multiplayer", () => {
       await world.act(host, { type: "configure", config: bad });
       expect(host.lastError()?.code).toBe("invalid");
     }
-    // 20 rounds needs more questions than a single category has.
+    // With the full bank, 20 rounds of a single category is fine.
     await world.act(host, { type: "configure", config: { rounds: 20, categories: ["sports"] } });
+    expect(host.lastView().host!.startBlockers).toEqual([]);
+  });
+
+  it("blocks starting when the chosen categories have fewer questions than rounds", async () => {
+    // A room whose bank has only 10 sports questions.
+    const world = new FakeWorld();
+    world.platform.questions = QUESTIONS.filter((q) => q.category === "sports").slice(0, 10);
+    world.hibernate();
+    const { host } = await createRoom(world);
+    await joinPlayer(world, "A", 0);
+    await joinPlayer(world, "B", 1);
+    await world.act(host, { type: "configure", config: { rounds: 15, categories: ["sports"] } });
     expect(host.lastView().host!.startBlockers.join()).toMatch(/Not enough questions/);
     await world.act(host, { type: "start" });
+    expect(host.lastError()?.code).toBe("invalid");
     expect(world.state.phase).toBe("lobby");
   });
 

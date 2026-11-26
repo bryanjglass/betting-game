@@ -1618,6 +1618,6617 @@
       "correctIndex": 2,
       "source": "Arithmetic: the hands meet every 12/11 hours (about every 65.45 minutes)",
       "fact": "They don't overlap between 11 and 1 except exactly at 12."
+    },
+    {
+      "id": "sci-planet-count",
+      "category": "science",
+      "text": "How many planets are in our solar system?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Our Solar System",
+      "fact": "Pluto was reclassified as a dwarf planet in 2006."
+    },
+    {
+      "id": "sci-ringed-planet",
+      "category": "science",
+      "text": "Which planet has the largest and brightest ring system?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — Saturn",
+      "fact": "Jupiter, Uranus and Neptune have rings too, but they're faint."
+    },
+    {
+      "id": "sci-closest-to-sun",
+      "category": "science",
+      "text": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Earth"
+      ],
+      "correctIndex": 1,
+      "source": "NASA Science — Mercury"
+    },
+    {
+      "id": "sci-sodium-symbol",
+      "category": "science",
+      "text": "What is the chemical symbol for sodium?",
+      "options": [
+        "So",
+        "Sd",
+        "Na",
+        "S"
+      ],
+      "correctIndex": 2,
+      "source": "Royal Society of Chemistry — Periodic Table: Sodium",
+      "fact": "Na comes from 'natrium', its Latin name."
+    },
+    {
+      "id": "sci-iron-symbol",
+      "category": "science",
+      "text": "What is the chemical symbol for iron?",
+      "options": [
+        "Ir",
+        "In",
+        "I",
+        "Fe"
+      ],
+      "correctIndex": 3,
+      "source": "Royal Society of Chemistry — Periodic Table: Iron",
+      "fact": "Fe comes from 'ferrum', the Latin word for iron."
+    },
+    {
+      "id": "sci-air-gas",
+      "category": "science",
+      "text": "Which gas makes up most of Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "correctIndex": 0,
+      "source": "NOAA — Earth's atmosphere",
+      "fact": "Air is about 78% nitrogen and 21% oxygen."
+    },
+    {
+      "id": "sci-lightest-element",
+      "category": "science",
+      "text": "What is the lightest chemical element?",
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Lithium",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "source": "Royal Society of Chemistry — Periodic Table: Hydrogen"
+    },
+    {
+      "id": "sci-largest-organ",
+      "category": "science",
+      "text": "What is the largest organ of the human body?",
+      "options": [
+        "Liver",
+        "Brain",
+        "Skin",
+        "Lungs"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Skin",
+      "fact": "The liver is the largest organ inside the body."
+    },
+    {
+      "id": "sci-heart-chambers",
+      "category": "science",
+      "text": "How many chambers does the human heart have?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "4"
+      ],
+      "correctIndex": 3,
+      "source": "NIH National Heart, Lung, and Blood Institute — How the heart works"
+    },
+    {
+      "id": "sci-tadpole",
+      "category": "science",
+      "text": "A tadpole grows up to become a…",
+      "options": [
+        "Frog",
+        "Lizard",
+        "Snake",
+        "Turtle"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Tadpole"
+    },
+    {
+      "id": "sci-joey",
+      "category": "science",
+      "text": "What is a baby kangaroo called?",
+      "options": [
+        "Cub",
+        "Joey",
+        "Kit",
+        "Calf"
+      ],
+      "correctIndex": 1,
+      "source": "Australian Museum — Kangaroos"
+    },
+    {
+      "id": "sci-flying-mammal",
+      "category": "science",
+      "text": "Which is the only mammal capable of true flight?",
+      "options": [
+        "Flying squirrel",
+        "Sugar glider",
+        "Bat",
+        "Flying lemur"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Bat",
+      "fact": "Flying squirrels and sugar gliders only glide."
+    },
+    {
+      "id": "sci-dolphin-class",
+      "category": "science",
+      "text": "What type of animal is a dolphin?",
+      "options": [
+        "Fish",
+        "Amphibian",
+        "Reptile",
+        "Mammal"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA Fisheries — Dolphins and porpoises",
+      "fact": "Dolphins breathe air and feed their young milk."
+    },
+    {
+      "id": "sci-insect-legs",
+      "category": "science",
+      "text": "How many legs does an insect have?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "10"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Insect"
+    },
+    {
+      "id": "sci-chlorophyll",
+      "category": "science",
+      "text": "What green pigment helps plants capture sunlight?",
+      "options": [
+        "Carotene",
+        "Chlorophyll",
+        "Melanin",
+        "Hemoglobin"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Chlorophyll"
+    },
+    {
+      "id": "sci-c-equals-f",
+      "category": "science",
+      "text": "At what temperature do the Celsius and Fahrenheit scales show the same number?",
+      "options": [
+        "0",
+        "−32",
+        "−40",
+        "100"
+      ],
+      "correctIndex": 2,
+      "source": "NIST — Temperature conversion (°F = °C × 9/5 + 32)"
+    },
+    {
+      "id": "sci-light-speed",
+      "category": "science",
+      "text": "Roughly how fast does light travel?",
+      "options": [
+        "About 300 km per second",
+        "About 30,000 km per second",
+        "About 3 million km per second",
+        "About 300,000 km per second"
+      ],
+      "correctIndex": 3,
+      "source": "NIST — Speed of light in vacuum (299,792,458 m/s)"
+    },
+    {
+      "id": "sci-sunlight-time",
+      "category": "science",
+      "text": "About how long does sunlight take to reach Earth?",
+      "options": [
+        "About 8 minutes",
+        "About 8 seconds",
+        "About 8 hours",
+        "About 8 days"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — The Sun"
+    },
+    {
+      "id": "sci-atom-center",
+      "category": "science",
+      "text": "What is the centre of an atom called?",
+      "options": [
+        "The electron",
+        "The nucleus",
+        "The orbit",
+        "The molecule"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Atom"
+    },
+    {
+      "id": "sci-gravity",
+      "category": "science",
+      "text": "Which force keeps us on the ground?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Static electricity"
+      ],
+      "correctIndex": 2,
+      "source": "NASA — What is gravity?"
+    },
+    {
+      "id": "sci-relativity",
+      "category": "science",
+      "text": "Who developed the general theory of relativity?",
+      "options": [
+        "Isaac Newton",
+        "Stephen Hawking",
+        "Niels Bohr",
+        "Albert Einstein"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Relativity",
+      "fact": "Einstein published general relativity in 1915."
+    },
+    {
+      "id": "sci-laws-of-motion",
+      "category": "science",
+      "text": "Which scientist described the three laws of motion and universal gravitation?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Albert Einstein",
+        "Johannes Kepler"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Newton's laws of motion"
+    },
+    {
+      "id": "sci-largest-moon",
+      "category": "science",
+      "text": "What is the largest moon in our solar system?",
+      "options": [
+        "Titan",
+        "Ganymede",
+        "Earth's Moon",
+        "Europa"
+      ],
+      "correctIndex": 1,
+      "source": "NASA Science — Ganymede",
+      "fact": "Jupiter's moon Ganymede is bigger than the planet Mercury."
+    },
+    {
+      "id": "sci-sideways-planet",
+      "category": "science",
+      "text": "Which planet spins on its side, tilted about 98 degrees?",
+      "options": [
+        "Neptune",
+        "Saturn",
+        "Uranus",
+        "Venus"
+      ],
+      "correctIndex": 2,
+      "source": "NASA Science — Uranus"
+    },
+    {
+      "id": "sci-our-galaxy",
+      "category": "science",
+      "text": "What is the name of the galaxy we live in?",
+      "options": [
+        "Andromeda",
+        "Whirlpool",
+        "Sombrero",
+        "The Milky Way"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — The Milky Way"
+    },
+    {
+      "id": "sci-largest-bird",
+      "category": "science",
+      "text": "What is the largest living bird?",
+      "options": [
+        "Ostrich",
+        "Emu",
+        "Albatross",
+        "Condor"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Ostrich"
+    },
+    {
+      "id": "sci-herbivore",
+      "category": "science",
+      "text": "What do we call an animal that eats only plants?",
+      "options": [
+        "Carnivore",
+        "Herbivore",
+        "Omnivore",
+        "Insectivore"
+      ],
+      "correctIndex": 1,
+      "source": "National Geographic Education — Herbivore"
+    },
+    {
+      "id": "sci-white-cells",
+      "category": "science",
+      "text": "Which blood cells mainly fight infection?",
+      "options": [
+        "Red blood cells",
+        "Platelets",
+        "White blood cells",
+        "Plasma"
+      ],
+      "correctIndex": 2,
+      "source": "NIH MedlinePlus — Blood"
+    },
+    {
+      "id": "sci-enamel",
+      "category": "science",
+      "text": "What is the hardest substance in the human body?",
+      "options": [
+        "Bone",
+        "Fingernail",
+        "Cartilage",
+        "Tooth enamel"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Enamel"
+    },
+    {
+      "id": "sci-smallest-bone",
+      "category": "science",
+      "text": "Where is the smallest bone in the human body?",
+      "options": [
+        "In the ear",
+        "In the toe",
+        "In the finger",
+        "In the nose"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Stapes",
+      "fact": "The stapes, in the middle ear, is about 3 mm long."
+    },
+    {
+      "id": "sci-vitamin-d",
+      "category": "science",
+      "text": "Which vitamin does your skin make when exposed to sunlight?",
+      "options": [
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin K"
+      ],
+      "correctIndex": 1,
+      "source": "NIH Office of Dietary Supplements — Vitamin D"
+    },
+    {
+      "id": "sci-great-red-spot",
+      "category": "science",
+      "text": "Which planet has a giant storm called the Great Red Spot?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correctIndex": 2,
+      "source": "NASA Science — Jupiter",
+      "fact": "The storm is wider than Earth."
+    },
+    {
+      "id": "sci-freeze-c",
+      "category": "science",
+      "text": "At what temperature does water freeze on the Celsius scale (at sea level)?",
+      "options": [
+        "32 °C",
+        "−10 °C",
+        "4 °C",
+        "0 °C"
+      ],
+      "correctIndex": 3,
+      "source": "NIST — Temperature scales"
+    },
+    {
+      "id": "sci-solar-panel",
+      "category": "science",
+      "text": "What do solar panels turn into electricity?",
+      "options": [
+        "Sunlight",
+        "Wind",
+        "Heat from underground",
+        "Ocean tides"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Department of Energy — Solar photovoltaic technology basics"
+    },
+    {
+      "id": "sci-nectar",
+      "category": "science",
+      "text": "What do honeybees collect from flowers to make honey?",
+      "options": [
+        "Pollen",
+        "Nectar",
+        "Tree sap",
+        "Dew"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Honey",
+      "fact": "Bees collect pollen too, but they eat it rather than turn it into honey."
+    },
+    {
+      "id": "sci-adult-teeth",
+      "category": "science",
+      "text": "How many teeth does a full set of adult teeth have, including wisdom teeth?",
+      "options": [
+        "20",
+        "28",
+        "32",
+        "36"
+      ],
+      "correctIndex": 2,
+      "source": "NIH MedlinePlus — Tooth development",
+      "fact": "Children have 20 baby teeth."
+    },
+    {
+      "id": "sci-largest-internal-organ",
+      "category": "science",
+      "text": "What is the largest organ inside the human body?",
+      "options": [
+        "Heart",
+        "Stomach",
+        "Brain",
+        "Liver"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Liver"
+    },
+    {
+      "id": "sci-seismometer",
+      "category": "science",
+      "text": "Which instrument records earthquakes?",
+      "options": [
+        "Seismometer",
+        "Barometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Geological Survey — Seismometers"
+    },
+    {
+      "id": "sci-barometer",
+      "category": "science",
+      "text": "What does a barometer measure?",
+      "options": [
+        "Temperature",
+        "Air pressure",
+        "Wind speed",
+        "Rainfall"
+      ],
+      "correctIndex": 1,
+      "source": "NOAA National Weather Service — Barometers"
+    },
+    {
+      "id": "sci-troposphere",
+      "category": "science",
+      "text": "Which layer of the atmosphere do we live in?",
+      "options": [
+        "Stratosphere",
+        "Mesosphere",
+        "Troposphere",
+        "Thermosphere"
+      ],
+      "correctIndex": 2,
+      "source": "NOAA — Layers of the atmosphere",
+      "fact": "Almost all weather happens in the troposphere."
+    },
+    {
+      "id": "sci-crust",
+      "category": "science",
+      "text": "What is Earth's thin outer layer called?",
+      "options": [
+        "Mantle",
+        "Core",
+        "Magma",
+        "Crust"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. Geological Survey — Inside the Earth"
+    },
+    {
+      "id": "sci-igneous",
+      "category": "science",
+      "text": "What kind of rock forms when lava or magma cools?",
+      "options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Fossil"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Geological Survey — Igneous rocks"
+    },
+    {
+      "id": "sci-farthest-planet",
+      "category": "science",
+      "text": "Which planet is farthest from the Sun?",
+      "options": [
+        "Uranus",
+        "Neptune",
+        "Saturn",
+        "Jupiter"
+      ],
+      "correctIndex": 1,
+      "source": "NASA Science — Neptune"
+    },
+    {
+      "id": "sci-earth-orbit",
+      "category": "science",
+      "text": "About how long does Earth take to travel once around the Sun?",
+      "options": [
+        "24 hours",
+        "30 days",
+        "365 days",
+        "1,000 days"
+      ],
+      "correctIndex": 2,
+      "source": "NASA Science — Earth"
+    },
+    {
+      "id": "sci-day-night",
+      "category": "science",
+      "text": "What causes day and night on Earth?",
+      "options": [
+        "Earth travelling around the Sun",
+        "The Moon blocking the Sun",
+        "Clouds covering the sky",
+        "Earth spinning on its axis"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Space Place — Why do we have day and night?"
+    },
+    {
+      "id": "sci-seasons",
+      "category": "science",
+      "text": "What causes Earth's seasons?",
+      "options": [
+        "The tilt of Earth's axis",
+        "Earth's changing distance from the Sun",
+        "The phases of the Moon",
+        "Solar flares"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Space Place — What causes the seasons?",
+      "fact": "Earth is actually closest to the Sun in early January."
+    },
+    {
+      "id": "sci-sputnik",
+      "category": "science",
+      "text": "What was the name of the first artificial satellite, launched in 1957?",
+      "options": [
+        "Explorer 1",
+        "Sputnik 1",
+        "Apollo 1",
+        "Vostok 1"
+      ],
+      "correctIndex": 1,
+      "source": "NASA — Sputnik and the origins of the Space Age"
+    },
+    {
+      "id": "sci-diamond-carbon",
+      "category": "science",
+      "text": "Diamonds are made of which element?",
+      "options": [
+        "Silicon",
+        "Nitrogen",
+        "Carbon",
+        "Calcium"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Diamond",
+      "fact": "Pencil graphite is carbon too."
+    },
+    {
+      "id": "sci-liquid-metal",
+      "category": "science",
+      "text": "Which metal is a liquid at room temperature?",
+      "options": [
+        "Lead",
+        "Tin",
+        "Aluminium",
+        "Mercury"
+      ],
+      "correctIndex": 3,
+      "source": "Royal Society of Chemistry — Periodic Table: Mercury"
+    },
+    {
+      "id": "sci-table-salt",
+      "category": "science",
+      "text": "What is the chemical name for table salt?",
+      "options": [
+        "Sodium chloride",
+        "Potassium chloride",
+        "Calcium carbonate",
+        "Sodium bicarbonate"
+      ],
+      "correctIndex": 0,
+      "source": "Royal Society of Chemistry — Sodium chloride"
+    },
+    {
+      "id": "sci-water-ph",
+      "category": "science",
+      "text": "What is the pH of pure water at room temperature?",
+      "options": [
+        "0",
+        "7",
+        "1",
+        "14"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — pH",
+      "fact": "7 is neutral: lower is acidic, higher is alkaline."
+    },
+    {
+      "id": "sci-largest-cat",
+      "category": "science",
+      "text": "Which is the largest species of wild cat?",
+      "options": [
+        "Lion",
+        "Jaguar",
+        "Tiger",
+        "Leopard"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian's National Zoo — Tiger"
+    },
+    {
+      "id": "sci-sea-star-arms",
+      "category": "science",
+      "text": "Most sea stars have how many arms?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "5"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA Ocean Service — Starfish",
+      "fact": "Some species have 20 or even 40 arms."
+    },
+    {
+      "id": "sci-nocturnal",
+      "category": "science",
+      "text": "What do we call animals that are active at night?",
+      "options": [
+        "Nocturnal",
+        "Diurnal",
+        "Migratory",
+        "Dormant"
+      ],
+      "correctIndex": 0,
+      "source": "National Geographic Education — Nocturnal"
+    },
+    {
+      "id": "sci-metamorphosis",
+      "category": "science",
+      "text": "What is the change from caterpillar to butterfly called?",
+      "options": [
+        "Photosynthesis",
+        "Metamorphosis",
+        "Evolution",
+        "Hibernation"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Metamorphosis"
+    },
+    {
+      "id": "sci-geologist",
+      "category": "science",
+      "text": "What is a scientist who studies rocks called?",
+      "options": [
+        "Biologist",
+        "Astronomer",
+        "Geologist",
+        "Meteorologist"
+      ],
+      "correctIndex": 2,
+      "source": "U.S. Geological Survey — What do geologists do?",
+      "fact": "A meteorologist studies weather, not meteors."
+    },
+    {
+      "id": "sci-mars-day",
+      "category": "science",
+      "text": "Which planet has a day closest in length to Earth's?",
+      "options": [
+        "Venus",
+        "Mercury",
+        "Jupiter",
+        "Mars"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Mars",
+      "fact": "A day on Mars is about 24 hours and 37 minutes."
+    },
+    {
+      "id": "sci-sun-gas",
+      "category": "science",
+      "text": "Which gas is the Sun mostly made of?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — The Sun"
+    },
+    {
+      "id": "sci-emperor-penguin",
+      "category": "science",
+      "text": "Which is the largest species of penguin?",
+      "options": [
+        "King penguin",
+        "Emperor penguin",
+        "Adélie penguin",
+        "Macaroni penguin"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Emperor penguin"
+    },
+    {
+      "id": "sci-tallest-tree",
+      "category": "science",
+      "text": "Which tree species grows the tallest?",
+      "options": [
+        "Giant sequoia",
+        "Douglas fir",
+        "Coast redwood",
+        "Baobab"
+      ],
+      "correctIndex": 2,
+      "source": "U.S. National Park Service — Redwood National and State Parks",
+      "fact": "Giant sequoias are the biggest by volume, but coast redwoods are taller."
+    },
+    {
+      "id": "sci-iris",
+      "category": "science",
+      "text": "Which part of the eye controls how much light gets in?",
+      "options": [
+        "Retina",
+        "Cornea",
+        "Optic nerve",
+        "Iris"
+      ],
+      "correctIndex": 3,
+      "source": "NIH National Eye Institute — How the eyes work"
+    },
+    {
+      "id": "sci-kidneys",
+      "category": "science",
+      "text": "Which organs filter your blood to make urine?",
+      "options": [
+        "Kidneys",
+        "Liver",
+        "Lungs",
+        "Stomach"
+      ],
+      "correctIndex": 0,
+      "source": "NIH National Institute of Diabetes and Digestive and Kidney Diseases — Your kidneys"
+    },
+    {
+      "id": "sci-magma",
+      "category": "science",
+      "text": "What is molten rock called while it is still underground?",
+      "options": [
+        "Lava",
+        "Magma",
+        "Basalt",
+        "Obsidian"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. Geological Survey — Volcano glossary",
+      "fact": "Once it erupts onto the surface it's called lava."
+    },
+    {
+      "id": "sci-not-mammal",
+      "category": "science",
+      "text": "Which of these animals is NOT a mammal?",
+      "options": [
+        "Whale",
+        "Bat",
+        "Shark",
+        "Platypus"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Shark",
+      "fact": "Sharks are fish."
+    },
+    {
+      "id": "sci-egg-mammal",
+      "category": "science",
+      "text": "Which mammal lays eggs?",
+      "options": [
+        "Kangaroo",
+        "Koala",
+        "Armadillo",
+        "Platypus"
+      ],
+      "correctIndex": 3,
+      "source": "Australian Museum — Platypus",
+      "fact": "Echidnas lay eggs too."
+    },
+    {
+      "id": "sci-ohm",
+      "category": "science",
+      "text": "What is the unit of electrical resistance?",
+      "options": [
+        "Ohm",
+        "Volt",
+        "Watt",
+        "Ampere"
+      ],
+      "correctIndex": 0,
+      "source": "NIST — SI units"
+    },
+    {
+      "id": "sci-dna",
+      "category": "science",
+      "text": "What does DNA stand for?",
+      "options": [
+        "Dinitrogen acid",
+        "Deoxyribonucleic acid",
+        "Double nucleic acid",
+        "Deoxyribose nitrate acid"
+      ],
+      "correctIndex": 1,
+      "source": "NIH National Human Genome Research Institute — DNA"
+    },
+    {
+      "id": "sci-giraffe-neck",
+      "category": "science",
+      "text": "How many bones are in a giraffe's neck?",
+      "options": [
+        "2",
+        "14",
+        "7",
+        "25"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian's National Zoo — Giraffe",
+      "fact": "The same number as in a human neck — each one is just much longer."
+    },
+    {
+      "id": "sci-floating-planet",
+      "category": "science",
+      "text": "Which planet is less dense than water?",
+      "options": [
+        "Jupiter",
+        "Neptune",
+        "Mars",
+        "Saturn"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Saturn"
+    },
+    {
+      "id": "sci-decibel",
+      "category": "science",
+      "text": "Which unit measures how loud a sound is?",
+      "options": [
+        "Decibel",
+        "Hertz",
+        "Newton",
+        "Joule"
+      ],
+      "correctIndex": 0,
+      "source": "NIH National Institute on Deafness and Other Communication Disorders — Noise"
+    },
+    {
+      "id": "sci-pride",
+      "category": "science",
+      "text": "What is a group of lions called?",
+      "options": [
+        "A pack",
+        "A pride",
+        "A herd",
+        "A flock"
+      ],
+      "correctIndex": 1,
+      "source": "Smithsonian's National Zoo — African lion"
+    },
+    {
+      "id": "sci-lungs",
+      "category": "science",
+      "text": "How many lungs does a human have?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correctIndex": 2,
+      "source": "NIH National Heart, Lung, and Blood Institute — How the lungs work"
+    },
+    {
+      "id": "spo-basketball-five",
+      "category": "sports",
+      "text": "How many players per team are on the court at once in basketball?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "correctIndex": 3,
+      "source": "FIBA Official Basketball Rules"
+    },
+    {
+      "id": "spo-baseball-nine",
+      "category": "sports",
+      "text": "How many players does a baseball team have on the field while defending?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "11"
+      ],
+      "correctIndex": 0,
+      "source": "MLB Official Baseball Rules"
+    },
+    {
+      "id": "spo-field-goal",
+      "category": "sports",
+      "text": "In American football, how many points is a field goal worth?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "6"
+      ],
+      "correctIndex": 1,
+      "source": "NFL Rulebook — Rule 11: Scoring"
+    },
+    {
+      "id": "spo-rugby-fifteen",
+      "category": "sports",
+      "text": "How many players per team are on the field in rugby union?",
+      "options": [
+        "11",
+        "13",
+        "15",
+        "9"
+      ],
+      "correctIndex": 2,
+      "source": "World Rugby — Laws of the Game",
+      "fact": "Rugby league uses 13 players a side."
+    },
+    {
+      "id": "spo-hockey-six",
+      "category": "sports",
+      "text": "How many players per team are on the ice in ice hockey, including the goalie?",
+      "options": [
+        "5",
+        "7",
+        "11",
+        "6"
+      ],
+      "correctIndex": 3,
+      "source": "International Ice Hockey Federation — Official Rule Book"
+    },
+    {
+      "id": "spo-olympic-cycle",
+      "category": "sports",
+      "text": "How often are the Summer Olympic Games normally held?",
+      "options": [
+        "Every 4 years",
+        "Every 2 years",
+        "Every 3 years",
+        "Every 5 years"
+      ],
+      "correctIndex": 0,
+      "source": "International Olympic Committee — Olympic Charter",
+      "fact": "The Tokyo 2020 Games were postponed to 2021."
+    },
+    {
+      "id": "spo-rio-2016",
+      "category": "sports",
+      "text": "Which country hosted the 2016 Summer Olympics?",
+      "options": [
+        "Argentina",
+        "Brazil",
+        "Mexico",
+        "Spain"
+      ],
+      "correctIndex": 1,
+      "source": "International Olympic Committee — Rio 2016"
+    },
+    {
+      "id": "spo-london-2012",
+      "category": "sports",
+      "text": "Which city hosted the 2012 Summer Olympics?",
+      "options": [
+        "Beijing",
+        "Paris",
+        "London",
+        "Sydney"
+      ],
+      "correctIndex": 2,
+      "source": "International Olympic Committee — London 2012"
+    },
+    {
+      "id": "spo-beijing-2008",
+      "category": "sports",
+      "text": "Which city hosted the 2008 Summer Olympics?",
+      "options": [
+        "Tokyo",
+        "Seoul",
+        "Athens",
+        "Beijing"
+      ],
+      "correctIndex": 3,
+      "source": "International Olympic Committee — Beijing 2008"
+    },
+    {
+      "id": "spo-paris-2024",
+      "category": "sports",
+      "text": "Which city hosted the 2024 Summer Olympics?",
+      "options": [
+        "Paris",
+        "Los Angeles",
+        "Tokyo",
+        "Rome"
+      ],
+      "correctIndex": 0,
+      "source": "International Olympic Committee — Paris 2024",
+      "fact": "Paris also hosted in 1900 and 1924."
+    },
+    {
+      "id": "spo-la-2028",
+      "category": "sports",
+      "text": "Which city will host the 2028 Summer Olympics?",
+      "options": [
+        "Brisbane",
+        "Los Angeles",
+        "Paris",
+        "Madrid"
+      ],
+      "correctIndex": 1,
+      "source": "International Olympic Committee — LA28",
+      "fact": "Brisbane is hosting in 2032."
+    },
+    {
+      "id": "spo-snooker-147",
+      "category": "sports",
+      "text": "What is the standard maximum break in snooker?",
+      "options": [
+        "100",
+        "155",
+        "147",
+        "180"
+      ],
+      "correctIndex": 2,
+      "source": "World Professional Billiards and Snooker Association — Rules",
+      "fact": "180 is the darts maximum."
+    },
+    {
+      "id": "spo-darts-180",
+      "category": "sports",
+      "text": "What is the highest score possible with three darts?",
+      "options": [
+        "150",
+        "160",
+        "200",
+        "180"
+      ],
+      "correctIndex": 3,
+      "source": "Professional Darts Corporation — Rules",
+      "fact": "Three treble 20s."
+    },
+    {
+      "id": "spo-three-pointer",
+      "category": "sports",
+      "text": "How many points is a basket from behind the three-point line worth?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correctIndex": 0,
+      "source": "FIBA Official Basketball Rules"
+    },
+    {
+      "id": "spo-tennis-forty",
+      "category": "sports",
+      "text": "In tennis, what score comes after 15 and 30?",
+      "options": [
+        "45",
+        "40",
+        "35",
+        "50"
+      ],
+      "correctIndex": 1,
+      "source": "International Tennis Federation — Rules of Tennis"
+    },
+    {
+      "id": "spo-best-of-five",
+      "category": "sports",
+      "text": "How many sets must a player win to take a men's singles match at a tennis Grand Slam?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "correctIndex": 2,
+      "source": "International Tennis Federation — Rules of Tennis (best of five sets)"
+    },
+    {
+      "id": "spo-wimbledon-grass",
+      "category": "sports",
+      "text": "Which tennis Grand Slam is played on grass?",
+      "options": [
+        "French Open",
+        "US Open",
+        "Australian Open",
+        "Wimbledon"
+      ],
+      "correctIndex": 3,
+      "source": "The All England Lawn Tennis Club — Wimbledon"
+    },
+    {
+      "id": "spo-french-clay",
+      "category": "sports",
+      "text": "Which tennis Grand Slam is played on clay?",
+      "options": [
+        "French Open",
+        "Wimbledon",
+        "US Open",
+        "Australian Open"
+      ],
+      "correctIndex": 0,
+      "source": "Fédération Française de Tennis — Roland-Garros"
+    },
+    {
+      "id": "spo-slam-dunk",
+      "category": "sports",
+      "text": "In which sport would you see a slam dunk?",
+      "options": [
+        "Volleyball",
+        "Basketball",
+        "Tennis",
+        "Rugby"
+      ],
+      "correctIndex": 1,
+      "source": "NBA — Basketball glossary"
+    },
+    {
+      "id": "spo-cricket-terms",
+      "category": "sports",
+      "text": "Which sport uses the terms 'wicket' and 'over'?",
+      "options": [
+        "Baseball",
+        "Golf",
+        "Cricket",
+        "Hockey"
+      ],
+      "correctIndex": 2,
+      "source": "MCC — Laws of Cricket"
+    },
+    {
+      "id": "spo-cricket-over",
+      "category": "sports",
+      "text": "How many balls are bowled in a standard over in cricket?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 3,
+      "source": "MCC — Laws of Cricket, Law 17"
+    },
+    {
+      "id": "spo-yellow-jersey",
+      "category": "sports",
+      "text": "What colour jersey does the overall leader of the Tour de France wear?",
+      "options": [
+        "Yellow",
+        "Green",
+        "Polka dot",
+        "White"
+      ],
+      "correctIndex": 0,
+      "source": "Amaury Sport Organisation — Tour de France jerseys"
+    },
+    {
+      "id": "spo-judo-meaning",
+      "category": "sports",
+      "text": "Which martial art's name means 'the gentle way'?",
+      "options": [
+        "Karate",
+        "Judo",
+        "Taekwondo",
+        "Kung fu"
+      ],
+      "correctIndex": 1,
+      "source": "Kodokan Institute — What is judo?"
+    },
+    {
+      "id": "spo-stanley-cup",
+      "category": "sports",
+      "text": "The Stanley Cup is the championship trophy of which sport?",
+      "options": [
+        "Baseball",
+        "American football",
+        "Ice hockey",
+        "Basketball"
+      ],
+      "correctIndex": 2,
+      "source": "NHL — Stanley Cup"
+    },
+    {
+      "id": "spo-super-bowl",
+      "category": "sports",
+      "text": "The Super Bowl is the championship game of which sport?",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Soccer",
+        "American football"
+      ],
+      "correctIndex": 3,
+      "source": "NFL — Super Bowl history"
+    },
+    {
+      "id": "spo-world-series",
+      "category": "sports",
+      "text": "The World Series is the championship of which sport?",
+      "options": [
+        "Baseball",
+        "Basketball",
+        "Soccer",
+        "Ice hockey"
+      ],
+      "correctIndex": 0,
+      "source": "MLB — World Series history"
+    },
+    {
+      "id": "spo-nba-quarter",
+      "category": "sports",
+      "text": "How long is each quarter of an NBA game?",
+      "options": [
+        "10 minutes",
+        "12 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correctIndex": 1,
+      "source": "NBA Official Rules",
+      "fact": "International (FIBA) games use 10-minute quarters."
+    },
+    {
+      "id": "spo-olympic-pool",
+      "category": "sports",
+      "text": "How long is an Olympic swimming pool?",
+      "options": [
+        "25 metres",
+        "75 metres",
+        "50 metres",
+        "100 metres"
+      ],
+      "correctIndex": 2,
+      "source": "World Aquatics — Facilities rules"
+    },
+    {
+      "id": "spo-eagle",
+      "category": "sports",
+      "text": "In golf, what is a score of two strokes under par on a hole called?",
+      "options": [
+        "Birdie",
+        "Albatross",
+        "Bogey",
+        "Eagle"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Golf: scoring terms"
+    },
+    {
+      "id": "spo-turkey",
+      "category": "sports",
+      "text": "In bowling, what is three strikes in a row called?",
+      "options": [
+        "A turkey",
+        "An eagle",
+        "A hat-trick",
+        "A triple"
+      ],
+      "correctIndex": 0,
+      "source": "United States Bowling Congress — Bowling glossary"
+    },
+    {
+      "id": "spo-hat-trick",
+      "category": "sports",
+      "text": "In soccer, what is it called when one player scores three goals in a match?",
+      "options": [
+        "A triple",
+        "A hat-trick",
+        "A turkey",
+        "A treble"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Hat trick"
+    },
+    {
+      "id": "spo-penalty-spot",
+      "category": "sports",
+      "text": "How far is the penalty mark from the goal line in soccer?",
+      "options": [
+        "9 metres",
+        "15 metres",
+        "11 metres (12 yards)",
+        "18 metres"
+      ],
+      "correctIndex": 2,
+      "source": "IFAB Laws of the Game — Law 1: The Field of Play"
+    },
+    {
+      "id": "spo-naismith",
+      "category": "sports",
+      "text": "Who invented basketball in 1891?",
+      "options": [
+        "Michael Jordan",
+        "Walter Camp",
+        "Abner Doubleday",
+        "James Naismith"
+      ],
+      "correctIndex": 3,
+      "source": "Naismith Memorial Basketball Hall of Fame",
+      "fact": "The first game used peach baskets as hoops."
+    },
+    {
+      "id": "spo-judo-origin",
+      "category": "sports",
+      "text": "In which country did judo originate?",
+      "options": [
+        "Japan",
+        "China",
+        "Korea",
+        "Thailand"
+      ],
+      "correctIndex": 0,
+      "source": "Kodokan Institute — History of judo"
+    },
+    {
+      "id": "spo-taekwondo",
+      "category": "sports",
+      "text": "Taekwondo is a martial art from which country?",
+      "options": [
+        "Japan",
+        "Korea",
+        "China",
+        "Thailand"
+      ],
+      "correctIndex": 1,
+      "source": "World Taekwondo — About taekwondo"
+    },
+    {
+      "id": "spo-masters",
+      "category": "sports",
+      "text": "The Masters tournament at Augusta National is played in which sport?",
+      "options": [
+        "Tennis",
+        "Polo",
+        "Golf",
+        "Cricket"
+      ],
+      "correctIndex": 2,
+      "source": "Augusta National Golf Club — The Masters"
+    },
+    {
+      "id": "spo-water-polo",
+      "category": "sports",
+      "text": "How many players per team are in the water in water polo, including the goalkeeper?",
+      "options": [
+        "5",
+        "6",
+        "11",
+        "7"
+      ],
+      "correctIndex": 3,
+      "source": "World Aquatics — Water polo rules"
+    },
+    {
+      "id": "spo-canada-summer",
+      "category": "sports",
+      "text": "By law, what is Canada's national summer sport?",
+      "options": [
+        "Lacrosse",
+        "Baseball",
+        "Soccer",
+        "Curling"
+      ],
+      "correctIndex": 0,
+      "source": "Government of Canada — National Sports of Canada Act (1994)",
+      "fact": "Ice hockey is the national winter sport."
+    },
+    {
+      "id": "spo-bases",
+      "category": "sports",
+      "text": "How many bases are on a baseball diamond, including home plate?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "source": "MLB Official Baseball Rules"
+    },
+    {
+      "id": "spo-ryder-cup",
+      "category": "sports",
+      "text": "Teams compete for the Ryder Cup in which sport?",
+      "options": [
+        "Tennis",
+        "Rugby",
+        "Golf",
+        "Sailing"
+      ],
+      "correctIndex": 2,
+      "source": "Ryder Cup — History"
+    },
+    {
+      "id": "spo-davis-cup",
+      "category": "sports",
+      "text": "The Davis Cup is a team competition in which sport?",
+      "options": [
+        "Golf",
+        "Cricket",
+        "Sailing",
+        "Tennis"
+      ],
+      "correctIndex": 3,
+      "source": "International Tennis Federation — Davis Cup"
+    },
+    {
+      "id": "spo-americas-cup",
+      "category": "sports",
+      "text": "The America's Cup is a famous competition in which sport?",
+      "options": [
+        "Sailing",
+        "Rowing",
+        "Golf",
+        "Horse racing"
+      ],
+      "correctIndex": 0,
+      "source": "America's Cup — History",
+      "fact": "It's one of the oldest international sporting trophies, first raced in 1851."
+    },
+    {
+      "id": "spo-curling",
+      "category": "sports",
+      "text": "In which sport do players slide stones and sweep the ice with brooms?",
+      "options": [
+        "Bowls",
+        "Curling",
+        "Ice hockey",
+        "Shuffleboard"
+      ],
+      "correctIndex": 1,
+      "source": "World Curling — Rules of curling"
+    },
+    {
+      "id": "spo-curling-team",
+      "category": "sports",
+      "text": "How many players are on a standard curling team?",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "6"
+      ],
+      "correctIndex": 2,
+      "source": "World Curling — Rules of curling"
+    },
+    {
+      "id": "spo-mound",
+      "category": "sports",
+      "text": "What is the raised area a baseball pitcher throws from called?",
+      "options": [
+        "The box",
+        "The diamond",
+        "The dugout",
+        "The mound"
+      ],
+      "correctIndex": 3,
+      "source": "MLB Official Baseball Rules"
+    },
+    {
+      "id": "spo-hockey-periods",
+      "category": "sports",
+      "text": "How many periods are in a regulation ice hockey game?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctIndex": 0,
+      "source": "NHL Official Rules"
+    },
+    {
+      "id": "spo-pommel-horse",
+      "category": "sports",
+      "text": "In which sport would you compete on a pommel horse?",
+      "options": [
+        "Equestrian",
+        "Gymnastics",
+        "Polo",
+        "Rodeo"
+      ],
+      "correctIndex": 1,
+      "source": "International Gymnastics Federation — Men's artistic gymnastics"
+    },
+    {
+      "id": "spo-triple-axel",
+      "category": "sports",
+      "text": "In which sport would you perform a triple axel?",
+      "options": [
+        "Diving",
+        "Gymnastics",
+        "Figure skating",
+        "Snowboarding"
+      ],
+      "correctIndex": 2,
+      "source": "International Skating Union — Figure skating"
+    },
+    {
+      "id": "spo-first-world-cup",
+      "category": "sports",
+      "text": "Which country won the first FIFA World Cup, in 1930?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Italy",
+        "Uruguay"
+      ],
+      "correctIndex": 3,
+      "source": "FIFA — 1930 FIFA World Cup Uruguay",
+      "fact": "Uruguay also hosted it."
+    },
+    {
+      "id": "spo-netball",
+      "category": "sports",
+      "text": "How many players per team are on the court in netball?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "9"
+      ],
+      "correctIndex": 0,
+      "source": "World Netball — Rules of netball"
+    },
+    {
+      "id": "spo-decathlon",
+      "category": "sports",
+      "text": "How many events are in a decathlon?",
+      "options": [
+        "5",
+        "10",
+        "7",
+        "12"
+      ],
+      "correctIndex": 1,
+      "source": "World Athletics — Combined events"
+    },
+    {
+      "id": "spo-triathlon",
+      "category": "sports",
+      "text": "Which three sports make up a triathlon?",
+      "options": [
+        "Swimming, rowing and running",
+        "Cycling, running and skiing",
+        "Swimming, cycling and running",
+        "Swimming, cycling and shooting"
+      ],
+      "correctIndex": 2,
+      "source": "World Triathlon — About triathlon"
+    },
+    {
+      "id": "spo-biathlon",
+      "category": "sports",
+      "text": "Biathlon combines cross-country skiing with what?",
+      "options": [
+        "Archery",
+        "Ski jumping",
+        "Swimming",
+        "Rifle shooting"
+      ],
+      "correctIndex": 3,
+      "source": "International Biathlon Union — About biathlon"
+    },
+    {
+      "id": "spo-home-run",
+      "category": "sports",
+      "text": "In which sport do you score a home run?",
+      "options": [
+        "Baseball",
+        "Cricket",
+        "Rugby",
+        "Basketball"
+      ],
+      "correctIndex": 0,
+      "source": "MLB Official Baseball Rules"
+    },
+    {
+      "id": "spo-gretzky",
+      "category": "sports",
+      "text": "Which sport is Wayne Gretzky famous for?",
+      "options": [
+        "Basketball",
+        "Ice hockey",
+        "Baseball",
+        "Golf"
+      ],
+      "correctIndex": 1,
+      "source": "NHL — Wayne Gretzky"
+    },
+    {
+      "id": "spo-jordan",
+      "category": "sports",
+      "text": "Which sport made Michael Jordan famous?",
+      "options": [
+        "Tennis",
+        "Swimming",
+        "Basketball",
+        "Golf"
+      ],
+      "correctIndex": 2,
+      "source": "NBA — Michael Jordan"
+    },
+    {
+      "id": "spo-bolt",
+      "category": "sports",
+      "text": "Usain Bolt is famous for which sport?",
+      "options": [
+        "Swimming",
+        "Cycling",
+        "Boxing",
+        "Sprinting"
+      ],
+      "correctIndex": 3,
+      "source": "World Athletics — Usain Bolt"
+    },
+    {
+      "id": "spo-serena",
+      "category": "sports",
+      "text": "Serena Williams is a champion in which sport?",
+      "options": [
+        "Tennis",
+        "Golf",
+        "Basketball",
+        "Gymnastics"
+      ],
+      "correctIndex": 0,
+      "source": "WTA — Serena Williams"
+    },
+    {
+      "id": "spo-biles",
+      "category": "sports",
+      "text": "Simone Biles is famous for which sport?",
+      "options": [
+        "Swimming",
+        "Gymnastics",
+        "Diving",
+        "Figure skating"
+      ],
+      "correctIndex": 1,
+      "source": "USA Gymnastics — Simone Biles"
+    },
+    {
+      "id": "spo-phelps",
+      "category": "sports",
+      "text": "Michael Phelps won a record number of Olympic medals in which sport?",
+      "options": [
+        "Rowing",
+        "Diving",
+        "Swimming",
+        "Cycling"
+      ],
+      "correctIndex": 2,
+      "source": "International Olympic Committee — Michael Phelps"
+    },
+    {
+      "id": "spo-goalkeeper",
+      "category": "sports",
+      "text": "In soccer, which player may handle the ball inside their own penalty area?",
+      "options": [
+        "The captain",
+        "Any defender",
+        "The striker",
+        "The goalkeeper"
+      ],
+      "correctIndex": 3,
+      "source": "IFAB Laws of the Game — Law 12"
+    },
+    {
+      "id": "spo-field-hockey",
+      "category": "sports",
+      "text": "How many players per team are on the field in field hockey?",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctIndex": 0,
+      "source": "International Hockey Federation — Rules of Hockey"
+    },
+    {
+      "id": "spo-boxing-round",
+      "category": "sports",
+      "text": "How long is a standard round in men's professional boxing?",
+      "options": [
+        "1 minute",
+        "3 minutes",
+        "2 minutes",
+        "5 minutes"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Boxing"
+    },
+    {
+      "id": "spo-archery-gold",
+      "category": "sports",
+      "text": "What colour is the centre ring of an Olympic archery target?",
+      "options": [
+        "Red",
+        "Blue",
+        "Gold (yellow)",
+        "Black"
+      ],
+      "correctIndex": 2,
+      "source": "World Archery — Target faces"
+    },
+    {
+      "id": "spo-safety",
+      "category": "sports",
+      "text": "In American football, how many points is a safety worth?",
+      "options": [
+        "1",
+        "3",
+        "6",
+        "2"
+      ],
+      "correctIndex": 3,
+      "source": "NFL Rulebook — Rule 11: Scoring"
+    },
+    {
+      "id": "spo-free-throw",
+      "category": "sports",
+      "text": "In basketball, how many points is a free throw worth?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "source": "FIBA Official Basketball Rules"
+    },
+    {
+      "id": "spo-kentucky-derby",
+      "category": "sports",
+      "text": "The Kentucky Derby is a race for which animals?",
+      "options": [
+        "Greyhounds",
+        "Horses",
+        "Camels",
+        "Ostriches"
+      ],
+      "correctIndex": 1,
+      "source": "Churchill Downs — Kentucky Derby"
+    },
+    {
+      "id": "spo-spike-dig",
+      "category": "sports",
+      "text": "In which sport do players 'spike' and 'dig'?",
+      "options": [
+        "Tennis",
+        "Basketball",
+        "Volleyball",
+        "Badminton"
+      ],
+      "correctIndex": 2,
+      "source": "FIVB — Official Volleyball Rules"
+    },
+    {
+      "id": "spo-oche",
+      "category": "sports",
+      "text": "In darts, what is the line players stand behind called?",
+      "options": [
+        "The crease",
+        "The baseline",
+        "The hog line",
+        "The oche"
+      ],
+      "correctIndex": 3,
+      "source": "Professional Darts Corporation — Rules"
+    },
+    {
+      "id": "spo-cricket-eleven",
+      "category": "sports",
+      "text": "How many players are on each side in a cricket match?",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "13"
+      ],
+      "correctIndex": 0,
+      "source": "MCC — Laws of Cricket, Law 1"
+    },
+    {
+      "id": "spo-try",
+      "category": "sports",
+      "text": "In which sport can you score a 'try'?",
+      "options": [
+        "American football",
+        "Rugby",
+        "Lacrosse",
+        "Netball"
+      ],
+      "correctIndex": 1,
+      "source": "World Rugby — Laws of the Game"
+    },
+    {
+      "id": "spo-try-points",
+      "category": "sports",
+      "text": "How many points is a try worth in rugby union?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "source": "World Rugby — Laws of the Game, Law 8"
+    },
+    {
+      "id": "ent-buzz",
+      "category": "entertainment",
+      "text": "In \"Toy Story\", what is the name of the space ranger toy?",
+      "options": [
+        "Rex",
+        "Hamm",
+        "Slinky",
+        "Buzz Lightyear"
+      ],
+      "correctIndex": 3,
+      "source": "Pixar Animation Studios — Toy Story (1995)"
+    },
+    {
+      "id": "ent-dory",
+      "category": "entertainment",
+      "text": "In \"Finding Nemo\", what is the name of the forgetful blue tang?",
+      "options": [
+        "Dory",
+        "Marlin",
+        "Gill",
+        "Bruce"
+      ],
+      "correctIndex": 0,
+      "source": "Pixar Animation Studios — Finding Nemo (2003)"
+    },
+    {
+      "id": "ent-marlin",
+      "category": "entertainment",
+      "text": "In \"Finding Nemo\", what is the name of Nemo's father?",
+      "options": [
+        "Crush",
+        "Marlin",
+        "Bloat",
+        "Squirt"
+      ],
+      "correctIndex": 1,
+      "source": "Pixar Animation Studios — Finding Nemo (2003)",
+      "fact": "Crush is the laid-back sea turtle."
+    },
+    {
+      "id": "ent-baloo",
+      "category": "entertainment",
+      "text": "In Disney's \"The Jungle Book\", what kind of animal is Baloo?",
+      "options": [
+        "Panther",
+        "Tiger",
+        "Bear",
+        "Snake"
+      ],
+      "correctIndex": 2,
+      "source": "Walt Disney Animation Studios — The Jungle Book (1967)",
+      "fact": "Bagheera is the panther."
+    },
+    {
+      "id": "ent-anna",
+      "category": "entertainment",
+      "text": "In \"Frozen\", what is the name of Elsa's younger sister?",
+      "options": [
+        "Ariel",
+        "Belle",
+        "Rapunzel",
+        "Anna"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — Frozen (2013)"
+    },
+    {
+      "id": "ent-sebastian",
+      "category": "entertainment",
+      "text": "In \"The Little Mermaid\", what is the name of Ariel's crab friend?",
+      "options": [
+        "Sebastian",
+        "Flounder",
+        "Scuttle",
+        "Ursula"
+      ],
+      "correctIndex": 0,
+      "source": "Walt Disney Animation Studios — The Little Mermaid (1989)"
+    },
+    {
+      "id": "ent-lumiere",
+      "category": "entertainment",
+      "text": "In \"Beauty and the Beast\", what is the name of the talking candlestick?",
+      "options": [
+        "Cogsworth",
+        "Lumière",
+        "Chip",
+        "Gaston"
+      ],
+      "correctIndex": 1,
+      "source": "Walt Disney Animation Studios — Beauty and the Beast (1991)",
+      "fact": "Cogsworth is the clock."
+    },
+    {
+      "id": "ent-abu",
+      "category": "entertainment",
+      "text": "In \"Aladdin\", what is the name of Aladdin's pet monkey?",
+      "options": [
+        "Iago",
+        "Rajah",
+        "Abu",
+        "Jafar"
+      ],
+      "correctIndex": 2,
+      "source": "Walt Disney Animation Studios — Aladdin (1992)"
+    },
+    {
+      "id": "ent-mufasa",
+      "category": "entertainment",
+      "text": "In \"The Lion King\", what is the name of Simba's father?",
+      "options": [
+        "Scar",
+        "Rafiki",
+        "Zazu",
+        "Mufasa"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — The Lion King (1994)"
+    },
+    {
+      "id": "ent-zazu",
+      "category": "entertainment",
+      "text": "In \"The Lion King\", what kind of bird is Zazu?",
+      "options": [
+        "Hornbill",
+        "Parrot",
+        "Vulture",
+        "Toucan"
+      ],
+      "correctIndex": 0,
+      "source": "Walt Disney Animation Studios — The Lion King (1994)"
+    },
+    {
+      "id": "ent-up-balloons",
+      "category": "entertainment",
+      "text": "In Pixar's \"Up\", what lifts Carl's house into the sky?",
+      "options": [
+        "Rockets",
+        "Balloons",
+        "A tornado",
+        "Kites"
+      ],
+      "correctIndex": 1,
+      "source": "Pixar Animation Studios — Up (2009)"
+    },
+    {
+      "id": "ent-boo",
+      "category": "entertainment",
+      "text": "In \"Monsters, Inc.\", what is the name of the little girl?",
+      "options": [
+        "Dot",
+        "Mei",
+        "Boo",
+        "Riley"
+      ],
+      "correctIndex": 2,
+      "source": "Pixar Animation Studios — Monsters, Inc. (2001)"
+    },
+    {
+      "id": "ent-mike-eyes",
+      "category": "entertainment",
+      "text": "How many eyes does Mike Wazowski from \"Monsters, Inc.\" have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "correctIndex": 3,
+      "source": "Pixar Animation Studios — Monsters, Inc. (2001)"
+    },
+    {
+      "id": "ent-sadness",
+      "category": "entertainment",
+      "text": "In Pixar's \"Inside Out\", which emotion is blue?",
+      "options": [
+        "Sadness",
+        "Fear",
+        "Disgust",
+        "Joy"
+      ],
+      "correctIndex": 0,
+      "source": "Pixar Animation Studios — Inside Out (2015)"
+    },
+    {
+      "id": "ent-mcqueen",
+      "category": "entertainment",
+      "text": "In \"Cars\", what is the name of the red race car?",
+      "options": [
+        "Mater",
+        "Lightning McQueen",
+        "Doc Hudson",
+        "Sally"
+      ],
+      "correctIndex": 1,
+      "source": "Pixar Animation Studios — Cars (2006)"
+    },
+    {
+      "id": "ent-remy",
+      "category": "entertainment",
+      "text": "In \"Ratatouille\", what does Remy the rat dream of becoming?",
+      "options": [
+        "A singer",
+        "A painter",
+        "A chef",
+        "A detective"
+      ],
+      "correctIndex": 2,
+      "source": "Pixar Animation Studios — Ratatouille (2007)"
+    },
+    {
+      "id": "ent-andy",
+      "category": "entertainment",
+      "text": "In \"Toy Story\", what is the name of the boy who owns Woody?",
+      "options": [
+        "Sid",
+        "Bonnie",
+        "Al",
+        "Andy"
+      ],
+      "correctIndex": 3,
+      "source": "Pixar Animation Studios — Toy Story (1995)"
+    },
+    {
+      "id": "ent-bob-parr",
+      "category": "entertainment",
+      "text": "In \"The Incredibles\", what is Mr. Incredible's real name?",
+      "options": [
+        "Bob Parr",
+        "Bob Smith",
+        "Dash Parr",
+        "Lucius Best"
+      ],
+      "correctIndex": 0,
+      "source": "Pixar Animation Studios — The Incredibles (2004)",
+      "fact": "Lucius Best is Frozone."
+    },
+    {
+      "id": "ent-coco",
+      "category": "entertainment",
+      "text": "In Pixar's \"Coco\", what does Miguel dream of becoming?",
+      "options": [
+        "A footballer",
+        "A musician",
+        "A chef",
+        "A painter"
+      ],
+      "correctIndex": 1,
+      "source": "Pixar Animation Studios — Coco (2017)"
+    },
+    {
+      "id": "ent-maui",
+      "category": "entertainment",
+      "text": "In \"Moana\", what is the name of the shape-shifting demigod?",
+      "options": [
+        "Tamatoa",
+        "Heihei",
+        "Maui",
+        "Pua"
+      ],
+      "correctIndex": 2,
+      "source": "Walt Disney Animation Studios — Moana (2016)"
+    },
+    {
+      "id": "ent-heihei",
+      "category": "entertainment",
+      "text": "In \"Moana\", what kind of animal is Heihei?",
+      "options": [
+        "Pig",
+        "Crab",
+        "Turtle",
+        "Rooster"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — Moana (2016)",
+      "fact": "Pua is the pig."
+    },
+    {
+      "id": "ent-madrigal",
+      "category": "entertainment",
+      "text": "In Disney's \"Encanto\", what is the family's surname?",
+      "options": [
+        "Madrigal",
+        "Rivera",
+        "Rodriguez",
+        "Montoya"
+      ],
+      "correctIndex": 0,
+      "source": "Walt Disney Animation Studios — Encanto (2021)"
+    },
+    {
+      "id": "ent-judy-hopps",
+      "category": "entertainment",
+      "text": "In \"Zootopia\", what kind of animal is Officer Judy Hopps?",
+      "options": [
+        "Fox",
+        "Rabbit",
+        "Sloth",
+        "Sheep"
+      ],
+      "correctIndex": 1,
+      "source": "Walt Disney Animation Studios — Zootopia (2016)"
+    },
+    {
+      "id": "ent-rajah",
+      "category": "entertainment",
+      "text": "Which Disney princess has a pet tiger named Rajah?",
+      "options": [
+        "Mulan",
+        "Pocahontas",
+        "Jasmine",
+        "Tiana"
+      ],
+      "correctIndex": 2,
+      "source": "Walt Disney Animation Studios — Aladdin (1992)"
+    },
+    {
+      "id": "ent-mushu",
+      "category": "entertainment",
+      "text": "In Disney's \"Mulan\", what is the name of the little dragon?",
+      "options": [
+        "Cri-Kee",
+        "Shan Yu",
+        "Khan",
+        "Mushu"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — Mulan (1998)",
+      "fact": "Cri-Kee is the lucky cricket."
+    },
+    {
+      "id": "ent-pascal",
+      "category": "entertainment",
+      "text": "In \"Tangled\", what is the name of Rapunzel's chameleon?",
+      "options": [
+        "Pascal",
+        "Maximus",
+        "Flynn",
+        "Pua"
+      ],
+      "correctIndex": 0,
+      "source": "Walt Disney Animation Studios — Tangled (2010)",
+      "fact": "Maximus is the horse."
+    },
+    {
+      "id": "ent-tinker-bell",
+      "category": "entertainment",
+      "text": "In \"Peter Pan\", what is the name of Peter's fairy companion?",
+      "options": [
+        "Wendy",
+        "Tinker Bell",
+        "Tiger Lily",
+        "Silvermist"
+      ],
+      "correctIndex": 1,
+      "source": "J.M. Barrie — Peter and Wendy (1911)"
+    },
+    {
+      "id": "ent-hook-croc",
+      "category": "entertainment",
+      "text": "In \"Peter Pan\", which animal is Captain Hook afraid of?",
+      "options": [
+        "A shark",
+        "A parrot",
+        "A crocodile",
+        "A whale"
+      ],
+      "correctIndex": 2,
+      "source": "J.M. Barrie — Peter and Wendy (1911)",
+      "fact": "The crocodile swallowed a clock, so you can hear it ticking."
+    },
+    {
+      "id": "ent-barbie",
+      "category": "entertainment",
+      "text": "Which company makes Barbie dolls?",
+      "options": [
+        "Hasbro",
+        "LEGO",
+        "Bandai",
+        "Mattel"
+      ],
+      "correctIndex": 3,
+      "source": "Mattel — Barbie",
+      "fact": "Barbie launched in 1959."
+    },
+    {
+      "id": "ent-lego-country",
+      "category": "entertainment",
+      "text": "LEGO bricks come from which country?",
+      "options": [
+        "Denmark",
+        "Sweden",
+        "Germany",
+        "Norway"
+      ],
+      "correctIndex": 0,
+      "source": "The LEGO Group — Our history",
+      "fact": "The name comes from the Danish 'leg godt', meaning 'play well'."
+    },
+    {
+      "id": "ent-dumbledore",
+      "category": "entertainment",
+      "text": "Who is the headmaster of Hogwarts for most of the Harry Potter books?",
+      "options": [
+        "Severus Snape",
+        "Albus Dumbledore",
+        "Minerva McGonagall",
+        "Rubeus Hagrid"
+      ],
+      "correctIndex": 1,
+      "source": "J.K. Rowling — Harry Potter series"
+    },
+    {
+      "id": "ent-hedwig",
+      "category": "entertainment",
+      "text": "What is the name of Harry Potter's owl?",
+      "options": [
+        "Errol",
+        "Crookshanks",
+        "Hedwig",
+        "Scabbers"
+      ],
+      "correctIndex": 2,
+      "source": "J.K. Rowling — Harry Potter and the Philosopher's Stone (1997)",
+      "fact": "Crookshanks is Hermione's cat and Scabbers is Ron's rat."
+    },
+    {
+      "id": "ent-quidditch",
+      "category": "entertainment",
+      "text": "What sport do wizards play on broomsticks in Harry Potter?",
+      "options": [
+        "Gobstones",
+        "Broomball",
+        "Wizard chess",
+        "Quidditch"
+      ],
+      "correctIndex": 3,
+      "source": "J.K. Rowling — Harry Potter series"
+    },
+    {
+      "id": "ent-cat-in-hat",
+      "category": "entertainment",
+      "text": "Who wrote \"The Cat in the Hat\"?",
+      "options": [
+        "Dr. Seuss",
+        "Roald Dahl",
+        "Maurice Sendak",
+        "Eric Carle"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Dr. Seuss"
+    },
+    {
+      "id": "ent-dahl-chocolate",
+      "category": "entertainment",
+      "text": "Who wrote \"Charlie and the Chocolate Factory\"?",
+      "options": [
+        "Dr. Seuss",
+        "Roald Dahl",
+        "C.S. Lewis",
+        "Lewis Carroll"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Roald Dahl"
+    },
+    {
+      "id": "ent-wonka",
+      "category": "entertainment",
+      "text": "In \"Charlie and the Chocolate Factory\", who owns the chocolate factory?",
+      "options": [
+        "Charlie Bucket",
+        "Augustus Gloop",
+        "Willy Wonka",
+        "Grandpa Joe"
+      ],
+      "correctIndex": 2,
+      "source": "Roald Dahl — Charlie and the Chocolate Factory (1964)"
+    },
+    {
+      "id": "ent-alice",
+      "category": "entertainment",
+      "text": "Who wrote \"Alice's Adventures in Wonderland\"?",
+      "options": [
+        "Roald Dahl",
+        "Beatrix Potter",
+        "J.M. Barrie",
+        "Lewis Carroll"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Lewis Carroll",
+      "fact": "It was published in 1865."
+    },
+    {
+      "id": "ent-peter-rabbit",
+      "category": "entertainment",
+      "text": "Who created Peter Rabbit?",
+      "options": [
+        "Beatrix Potter",
+        "A.A. Milne",
+        "Enid Blyton",
+        "Kenneth Grahame"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Beatrix Potter"
+    },
+    {
+      "id": "ent-eeyore",
+      "category": "entertainment",
+      "text": "What is the name of Winnie-the-Pooh's gloomy donkey friend?",
+      "options": [
+        "Piglet",
+        "Eeyore",
+        "Tigger",
+        "Kanga"
+      ],
+      "correctIndex": 1,
+      "source": "A.A. Milne — Winnie-the-Pooh (1926)"
+    },
+    {
+      "id": "ent-scarecrow",
+      "category": "entertainment",
+      "text": "In \"The Wizard of Oz\", what does the Scarecrow want from the Wizard?",
+      "options": [
+        "A heart",
+        "Courage",
+        "A brain",
+        "A way home"
+      ],
+      "correctIndex": 2,
+      "source": "L. Frank Baum — The Wonderful Wizard of Oz (1900)",
+      "fact": "The Tin Man wants a heart and the Lion wants courage."
+    },
+    {
+      "id": "ent-guitar-strings",
+      "category": "entertainment",
+      "text": "How many strings does a standard guitar have?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Guitar"
+    },
+    {
+      "id": "ent-violin-strings",
+      "category": "entertainment",
+      "text": "How many strings does a standard violin have?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Violin"
+    },
+    {
+      "id": "ent-trumpet-family",
+      "category": "entertainment",
+      "text": "Which family of instruments does the trumpet belong to?",
+      "options": [
+        "Woodwind",
+        "Brass",
+        "Percussion",
+        "Strings"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Trumpet"
+    },
+    {
+      "id": "ent-saxophone",
+      "category": "entertainment",
+      "text": "Which family of instruments does the saxophone belong to, even though it's made of metal?",
+      "options": [
+        "Brass",
+        "Percussion",
+        "Woodwind",
+        "Strings"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Saxophone",
+      "fact": "It uses a reed, like a clarinet."
+    },
+    {
+      "id": "ent-king-of-pop",
+      "category": "entertainment",
+      "text": "Who was known as the \"King of Pop\"?",
+      "options": [
+        "Elvis Presley",
+        "Prince",
+        "Stevie Wonder",
+        "Michael Jackson"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Michael Jackson"
+    },
+    {
+      "id": "ent-king-of-rock",
+      "category": "entertainment",
+      "text": "Who was known as the \"King of Rock and Roll\"?",
+      "options": [
+        "Elvis Presley",
+        "Chuck Berry",
+        "Michael Jackson",
+        "Little Richard"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Elvis Presley"
+    },
+    {
+      "id": "ent-beethoven",
+      "category": "entertainment",
+      "text": "Which famous composer kept writing music after he became deaf?",
+      "options": [
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Johann Sebastian Bach",
+        "Frédéric Chopin"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Ludwig van Beethoven"
+    },
+    {
+      "id": "ent-bulbasaur",
+      "category": "entertainment",
+      "text": "Which Pokémon is number 1 in the National Pokédex?",
+      "options": [
+        "Pikachu",
+        "Charmander",
+        "Bulbasaur",
+        "Mew"
+      ],
+      "correctIndex": 2,
+      "source": "The Pokémon Company — Pokédex"
+    },
+    {
+      "id": "ent-sonic-colour",
+      "category": "entertainment",
+      "text": "What colour is Sonic the Hedgehog?",
+      "options": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "correctIndex": 3,
+      "source": "SEGA — Sonic the Hedgehog"
+    },
+    {
+      "id": "ent-goomba",
+      "category": "entertainment",
+      "text": "What are the walking brown mushroom enemies in Super Mario games called?",
+      "options": [
+        "Goombas",
+        "Koopa Troopas",
+        "Boos",
+        "Toads"
+      ],
+      "correctIndex": 0,
+      "source": "Nintendo — Super Mario Bros. (1985)"
+    },
+    {
+      "id": "ent-peach",
+      "category": "entertainment",
+      "text": "Which princess does Mario most often rescue?",
+      "options": [
+        "Princess Daisy",
+        "Princess Peach",
+        "Princess Zelda",
+        "Rosalina"
+      ],
+      "correctIndex": 1,
+      "source": "Nintendo — Super Mario series"
+    },
+    {
+      "id": "ent-link",
+      "category": "entertainment",
+      "text": "In \"The Legend of Zelda\" games, what is the name of the hero you play as?",
+      "options": [
+        "Zelda",
+        "Ganon",
+        "Link",
+        "Epona"
+      ],
+      "correctIndex": 2,
+      "source": "Nintendo — The Legend of Zelda series",
+      "fact": "Zelda is the princess."
+    },
+    {
+      "id": "ent-power-pellet",
+      "category": "entertainment",
+      "text": "In Pac-Man, what lets Pac-Man chase and eat the ghosts?",
+      "options": [
+        "Cherries",
+        "Keys",
+        "Bells",
+        "Power pellets"
+      ],
+      "correctIndex": 3,
+      "source": "Bandai Namco — Pac-Man"
+    },
+    {
+      "id": "ent-tetris",
+      "category": "entertainment",
+      "text": "Tetris was first created in which country?",
+      "options": [
+        "The Soviet Union",
+        "Japan",
+        "The United States",
+        "Finland"
+      ],
+      "correctIndex": 0,
+      "source": "The Tetris Company — History of Tetris",
+      "fact": "Alexey Pajitnov made it in Moscow in 1984."
+    },
+    {
+      "id": "ent-dark-knight",
+      "category": "entertainment",
+      "text": "Which superhero is known as the Dark Knight?",
+      "options": [
+        "Superman",
+        "Batman",
+        "Spider-Man",
+        "Black Panther"
+      ],
+      "correctIndex": 1,
+      "source": "DC — Batman"
+    },
+    {
+      "id": "ent-krypton",
+      "category": "entertainment",
+      "text": "What is Superman's home planet?",
+      "options": [
+        "Mars",
+        "Asgard",
+        "Krypton",
+        "Oa"
+      ],
+      "correctIndex": 2,
+      "source": "DC — Superman"
+    },
+    {
+      "id": "ent-spiderman",
+      "category": "entertainment",
+      "text": "What is Spider-Man's real name?",
+      "options": [
+        "Bruce Wayne",
+        "Clark Kent",
+        "Tony Stark",
+        "Peter Parker"
+      ],
+      "correctIndex": 3,
+      "source": "Marvel — Spider-Man"
+    },
+    {
+      "id": "ent-mjolnir",
+      "category": "entertainment",
+      "text": "Which Avenger wields the hammer Mjolnir?",
+      "options": [
+        "Thor",
+        "Hulk",
+        "Captain America",
+        "Iron Man"
+      ],
+      "correctIndex": 0,
+      "source": "Marvel — Thor"
+    },
+    {
+      "id": "ent-wakanda",
+      "category": "entertainment",
+      "text": "Black Panther is the king of which fictional nation?",
+      "options": [
+        "Asgard",
+        "Wakanda",
+        "Genovia",
+        "Latveria"
+      ],
+      "correctIndex": 1,
+      "source": "Marvel — Black Panther"
+    },
+    {
+      "id": "ent-hakuna-matata",
+      "category": "entertainment",
+      "text": "Which phrase from \"The Lion King\" means \"no worries\"?",
+      "options": [
+        "Asante sana",
+        "Circle of life",
+        "Hakuna matata",
+        "Jambo"
+      ],
+      "correctIndex": 2,
+      "source": "Walt Disney Animation Studios — The Lion King (1994)"
+    },
+    {
+      "id": "ent-let-it-go",
+      "category": "entertainment",
+      "text": "Which Disney film features the song \"Let It Go\"?",
+      "options": [
+        "Moana",
+        "Tangled",
+        "Encanto",
+        "Frozen"
+      ],
+      "correctIndex": 3,
+      "source": "Walt Disney Animation Studios — Frozen (2013)"
+    },
+    {
+      "id": "ent-remember-me",
+      "category": "entertainment",
+      "text": "\"Remember Me\" is a song from which Pixar film?",
+      "options": [
+        "Coco",
+        "Up",
+        "Soul",
+        "Luca"
+      ],
+      "correctIndex": 0,
+      "source": "Pixar Animation Studios — Coco (2017)"
+    },
+    {
+      "id": "ent-minions",
+      "category": "entertainment",
+      "text": "In \"Despicable Me\", what are Gru's little yellow helpers called?",
+      "options": [
+        "Smurfs",
+        "Minions",
+        "Oompa-Loompas",
+        "Trolls"
+      ],
+      "correctIndex": 1,
+      "source": "Illumination — Despicable Me (2010)"
+    },
+    {
+      "id": "ent-smurfs",
+      "category": "entertainment",
+      "text": "What colour are the Smurfs?",
+      "options": [
+        "Green",
+        "Purple",
+        "Blue",
+        "Yellow"
+      ],
+      "correctIndex": 2,
+      "source": "Peyo — The Smurfs"
+    },
+    {
+      "id": "ent-po",
+      "category": "entertainment",
+      "text": "In \"Kung Fu Panda\", what is the panda's name?",
+      "options": [
+        "Shifu",
+        "Tai Lung",
+        "Oogway",
+        "Po"
+      ],
+      "correctIndex": 3,
+      "source": "DreamWorks Animation — Kung Fu Panda (2008)"
+    },
+    {
+      "id": "ent-oscar-grouch",
+      "category": "entertainment",
+      "text": "Which Sesame Street character lives in a trash can?",
+      "options": [
+        "Oscar the Grouch",
+        "Elmo",
+        "Cookie Monster",
+        "Big Bird"
+      ],
+      "correctIndex": 0,
+      "source": "Sesame Workshop — Oscar the Grouch"
+    },
+    {
+      "id": "ent-anakin",
+      "category": "entertainment",
+      "text": "In \"Star Wars\", what was Darth Vader's name before he turned to the dark side?",
+      "options": [
+        "Luke Skywalker",
+        "Anakin Skywalker",
+        "Ben Kenobi",
+        "Han Solo"
+      ],
+      "correctIndex": 1,
+      "source": "Lucasfilm — StarWars.com Databank: Darth Vader"
+    },
+    {
+      "id": "ent-wookiee",
+      "category": "entertainment",
+      "text": "What kind of creature is Chewbacca?",
+      "options": [
+        "An Ewok",
+        "A Jawa",
+        "A Wookiee",
+        "A Hutt"
+      ],
+      "correctIndex": 2,
+      "source": "Lucasfilm — StarWars.com Databank: Chewbacca"
+    },
+    {
+      "id": "ent-jaws",
+      "category": "entertainment",
+      "text": "Which 1975 film features a giant shark terrorising Amity Island?",
+      "options": [
+        "The Meg",
+        "Deep Blue Sea",
+        "Finding Nemo",
+        "Jaws"
+      ],
+      "correctIndex": 3,
+      "source": "Universal Pictures — Jaws (1975)"
+    },
+    {
+      "id": "ent-delorean",
+      "category": "entertainment",
+      "text": "In \"Back to the Future\", which car is turned into a time machine?",
+      "options": [
+        "DeLorean",
+        "Mustang",
+        "Beetle",
+        "Corvette"
+      ],
+      "correctIndex": 0,
+      "source": "Universal Pictures — Back to the Future (1985)"
+    },
+    {
+      "id": "ent-steamboat-willie",
+      "category": "entertainment",
+      "text": "Mickey Mouse made his official debut in which 1928 cartoon?",
+      "options": [
+        "Fantasia",
+        "Steamboat Willie",
+        "The Band Concert",
+        "Flowers and Trees"
+      ],
+      "correctIndex": 1,
+      "source": "The Walt Disney Company — Mickey Mouse history",
+      "fact": "Disney celebrates Mickey's birthday on 18 November, the day it premiered."
+    },
+    {
+      "id": "ent-pluto-dog",
+      "category": "entertainment",
+      "text": "What is the name of Mickey Mouse's pet dog?",
+      "options": [
+        "Goofy",
+        "Max",
+        "Pluto",
+        "Butch"
+      ],
+      "correctIndex": 2,
+      "source": "The Walt Disney Company — Pluto",
+      "fact": "Goofy is a dog too — but he's Mickey's friend, not his pet."
+    },
+    {
+      "id": "geo-cap-france",
+      "category": "geography",
+      "text": "What is the capital city of France?",
+      "options": [
+        "Lyon",
+        "Marseille",
+        "Nice",
+        "Paris"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — France"
+    },
+    {
+      "id": "geo-cap-italy",
+      "category": "geography",
+      "text": "What is the capital city of Italy?",
+      "options": [
+        "Rome",
+        "Milan",
+        "Venice",
+        "Naples"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — Italy"
+    },
+    {
+      "id": "geo-cap-spain",
+      "category": "geography",
+      "text": "What is the capital city of Spain?",
+      "options": [
+        "Barcelona",
+        "Madrid",
+        "Seville",
+        "Valencia"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — Spain"
+    },
+    {
+      "id": "geo-cap-germany",
+      "category": "geography",
+      "text": "What is the capital city of Germany?",
+      "options": [
+        "Munich",
+        "Frankfurt",
+        "Berlin",
+        "Hamburg"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Germany"
+    },
+    {
+      "id": "geo-cap-brazil",
+      "category": "geography",
+      "text": "What is the capital city of Brazil?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Brasília"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Brazil",
+      "fact": "Brasília was purpose-built and became the capital in 1960."
+    },
+    {
+      "id": "geo-cap-turkey",
+      "category": "geography",
+      "text": "What is the capital city of Turkey?",
+      "options": [
+        "Ankara",
+        "Istanbul",
+        "Izmir",
+        "Antalya"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — Turkey",
+      "fact": "Istanbul is the biggest city, but Ankara is the capital."
+    },
+    {
+      "id": "geo-cap-nz",
+      "category": "geography",
+      "text": "What is the capital city of New Zealand?",
+      "options": [
+        "Auckland",
+        "Wellington",
+        "Christchurch",
+        "Queenstown"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — New Zealand"
+    },
+    {
+      "id": "geo-cap-switzerland",
+      "category": "geography",
+      "text": "Which city is the seat of Switzerland's federal government?",
+      "options": [
+        "Zurich",
+        "Geneva",
+        "Bern",
+        "Basel"
+      ],
+      "correctIndex": 2,
+      "source": "Swiss Federal Administration — Bern, the federal city"
+    },
+    {
+      "id": "geo-cap-egypt",
+      "category": "geography",
+      "text": "What is the capital city of Egypt?",
+      "options": [
+        "Alexandria",
+        "Luxor",
+        "Giza",
+        "Cairo"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Egypt"
+    },
+    {
+      "id": "geo-cap-india",
+      "category": "geography",
+      "text": "What is the capital city of India?",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Bengaluru"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — India"
+    },
+    {
+      "id": "geo-cap-china",
+      "category": "geography",
+      "text": "What is the capital city of China?",
+      "options": [
+        "Shanghai",
+        "Beijing",
+        "Hong Kong",
+        "Guangzhou"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — China"
+    },
+    {
+      "id": "geo-cap-russia",
+      "category": "geography",
+      "text": "What is the capital city of Russia?",
+      "options": [
+        "Saint Petersburg",
+        "Kazan",
+        "Moscow",
+        "Novosibirsk"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Russia"
+    },
+    {
+      "id": "geo-cap-mexico",
+      "category": "geography",
+      "text": "What is the capital city of Mexico?",
+      "options": [
+        "Cancún",
+        "Guadalajara",
+        "Monterrey",
+        "Mexico City"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Mexico"
+    },
+    {
+      "id": "geo-cap-argentina",
+      "category": "geography",
+      "text": "What is the capital city of Argentina?",
+      "options": [
+        "Buenos Aires",
+        "Córdoba",
+        "Rosario",
+        "Mendoza"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — Argentina"
+    },
+    {
+      "id": "geo-cap-kenya",
+      "category": "geography",
+      "text": "What is the capital city of Kenya?",
+      "options": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — Kenya"
+    },
+    {
+      "id": "geo-cap-south-korea",
+      "category": "geography",
+      "text": "What is the capital city of South Korea?",
+      "options": [
+        "Busan",
+        "Incheon",
+        "Seoul",
+        "Pyongyang"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — South Korea",
+      "fact": "Pyongyang is the capital of North Korea."
+    },
+    {
+      "id": "geo-cap-norway",
+      "category": "geography",
+      "text": "What is the capital city of Norway?",
+      "options": [
+        "Bergen",
+        "Stockholm",
+        "Copenhagen",
+        "Oslo"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Norway"
+    },
+    {
+      "id": "geo-cap-ireland",
+      "category": "geography",
+      "text": "What is the capital city of Ireland?",
+      "options": [
+        "Dublin",
+        "Cork",
+        "Galway",
+        "Belfast"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — Ireland"
+    },
+    {
+      "id": "geo-cap-scotland",
+      "category": "geography",
+      "text": "What is the capital city of Scotland?",
+      "options": [
+        "Glasgow",
+        "Edinburgh",
+        "Aberdeen",
+        "Inverness"
+      ],
+      "correctIndex": 1,
+      "source": "Scottish Government — Scotland's capital",
+      "fact": "Glasgow is Scotland's biggest city."
+    },
+    {
+      "id": "geo-cap-greece",
+      "category": "geography",
+      "text": "What is the capital city of Greece?",
+      "options": [
+        "Sparta",
+        "Thessaloniki",
+        "Athens",
+        "Corinth"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Greece"
+    },
+    {
+      "id": "geo-cap-portugal",
+      "category": "geography",
+      "text": "What is the capital city of Portugal?",
+      "options": [
+        "Porto",
+        "Faro",
+        "Coimbra",
+        "Lisbon"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Portugal"
+    },
+    {
+      "id": "geo-cap-netherlands",
+      "category": "geography",
+      "text": "What is the official capital city of the Netherlands?",
+      "options": [
+        "Amsterdam",
+        "Rotterdam",
+        "Utrecht",
+        "Eindhoven"
+      ],
+      "correctIndex": 0,
+      "source": "Government of the Netherlands — Amsterdam, capital of the Netherlands",
+      "fact": "The government sits in The Hague, but Amsterdam is the capital."
+    },
+    {
+      "id": "geo-cap-thailand",
+      "category": "geography",
+      "text": "What is the capital city of Thailand?",
+      "options": [
+        "Chiang Mai",
+        "Bangkok",
+        "Phuket",
+        "Pattaya"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — Thailand"
+    },
+    {
+      "id": "geo-cap-peru",
+      "category": "geography",
+      "text": "What is the capital city of Peru?",
+      "options": [
+        "Cusco",
+        "Arequipa",
+        "Lima",
+        "Trujillo"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Peru"
+    },
+    {
+      "id": "geo-cap-iceland",
+      "category": "geography",
+      "text": "What is the capital city of Iceland?",
+      "options": [
+        "Oslo",
+        "Helsinki",
+        "Nuuk",
+        "Reykjavík"
+      ],
+      "correctIndex": 3,
+      "source": "CIA World Factbook — Iceland",
+      "fact": "Nuuk is the capital of Greenland."
+    },
+    {
+      "id": "geo-thames",
+      "category": "geography",
+      "text": "Which river flows through London?",
+      "options": [
+        "Thames",
+        "Seine",
+        "Danube",
+        "Severn"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — River Thames"
+    },
+    {
+      "id": "geo-seine",
+      "category": "geography",
+      "text": "Which river flows through Paris?",
+      "options": [
+        "Thames",
+        "Seine",
+        "Rhine",
+        "Loire"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Seine River"
+    },
+    {
+      "id": "geo-missouri",
+      "category": "geography",
+      "text": "According to the U.S. Geological Survey, which is the longest river in the United States?",
+      "options": [
+        "Mississippi River",
+        "Colorado River",
+        "Missouri River",
+        "Rio Grande"
+      ],
+      "correctIndex": 2,
+      "source": "U.S. Geological Survey — Lengths of the major rivers",
+      "fact": "The Missouri beats the Mississippi by just a few miles."
+    },
+    {
+      "id": "geo-nigeria",
+      "category": "geography",
+      "text": "Which African country has the largest population?",
+      "options": [
+        "Egypt",
+        "Ethiopia",
+        "South Africa",
+        "Nigeria"
+      ],
+      "correctIndex": 3,
+      "source": "United Nations DESA — World Population Prospects"
+    },
+    {
+      "id": "geo-largest-country",
+      "category": "geography",
+      "text": "What is the largest country in the world by area?",
+      "options": [
+        "Russia",
+        "Canada",
+        "China",
+        "United States"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — Country comparisons: area"
+    },
+    {
+      "id": "geo-second-largest",
+      "category": "geography",
+      "text": "What is the second-largest country in the world by area?",
+      "options": [
+        "United States",
+        "Canada",
+        "China",
+        "Brazil"
+      ],
+      "correctIndex": 1,
+      "source": "CIA World Factbook — Country comparisons: area"
+    },
+    {
+      "id": "geo-largest-sa",
+      "category": "geography",
+      "text": "What is the largest country in South America?",
+      "options": [
+        "Argentina",
+        "Peru",
+        "Brazil",
+        "Colombia"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Brazil"
+    },
+    {
+      "id": "geo-indian-ocean",
+      "category": "geography",
+      "text": "Which ocean lies between Africa and Australia?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Southern Ocean",
+        "Indian Ocean"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA — How many oceans are there?"
+    },
+    {
+      "id": "geo-atlantic",
+      "category": "geography",
+      "text": "Which ocean separates Europe from North America?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "correctIndex": 0,
+      "source": "NOAA — How many oceans are there?"
+    },
+    {
+      "id": "geo-greenland",
+      "category": "geography",
+      "text": "What is the largest island in the world that isn't a continent?",
+      "options": [
+        "New Guinea",
+        "Greenland",
+        "Borneo",
+        "Madagascar"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Greenland"
+    },
+    {
+      "id": "geo-greenland-denmark",
+      "category": "geography",
+      "text": "Greenland is a self-governing territory of which country?",
+      "options": [
+        "Norway",
+        "Canada",
+        "Denmark",
+        "Iceland"
+      ],
+      "correctIndex": 2,
+      "source": "Government of Greenland — Greenland in the Danish Realm"
+    },
+    {
+      "id": "geo-fuji",
+      "category": "geography",
+      "text": "Mount Fuji is in which country?",
+      "options": [
+        "China",
+        "South Korea",
+        "Nepal",
+        "Japan"
+      ],
+      "correctIndex": 3,
+      "source": "UNESCO World Heritage Centre — Fujisan"
+    },
+    {
+      "id": "geo-timbuktu",
+      "category": "geography",
+      "text": "In which country is the city of Timbuktu?",
+      "options": [
+        "Mali",
+        "Niger",
+        "Morocco",
+        "Chad"
+      ],
+      "correctIndex": 0,
+      "source": "UNESCO World Heritage Centre — Timbuktu"
+    },
+    {
+      "id": "geo-andes-side",
+      "category": "geography",
+      "text": "The Andes mountains run along which side of South America?",
+      "options": [
+        "The east",
+        "The west",
+        "The north",
+        "Through the middle"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Andes"
+    },
+    {
+      "id": "geo-himalayas",
+      "category": "geography",
+      "text": "Which mountain range contains Mount Everest?",
+      "options": [
+        "The Andes",
+        "The Alps",
+        "The Himalayas",
+        "The Rockies"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Himalayas"
+    },
+    {
+      "id": "geo-alps",
+      "category": "geography",
+      "text": "The Alps mountain range is on which continent?",
+      "options": [
+        "Asia",
+        "South America",
+        "North America",
+        "Europe"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Alps"
+    },
+    {
+      "id": "geo-lake-victoria",
+      "category": "geography",
+      "text": "What is the largest lake in Africa?",
+      "options": [
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Chad"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Lake Victoria"
+    },
+    {
+      "id": "geo-lake-superior",
+      "category": "geography",
+      "text": "Which is the largest of North America's Great Lakes?",
+      "options": [
+        "Lake Michigan",
+        "Lake Superior",
+        "Lake Huron",
+        "Lake Erie"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. Environmental Protection Agency — Facts and figures about the Great Lakes"
+    },
+    {
+      "id": "geo-niagara",
+      "category": "geography",
+      "text": "Niagara Falls lies on the border between which two countries?",
+      "options": [
+        "The United States and Mexico",
+        "Canada and Greenland",
+        "The United States and Canada",
+        "Argentina and Brazil"
+      ],
+      "correctIndex": 2,
+      "source": "Niagara Parks Commission — Niagara Falls"
+    },
+    {
+      "id": "geo-alaska",
+      "category": "geography",
+      "text": "Which is the largest U.S. state by area?",
+      "options": [
+        "Texas",
+        "California",
+        "Montana",
+        "Alaska"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. Census Bureau — State area measurements"
+    },
+    {
+      "id": "geo-rhode-island",
+      "category": "geography",
+      "text": "Which is the smallest U.S. state by area?",
+      "options": [
+        "Rhode Island",
+        "Delaware",
+        "Connecticut",
+        "Hawaii"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. Census Bureau — State area measurements"
+    },
+    {
+      "id": "geo-hawaii",
+      "category": "geography",
+      "text": "Which U.S. state is made up entirely of islands?",
+      "options": [
+        "Alaska",
+        "Hawaii",
+        "Florida",
+        "Rhode Island"
+      ],
+      "correctIndex": 1,
+      "source": "State of Hawaii — About Hawaii"
+    },
+    {
+      "id": "geo-taj-mahal",
+      "category": "geography",
+      "text": "The Taj Mahal is in which country?",
+      "options": [
+        "Pakistan",
+        "Iran",
+        "India",
+        "Bangladesh"
+      ],
+      "correctIndex": 2,
+      "source": "UNESCO World Heritage Centre — Taj Mahal"
+    },
+    {
+      "id": "geo-petra",
+      "category": "geography",
+      "text": "The ancient rock-cut city of Petra is in which country?",
+      "options": [
+        "Egypt",
+        "Israel",
+        "Saudi Arabia",
+        "Jordan"
+      ],
+      "correctIndex": 3,
+      "source": "UNESCO World Heritage Centre — Petra"
+    },
+    {
+      "id": "geo-angkor",
+      "category": "geography",
+      "text": "Angkor Wat is in which country?",
+      "options": [
+        "Cambodia",
+        "Thailand",
+        "Vietnam",
+        "Laos"
+      ],
+      "correctIndex": 0,
+      "source": "UNESCO World Heritage Centre — Angkor"
+    },
+    {
+      "id": "geo-stonehenge",
+      "category": "geography",
+      "text": "Stonehenge is in which country?",
+      "options": [
+        "Scotland",
+        "England",
+        "Ireland",
+        "France"
+      ],
+      "correctIndex": 1,
+      "source": "English Heritage — Stonehenge"
+    },
+    {
+      "id": "geo-christ-redeemer",
+      "category": "geography",
+      "text": "The Christ the Redeemer statue overlooks which city?",
+      "options": [
+        "São Paulo",
+        "Lisbon",
+        "Rio de Janeiro",
+        "Buenos Aires"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Christ the Redeemer"
+    },
+    {
+      "id": "geo-chile-shape",
+      "category": "geography",
+      "text": "Which long, thin country stretches down the west coast of South America?",
+      "options": [
+        "Peru",
+        "Argentina",
+        "Ecuador",
+        "Chile"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Chile"
+    },
+    {
+      "id": "geo-istanbul",
+      "category": "geography",
+      "text": "The city of Istanbul lies on which two continents?",
+      "options": [
+        "Europe and Asia",
+        "Europe and Africa",
+        "Asia and Africa",
+        "Asia only"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Istanbul"
+    },
+    {
+      "id": "geo-panama-canal",
+      "category": "geography",
+      "text": "The Panama Canal connects which two oceans?",
+      "options": [
+        "The Atlantic and the Indian",
+        "The Atlantic and the Pacific",
+        "The Pacific and the Arctic",
+        "The Indian and the Pacific"
+      ],
+      "correctIndex": 1,
+      "source": "Panama Canal Authority — The Panama Canal"
+    },
+    {
+      "id": "geo-suez",
+      "category": "geography",
+      "text": "The Suez Canal is in which country?",
+      "options": [
+        "Panama",
+        "Turkey",
+        "Egypt",
+        "Saudi Arabia"
+      ],
+      "correctIndex": 2,
+      "source": "Suez Canal Authority"
+    },
+    {
+      "id": "geo-rising-sun",
+      "category": "geography",
+      "text": "Which country is often called the Land of the Rising Sun?",
+      "options": [
+        "China",
+        "South Korea",
+        "Thailand",
+        "Japan"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Japan"
+    },
+    {
+      "id": "geo-italy-flag",
+      "category": "geography",
+      "text": "What colours are on the flag of Italy?",
+      "options": [
+        "Green, white and red",
+        "Red, white and blue",
+        "Green, white and orange",
+        "Red, yellow and green"
+      ],
+      "correctIndex": 0,
+      "source": "Constitution of the Italian Republic — Article 12",
+      "fact": "Ireland's flag is green, white and orange."
+    },
+    {
+      "id": "geo-japan-flag",
+      "category": "geography",
+      "text": "Which country's flag is a red circle on a white background?",
+      "options": [
+        "Bangladesh",
+        "Japan",
+        "South Korea",
+        "China"
+      ],
+      "correctIndex": 1,
+      "source": "Government of Japan — National flag",
+      "fact": "Bangladesh's flag has a red circle on green."
+    },
+    {
+      "id": "geo-dead-sea",
+      "category": "geography",
+      "text": "Where is the lowest point on land on Earth?",
+      "options": [
+        "Death Valley",
+        "The Grand Canyon",
+        "The shore of the Dead Sea",
+        "The Caspian Sea"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Dead Sea",
+      "fact": "It's more than 400 metres below sea level."
+    },
+    {
+      "id": "geo-grand-canyon",
+      "category": "geography",
+      "text": "The Grand Canyon is in which U.S. state?",
+      "options": [
+        "Nevada",
+        "Utah",
+        "Colorado",
+        "Arizona"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. National Park Service — Grand Canyon National Park"
+    },
+    {
+      "id": "geo-rushmore",
+      "category": "geography",
+      "text": "Mount Rushmore is in which U.S. state?",
+      "options": [
+        "South Dakota",
+        "North Dakota",
+        "Wyoming",
+        "Montana"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. National Park Service — Mount Rushmore National Memorial"
+    },
+    {
+      "id": "geo-marrakech",
+      "category": "geography",
+      "text": "The city of Marrakech is in which country?",
+      "options": [
+        "Egypt",
+        "Morocco",
+        "Tunisia",
+        "Algeria"
+      ],
+      "correctIndex": 1,
+      "source": "UNESCO World Heritage Centre — Medina of Marrakesh"
+    },
+    {
+      "id": "geo-galapagos",
+      "category": "geography",
+      "text": "The Galápagos Islands belong to which country?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Ecuador",
+        "Spain"
+      ],
+      "correctIndex": 2,
+      "source": "UNESCO World Heritage Centre — Galápagos Islands"
+    },
+    {
+      "id": "geo-longest-range",
+      "category": "geography",
+      "text": "What is the longest mountain range on land?",
+      "options": [
+        "The Himalayas",
+        "The Rockies",
+        "The Alps",
+        "The Andes"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA Ocean Service — What is the longest mountain range on Earth?",
+      "fact": "The longest range of all is the mid-ocean ridge, under the sea."
+    },
+    {
+      "id": "geo-us-south",
+      "category": "geography",
+      "text": "Which country borders the United States to the south?",
+      "options": [
+        "Mexico",
+        "Canada",
+        "Cuba",
+        "Guatemala"
+      ],
+      "correctIndex": 0,
+      "source": "CIA World Factbook — United States"
+    },
+    {
+      "id": "geo-most-countries",
+      "category": "geography",
+      "text": "Which continent has the most countries?",
+      "options": [
+        "Europe",
+        "Africa",
+        "Asia",
+        "South America"
+      ],
+      "correctIndex": 1,
+      "source": "United Nations — Member states",
+      "fact": "Africa has 54 countries."
+    },
+    {
+      "id": "geo-madagascar",
+      "category": "geography",
+      "text": "Madagascar is an island off the coast of which continent?",
+      "options": [
+        "Asia",
+        "Australia",
+        "Africa",
+        "South America"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Madagascar"
+    },
+    {
+      "id": "geo-venice",
+      "category": "geography",
+      "text": "Which Italian city is famous for its canals and gondolas?",
+      "options": [
+        "Florence",
+        "Milan",
+        "Naples",
+        "Venice"
+      ],
+      "correctIndex": 3,
+      "source": "UNESCO World Heritage Centre — Venice and its Lagoon"
+    },
+    {
+      "id": "geo-gobi",
+      "category": "geography",
+      "text": "Which desert covers much of Mongolia and northern China?",
+      "options": [
+        "Gobi",
+        "Sahara",
+        "Kalahari",
+        "Atacama"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Gobi"
+    },
+    {
+      "id": "geo-atacama",
+      "category": "geography",
+      "text": "The Atacama, one of the driest places on Earth, is in which country?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Mexico",
+        "Australia"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Atacama Desert"
+    },
+    {
+      "id": "geo-cap-usa",
+      "category": "geography",
+      "text": "What is the capital of the United States?",
+      "options": [
+        "New York City",
+        "Philadelphia",
+        "Washington, D.C.",
+        "Boston"
+      ],
+      "correctIndex": 2,
+      "source": "USA.gov — Washington, D.C.",
+      "fact": "Philadelphia and New York both served as capital in the early years."
+    },
+    {
+      "id": "his-augustus",
+      "category": "history",
+      "text": "Who was the first emperor of Rome?",
+      "options": [
+        "Julius Caesar",
+        "Nero",
+        "Caligula",
+        "Augustus"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Augustus",
+      "fact": "Julius Caesar was a dictator, never an emperor."
+    },
+    {
+      "id": "his-pompeii",
+      "category": "history",
+      "text": "Which Roman town was buried by the eruption of Mount Vesuvius in AD 79?",
+      "options": [
+        "Pompeii",
+        "Rome",
+        "Athens",
+        "Carthage"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Pompeii"
+    },
+    {
+      "id": "his-giza-builders",
+      "category": "history",
+      "text": "Which civilisation built the pyramids at Giza?",
+      "options": [
+        "The Romans",
+        "The ancient Egyptians",
+        "The ancient Greeks",
+        "The Maya"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Pyramids of Giza"
+    },
+    {
+      "id": "his-hieroglyphs",
+      "category": "history",
+      "text": "Hieroglyphs were the writing system of which ancient civilisation?",
+      "options": [
+        "Rome",
+        "China",
+        "Egypt",
+        "The Vikings"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Hieroglyph"
+    },
+    {
+      "id": "his-rosetta",
+      "category": "history",
+      "text": "Which object helped scholars decode Egyptian hieroglyphs?",
+      "options": [
+        "The Dead Sea Scrolls",
+        "Magna Carta",
+        "The Book of Kells",
+        "The Rosetta Stone"
+      ],
+      "correctIndex": 3,
+      "source": "The British Museum — The Rosetta Stone",
+      "fact": "It carries the same text in hieroglyphs, Demotic and ancient Greek."
+    },
+    {
+      "id": "his-cleopatra",
+      "category": "history",
+      "text": "Which queen of ancient Egypt was allied with Julius Caesar and Mark Antony?",
+      "options": [
+        "Cleopatra",
+        "Nefertiti",
+        "Hatshepsut",
+        "Boudica"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Cleopatra"
+    },
+    {
+      "id": "his-genghis",
+      "category": "history",
+      "text": "Which empire did Genghis Khan found?",
+      "options": [
+        "The Ottoman Empire",
+        "The Mongol Empire",
+        "The Roman Empire",
+        "The Persian Empire"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Genghis Khan"
+    },
+    {
+      "id": "his-vikings",
+      "category": "history",
+      "text": "The Vikings came from which part of Europe?",
+      "options": [
+        "Spain",
+        "Greece",
+        "Scandinavia",
+        "Italy"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Viking"
+    },
+    {
+      "id": "his-ww2-end",
+      "category": "history",
+      "text": "In which year did World War II end?",
+      "options": [
+        "1939",
+        "1944",
+        "1950",
+        "1945"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — World War II"
+    },
+    {
+      "id": "his-ww1-start",
+      "category": "history",
+      "text": "In which year did World War I begin?",
+      "options": [
+        "1914",
+        "1905",
+        "1918",
+        "1939"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — World War I"
+    },
+    {
+      "id": "his-ww1-end",
+      "category": "history",
+      "text": "In which year did the fighting in World War I end?",
+      "options": [
+        "1914",
+        "1918",
+        "1919",
+        "1920"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Armistice (11 November 1918)",
+      "fact": "The Treaty of Versailles was signed in 1919."
+    },
+    {
+      "id": "his-churchill",
+      "category": "history",
+      "text": "Who was the British prime minister for most of World War II?",
+      "options": [
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Winston Churchill",
+        "Margaret Thatcher"
+      ],
+      "correctIndex": 2,
+      "source": "UK Government — Past Prime Ministers: Winston Churchill"
+    },
+    {
+      "id": "his-lincoln",
+      "category": "history",
+      "text": "Who was the U.S. president during the American Civil War?",
+      "options": [
+        "George Washington",
+        "Ulysses S. Grant",
+        "Andrew Jackson",
+        "Abraham Lincoln"
+      ],
+      "correctIndex": 3,
+      "source": "The White House — Abraham Lincoln"
+    },
+    {
+      "id": "his-1776",
+      "category": "history",
+      "text": "In which year was the U.S. Declaration of Independence adopted?",
+      "options": [
+        "1776",
+        "1789",
+        "1812",
+        "1492"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. National Archives — The Declaration of Independence"
+    },
+    {
+      "id": "his-jefferson",
+      "category": "history",
+      "text": "Who was the main author of the U.S. Declaration of Independence?",
+      "options": [
+        "George Washington",
+        "Thomas Jefferson",
+        "Benjamin Franklin",
+        "John Adams"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. National Archives — The Declaration of Independence"
+    },
+    {
+      "id": "his-mayflower",
+      "category": "history",
+      "text": "Which ship carried the Pilgrims to America in 1620?",
+      "options": [
+        "Santa María",
+        "Endeavour",
+        "Mayflower",
+        "Beagle"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Mayflower"
+    },
+    {
+      "id": "his-santa-maria",
+      "category": "history",
+      "text": "Which of these ships sailed with Christopher Columbus in 1492?",
+      "options": [
+        "Mayflower",
+        "Endeavour",
+        "Beagle",
+        "Santa María"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Christopher Columbus",
+      "fact": "The other two were the Niña and the Pinta."
+    },
+    {
+      "id": "his-earhart",
+      "category": "history",
+      "text": "Who was the first woman to fly solo across the Atlantic Ocean, in 1932?",
+      "options": [
+        "Amelia Earhart",
+        "Bessie Coleman",
+        "Harriet Quimby",
+        "Sally Ride"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian National Air and Space Museum — Amelia Earhart"
+    },
+    {
+      "id": "his-sally-ride",
+      "category": "history",
+      "text": "Who was the first American woman in space?",
+      "options": [
+        "Valentina Tereshkova",
+        "Sally Ride",
+        "Mae Jemison",
+        "Eileen Collins"
+      ],
+      "correctIndex": 1,
+      "source": "NASA — Sally Ride"
+    },
+    {
+      "id": "his-tereshkova",
+      "category": "history",
+      "text": "Who was the first woman to travel into space, in 1963?",
+      "options": [
+        "Sally Ride",
+        "Mae Jemison",
+        "Valentina Tereshkova",
+        "Svetlana Savitskaya"
+      ],
+      "correctIndex": 2,
+      "source": "European Space Agency — Valentina Tereshkova"
+    },
+    {
+      "id": "his-mona-lisa",
+      "category": "history",
+      "text": "Who painted the Mona Lisa?",
+      "options": [
+        "Michelangelo",
+        "Raphael",
+        "Rembrandt",
+        "Leonardo da Vinci"
+      ],
+      "correctIndex": 3,
+      "source": "Musée du Louvre — Mona Lisa"
+    },
+    {
+      "id": "his-sistine",
+      "category": "history",
+      "text": "Who painted the ceiling of the Sistine Chapel?",
+      "options": [
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello"
+      ],
+      "correctIndex": 0,
+      "source": "Vatican Museums — Sistine Chapel"
+    },
+    {
+      "id": "his-starry-night",
+      "category": "history",
+      "text": "Who painted \"The Starry Night\"?",
+      "options": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Salvador Dalí"
+      ],
+      "correctIndex": 1,
+      "source": "The Museum of Modern Art — The Starry Night (1889)"
+    },
+    {
+      "id": "his-penicillin",
+      "category": "history",
+      "text": "Who discovered penicillin in 1928?",
+      "options": [
+        "Louis Pasteur",
+        "Marie Curie",
+        "Alexander Fleming",
+        "Edward Jenner"
+      ],
+      "correctIndex": 2,
+      "source": "The Nobel Prize — Alexander Fleming"
+    },
+    {
+      "id": "his-jenner",
+      "category": "history",
+      "text": "Who developed the first vaccine, against smallpox, in 1796?",
+      "options": [
+        "Louis Pasteur",
+        "Jonas Salk",
+        "Alexander Fleming",
+        "Edward Jenner"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Edward Jenner"
+    },
+    {
+      "id": "his-darwin",
+      "category": "history",
+      "text": "Who is famous for the theory of evolution by natural selection?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Mendel",
+        "Isaac Newton",
+        "Louis Pasteur"
+      ],
+      "correctIndex": 0,
+      "source": "Natural History Museum, London — Charles Darwin"
+    },
+    {
+      "id": "his-beagle",
+      "category": "history",
+      "text": "What was the name of the ship Charles Darwin sailed around the world on?",
+      "options": [
+        "HMS Endeavour",
+        "HMS Beagle",
+        "HMS Victory",
+        "HMS Bounty"
+      ],
+      "correctIndex": 1,
+      "source": "Natural History Museum, London — Darwin's voyage on the Beagle"
+    },
+    {
+      "id": "his-south-pole",
+      "category": "history",
+      "text": "Who led the first expedition to reach the South Pole, in 1911?",
+      "options": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton",
+        "Roald Amundsen",
+        "Edmund Hillary"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Roald Amundsen",
+      "fact": "Scott's team arrived about five weeks later."
+    },
+    {
+      "id": "his-everest-1953",
+      "category": "history",
+      "text": "Who were the first climbers confirmed to reach the summit of Mount Everest, in 1953?",
+      "options": [
+        "George Mallory and Andrew Irvine",
+        "Roald Amundsen and Robert Scott",
+        "Reinhold Messner and Peter Habeler",
+        "Edmund Hillary and Tenzing Norgay"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Mount Everest: climbing history"
+    },
+    {
+      "id": "his-magellan",
+      "category": "history",
+      "text": "Whose expedition was the first to sail all the way around the world (1519–1522)?",
+      "options": [
+        "Ferdinand Magellan's",
+        "Christopher Columbus's",
+        "Vasco da Gama's",
+        "James Cook's"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Ferdinand Magellan",
+      "fact": "Magellan died on the way; Juan Sebastián Elcano completed the voyage."
+    },
+    {
+      "id": "his-ancient-olympics",
+      "category": "history",
+      "text": "In which country did the ancient Olympic Games take place?",
+      "options": [
+        "Italy",
+        "Greece",
+        "Egypt",
+        "Turkey"
+      ],
+      "correctIndex": 1,
+      "source": "International Olympic Committee — Ancient Olympic Games"
+    },
+    {
+      "id": "his-hadrians-wall",
+      "category": "history",
+      "text": "What was the Roman wall across northern England called?",
+      "options": [
+        "The Antonine Wall",
+        "Offa's Dyke",
+        "Hadrian's Wall",
+        "The Great Wall"
+      ],
+      "correctIndex": 2,
+      "source": "English Heritage — Hadrian's Wall",
+      "fact": "The Antonine Wall was further north, in Scotland."
+    },
+    {
+      "id": "his-elizabeth-ii",
+      "category": "history",
+      "text": "Which British monarch reigned for 70 years, the longest of any?",
+      "options": [
+        "Victoria",
+        "Elizabeth I",
+        "George III",
+        "Elizabeth II"
+      ],
+      "correctIndex": 3,
+      "source": "The Royal Family — Queen Elizabeth II"
+    },
+    {
+      "id": "his-henry-viii",
+      "category": "history",
+      "text": "Which English king had six wives?",
+      "options": [
+        "Henry VIII",
+        "Henry V",
+        "Richard III",
+        "Edward VI"
+      ],
+      "correctIndex": 0,
+      "source": "Historic Royal Palaces — Henry VIII"
+    },
+    {
+      "id": "his-hastings",
+      "category": "history",
+      "text": "In which year was the Battle of Hastings?",
+      "options": [
+        "966",
+        "1066",
+        "1215",
+        "1415"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Battle of Hastings"
+    },
+    {
+      "id": "his-gandhi",
+      "category": "history",
+      "text": "Who led India's non-violent movement for independence from British rule?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Muhammad Ali Jinnah",
+        "Mahatma Gandhi",
+        "Indira Gandhi"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Mahatma Gandhi"
+    },
+    {
+      "id": "his-mandela",
+      "category": "history",
+      "text": "Who became South Africa's first democratically elected president, in 1994?",
+      "options": [
+        "Desmond Tutu",
+        "F.W. de Klerk",
+        "Thabo Mbeki",
+        "Nelson Mandela"
+      ],
+      "correctIndex": 3,
+      "source": "Nelson Mandela Foundation — Biography"
+    },
+    {
+      "id": "his-i-have-a-dream",
+      "category": "history",
+      "text": "Who gave the \"I Have a Dream\" speech in 1963?",
+      "options": [
+        "Martin Luther King Jr.",
+        "Malcolm X",
+        "John F. Kennedy",
+        "Frederick Douglass"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. National Archives — March on Washington"
+    },
+    {
+      "id": "his-rosa-parks",
+      "category": "history",
+      "text": "In 1955, Rosa Parks famously refused to give up her seat on a…",
+      "options": [
+        "Train",
+        "Bus",
+        "Plane",
+        "Ferry"
+      ],
+      "correctIndex": 1,
+      "source": "Library of Congress — Rosa Parks Papers"
+    },
+    {
+      "id": "his-titanic-built",
+      "category": "history",
+      "text": "In which city was the Titanic built?",
+      "options": [
+        "Southampton",
+        "Liverpool",
+        "Belfast",
+        "Glasgow"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Titanic",
+      "fact": "It set sail on its maiden voyage from Southampton."
+    },
+    {
+      "id": "his-da-gama",
+      "category": "history",
+      "text": "Which explorer was the first European to reach India by sea, in 1498?",
+      "options": [
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Marco Polo",
+        "Vasco da Gama"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Vasco da Gama"
+    },
+    {
+      "id": "his-marco-polo",
+      "category": "history",
+      "text": "Marco Polo famously travelled to the court of which ruler?",
+      "options": [
+        "Kublai Khan",
+        "Genghis Khan",
+        "Suleiman the Magnificent",
+        "Montezuma"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Marco Polo"
+    },
+    {
+      "id": "his-chichen-itza",
+      "category": "history",
+      "text": "Which civilisation built Chichén Itzá?",
+      "options": [
+        "The Aztecs",
+        "The Maya",
+        "The Inca",
+        "The Olmecs"
+      ],
+      "correctIndex": 1,
+      "source": "UNESCO World Heritage Centre — Pre-Hispanic City of Chichen-Itza"
+    },
+    {
+      "id": "his-tenochtitlan",
+      "category": "history",
+      "text": "The Aztec capital Tenochtitlan stood where which modern city is today?",
+      "options": [
+        "Lima",
+        "Cancún",
+        "Mexico City",
+        "Guatemala City"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Tenochtitlán"
+    },
+    {
+      "id": "his-inca",
+      "category": "history",
+      "text": "Which civilisation built Machu Picchu?",
+      "options": [
+        "The Aztecs",
+        "The Maya",
+        "The Olmecs",
+        "The Inca"
+      ],
+      "correctIndex": 3,
+      "source": "UNESCO World Heritage Centre — Historic Sanctuary of Machu Picchu"
+    },
+    {
+      "id": "his-columbia-shuttle",
+      "category": "history",
+      "text": "What was the first space shuttle to fly into space, in 1981?",
+      "options": [
+        "Columbia",
+        "Challenger",
+        "Discovery",
+        "Enterprise"
+      ],
+      "correctIndex": 0,
+      "source": "NASA — Space Shuttle Columbia",
+      "fact": "Enterprise was a test vehicle that never went to space."
+    },
+    {
+      "id": "his-apollo-13",
+      "category": "history",
+      "text": "Which Apollo mission radioed \"Houston, we've had a problem\"?",
+      "options": [
+        "Apollo 11",
+        "Apollo 13",
+        "Apollo 12",
+        "Apollo 1"
+      ],
+      "correctIndex": 1,
+      "source": "NASA — Apollo 13"
+    },
+    {
+      "id": "his-eagle-lander",
+      "category": "history",
+      "text": "What was the name of the Apollo 11 lunar module that landed on the Moon?",
+      "options": [
+        "Columbia",
+        "Falcon",
+        "Eagle",
+        "Snoopy"
+      ],
+      "correctIndex": 2,
+      "source": "NASA — Apollo 11 mission overview",
+      "fact": "Columbia was the command module that stayed in orbit."
+    },
+    {
+      "id": "his-eiffel-1889",
+      "category": "history",
+      "text": "In which year was the Eiffel Tower completed?",
+      "options": [
+        "1789",
+        "1900",
+        "1925",
+        "1889"
+      ],
+      "correctIndex": 3,
+      "source": "Official Eiffel Tower website (toureiffel.paris) — History",
+      "fact": "It was built for the 1889 World's Fair."
+    },
+    {
+      "id": "his-liberty-1886",
+      "category": "history",
+      "text": "In which year was the Statue of Liberty dedicated?",
+      "options": [
+        "1886",
+        "1776",
+        "1901",
+        "1920"
+      ],
+      "correctIndex": 0,
+      "source": "U.S. National Park Service — Statue of Liberty"
+    },
+    {
+      "id": "his-poseidon",
+      "category": "history",
+      "text": "Who was the Greek god of the sea?",
+      "options": [
+        "Zeus",
+        "Poseidon",
+        "Hades",
+        "Apollo"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Poseidon"
+    },
+    {
+      "id": "his-zeus",
+      "category": "history",
+      "text": "Who was king of the gods in Greek mythology?",
+      "options": [
+        "Poseidon",
+        "Apollo",
+        "Zeus",
+        "Ares"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Zeus"
+    },
+    {
+      "id": "his-thor",
+      "category": "history",
+      "text": "In Norse mythology, who is the god of thunder?",
+      "options": [
+        "Odin",
+        "Loki",
+        "Freyr",
+        "Thor"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Thor"
+    },
+    {
+      "id": "his-trojan-horse",
+      "category": "history",
+      "text": "According to legend, which army hid inside the Trojan Horse to get into Troy?",
+      "options": [
+        "The Greeks",
+        "The Romans",
+        "The Persians",
+        "The Egyptians"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Trojan horse"
+    },
+    {
+      "id": "his-endeavour",
+      "category": "history",
+      "text": "What was the name of Captain James Cook's ship on his first voyage, in 1768?",
+      "options": [
+        "HMS Beagle",
+        "HMS Endeavour",
+        "HMS Bounty",
+        "HMS Victory"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — James Cook"
+    },
+    {
+      "id": "his-olympia-zeus",
+      "category": "history",
+      "text": "The ancient Olympic Games were held in honour of which god?",
+      "options": [
+        "Apollo",
+        "Poseidon",
+        "Zeus",
+        "Athena"
+      ],
+      "correctIndex": 2,
+      "source": "International Olympic Committee — Ancient Olympic Games"
+    },
+    {
+      "id": "his-paper",
+      "category": "history",
+      "text": "In which country was paper first made?",
+      "options": [
+        "Egypt",
+        "Greece",
+        "Rome",
+        "China"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Paper",
+      "fact": "Ancient Egyptians wrote on papyrus, which is made differently."
+    },
+    {
+      "id": "his-anne-frank",
+      "category": "history",
+      "text": "Which Jewish girl wrote a famous diary while hiding in Amsterdam during World War II?",
+      "options": [
+        "Anne Frank",
+        "Malala Yousafzai",
+        "Helen Keller",
+        "Corrie ten Boom"
+      ],
+      "correctIndex": 0,
+      "source": "Anne Frank House — Anne Frank"
+    },
+    {
+      "id": "his-lindbergh",
+      "category": "history",
+      "text": "Who made the first solo, nonstop flight across the Atlantic, in 1927?",
+      "options": [
+        "Amelia Earhart",
+        "Charles Lindbergh",
+        "Orville Wright",
+        "Howard Hughes"
+      ],
+      "correctIndex": 1,
+      "source": "Smithsonian National Air and Space Museum — Spirit of St. Louis"
+    },
+    {
+      "id": "his-great-fire",
+      "category": "history",
+      "text": "In which year was the Great Fire of London?",
+      "options": [
+        "1066",
+        "1566",
+        "1666",
+        "1766"
+      ],
+      "correctIndex": 2,
+      "source": "Museum of London — The Great Fire of London"
+    },
+    {
+      "id": "his-black-death",
+      "category": "history",
+      "text": "The Black Death of the 1300s was an outbreak of which disease?",
+      "options": [
+        "Smallpox",
+        "Influenza",
+        "Cholera",
+        "Plague"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. Centers for Disease Control and Prevention — History of plague"
+    },
+    {
+      "id": "his-renaissance",
+      "category": "history",
+      "text": "In which country did the Renaissance begin?",
+      "options": [
+        "Italy",
+        "France",
+        "England",
+        "Spain"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Renaissance"
+    },
+    {
+      "id": "his-white-house-first",
+      "category": "history",
+      "text": "Who was the first U.S. president to live in the White House?",
+      "options": [
+        "George Washington",
+        "John Adams",
+        "Thomas Jefferson",
+        "James Madison"
+      ],
+      "correctIndex": 1,
+      "source": "White House Historical Association — John Adams",
+      "fact": "George Washington chose the site but never lived there."
+    },
+    {
+      "id": "his-thirteen-colonies",
+      "category": "history",
+      "text": "How many British colonies joined to form the original United States?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "50"
+      ],
+      "correctIndex": 2,
+      "source": "U.S. National Archives — The Declaration of Independence"
+    },
+    {
+      "id": "his-one-dollar",
+      "category": "history",
+      "text": "Whose portrait is on the U.S. one-dollar bill?",
+      "options": [
+        "Abraham Lincoln",
+        "Alexander Hamilton",
+        "Benjamin Franklin",
+        "George Washington"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. Bureau of Engraving and Printing — U.S. currency"
+    },
+    {
+      "id": "his-industrial-revolution",
+      "category": "history",
+      "text": "In which country did the Industrial Revolution begin?",
+      "options": [
+        "Great Britain",
+        "The United States",
+        "Germany",
+        "France"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Industrial Revolution"
+    },
+    {
+      "id": "his-www",
+      "category": "history",
+      "text": "Who invented the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Alan Turing"
+      ],
+      "correctIndex": 1,
+      "source": "CERN — The birth of the Web (1989)"
+    },
+    {
+      "id": "his-turing",
+      "category": "history",
+      "text": "Which mathematician helped break the Enigma code at Bletchley Park?",
+      "options": [
+        "Charles Babbage",
+        "Ada Lovelace",
+        "Alan Turing",
+        "Tim Berners-Lee"
+      ],
+      "correctIndex": 2,
+      "source": "Bletchley Park — Alan Turing"
+    },
+    {
+      "id": "his-lovelace",
+      "category": "history",
+      "text": "Who is often called the first computer programmer?",
+      "options": [
+        "Grace Hopper",
+        "Alan Turing",
+        "Charles Babbage",
+        "Ada Lovelace"
+      ],
+      "correctIndex": 3,
+      "source": "Science Museum, London — Ada Lovelace"
+    },
+    {
+      "id": "his-louvre",
+      "category": "history",
+      "text": "In which museum does the Mona Lisa hang?",
+      "options": [
+        "The Louvre",
+        "The Uffizi",
+        "The Prado",
+        "The British Museum"
+      ],
+      "correctIndex": 0,
+      "source": "Musée du Louvre — Mona Lisa"
+    },
+    {
+      "id": "his-khufu",
+      "category": "history",
+      "text": "Which pharaoh is believed to have built the Great Pyramid of Giza?",
+      "options": [
+        "Tutankhamun",
+        "Khufu",
+        "Ramesses II",
+        "Akhenaten"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Great Pyramid of Giza"
+    },
+    {
+      "id": "his-mesopotamia",
+      "category": "history",
+      "text": "Ancient Mesopotamia was mostly located in which modern country?",
+      "options": [
+        "Egypt",
+        "Greece",
+        "Iraq",
+        "India"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Mesopotamia"
+    },
+    {
+      "id": "wei-zebra-skin",
+      "category": "weird",
+      "text": "What colour is a zebra's skin underneath its stripes?",
+      "options": [
+        "White",
+        "Pink",
+        "Striped like its fur",
+        "Black"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian Magazine — How the zebra got its stripes"
+    },
+    {
+      "id": "wei-polar-bear-skin",
+      "category": "weird",
+      "text": "What colour is a polar bear's skin?",
+      "options": [
+        "Black",
+        "White",
+        "Pink",
+        "Clear"
+      ],
+      "correctIndex": 0,
+      "source": "Polar Bears International — Polar bear facts",
+      "fact": "Their fur hairs are actually transparent and hollow."
+    },
+    {
+      "id": "wei-rabbit-teeth",
+      "category": "weird",
+      "text": "Which of these animals has teeth that never stop growing?",
+      "options": [
+        "Cat",
+        "Rabbit",
+        "Dog",
+        "Human"
+      ],
+      "correctIndex": 1,
+      "source": "RSPCA — Rabbit teeth",
+      "fact": "Chewing hay keeps them worn down."
+    },
+    {
+      "id": "wei-ostrich-run",
+      "category": "weird",
+      "text": "Which bird can't fly but can run faster than a racehorse over short distances?",
+      "options": [
+        "Penguin",
+        "Kiwi",
+        "Ostrich",
+        "Dodo"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Ostrich",
+      "fact": "Ostriches can reach about 70 km/h (43 mph)."
+    },
+    {
+      "id": "wei-murder-crows",
+      "category": "weird",
+      "text": "What is a group of crows called?",
+      "options": [
+        "A gaggle",
+        "A pride",
+        "A school",
+        "A murder"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Murder (a group of crows)"
+    },
+    {
+      "id": "wei-parliament-owls",
+      "category": "weird",
+      "text": "What is a group of owls traditionally called?",
+      "options": [
+        "A parliament",
+        "A murder",
+        "A pod",
+        "A troop"
+      ],
+      "correctIndex": 0,
+      "source": "Merriam-Webster — Parliament"
+    },
+    {
+      "id": "wei-flamboyance",
+      "category": "weird",
+      "text": "What is a group of flamingos called?",
+      "options": [
+        "A flock of pink",
+        "A flamboyance",
+        "A blush",
+        "A fancy"
+      ],
+      "correctIndex": 1,
+      "source": "National Audubon Society — Flamingo facts"
+    },
+    {
+      "id": "wei-horse-sleep",
+      "category": "weird",
+      "text": "Horses can sleep while doing what?",
+      "options": [
+        "Swimming",
+        "Galloping",
+        "Standing up",
+        "Eating"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Horse",
+      "fact": "A special locking system in their legs keeps them upright."
+    },
+    {
+      "id": "wei-big-eyes",
+      "category": "weird",
+      "text": "Which animal has the largest eyes ever measured?",
+      "options": [
+        "Blue whale",
+        "Ostrich",
+        "Elephant",
+        "Colossal squid"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian Ocean — Giant and colossal squid",
+      "fact": "Each eye is about the size of a dinner plate."
+    },
+    {
+      "id": "wei-puffling",
+      "category": "weird",
+      "text": "What is a baby puffin called?",
+      "options": [
+        "A puffling",
+        "A pufflet",
+        "A puffkin",
+        "A chirpling"
+      ],
+      "correctIndex": 0,
+      "source": "National Audubon Society — Project Puffin"
+    },
+    {
+      "id": "wei-hoglet",
+      "category": "weird",
+      "text": "What is a baby hedgehog called?",
+      "options": [
+        "A pricklet",
+        "A hoglet",
+        "A puppy",
+        "A kit"
+      ],
+      "correctIndex": 1,
+      "source": "British Hedgehog Preservation Society — Hedgehog facts"
+    },
+    {
+      "id": "wei-shortest-war",
+      "category": "weird",
+      "text": "Roughly how long did the shortest war in history last (Britain vs Zanzibar, 1896)?",
+      "options": [
+        "About 4 days",
+        "About 4 weeks",
+        "Under an hour",
+        "About 4 months"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Anglo-Zanzibar War",
+      "fact": "Estimates range from about 38 to 45 minutes."
+    },
+    {
+      "id": "wei-first-webcam",
+      "category": "weird",
+      "text": "What was the first webcam set up to watch?",
+      "options": [
+        "A fish tank",
+        "A cat",
+        "A traffic light",
+        "A coffee pot"
+      ],
+      "correctIndex": 3,
+      "source": "University of Cambridge Computer Laboratory — The Trojan Room coffee pot"
+    },
+    {
+      "id": "wei-scotland-unicorn",
+      "category": "weird",
+      "text": "What is the national animal of Scotland?",
+      "options": [
+        "The unicorn",
+        "The lion",
+        "The red deer",
+        "The golden eagle"
+      ],
+      "correctIndex": 0,
+      "source": "Scottish Government / VisitScotland — Scotland's national animal"
+    },
+    {
+      "id": "wei-arachnophobia",
+      "category": "weird",
+      "text": "What is a fear of spiders called?",
+      "options": [
+        "Claustrophobia",
+        "Arachnophobia",
+        "Acrophobia",
+        "Agoraphobia"
+      ],
+      "correctIndex": 1,
+      "source": "NHS — Phobias"
+    },
+    {
+      "id": "wei-acrophobia",
+      "category": "weird",
+      "text": "What is a fear of heights called?",
+      "options": [
+        "Aerophobia",
+        "Claustrophobia",
+        "Acrophobia",
+        "Hydrophobia"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Acrophobia",
+      "fact": "Aerophobia is a fear of flying."
+    },
+    {
+      "id": "wei-q-states",
+      "category": "weird",
+      "text": "Which letter does not appear in the name of any U.S. state?",
+      "options": [
+        "Z",
+        "J",
+        "X",
+        "Q"
+      ],
+      "correctIndex": 3,
+      "source": "Check the 50 state names: Arizona has Z, New Jersey has J, Texas has X"
+    },
+    {
+      "id": "wei-common-letter",
+      "category": "weird",
+      "text": "Which letter is the most common in written English?",
+      "options": [
+        "E",
+        "A",
+        "T",
+        "S"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Letter frequency"
+    },
+    {
+      "id": "wei-googol",
+      "category": "weird",
+      "text": "What is a 'googol'?",
+      "options": [
+        "1 followed by 10 zeros",
+        "1 followed by 100 zeros",
+        "1 followed by 1,000 zeros",
+        "A million millions"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Googol",
+      "fact": "Google's name is a play on the word."
+    },
+    {
+      "id": "wei-tardigrade",
+      "category": "weird",
+      "text": "Which tiny animal has survived being exposed to outer space?",
+      "options": [
+        "The cockroach",
+        "The ant",
+        "The tardigrade",
+        "The jellyfish"
+      ],
+      "correctIndex": 2,
+      "source": "European Space Agency — Tardigrades survive exposure to space (2008)",
+      "fact": "They're also called water bears."
+    },
+    {
+      "id": "wei-chameleon-tongue",
+      "category": "weird",
+      "text": "Which reptile can shoot out a tongue longer than its own body?",
+      "options": [
+        "Iguana",
+        "Tortoise",
+        "Crocodile",
+        "Chameleon"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian's National Zoo — Chameleons"
+    },
+    {
+      "id": "wei-albatross",
+      "category": "weird",
+      "text": "Which bird has the largest wingspan of any living bird?",
+      "options": [
+        "Wandering albatross",
+        "Bald eagle",
+        "Andean condor",
+        "Pelican"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Albatross",
+      "fact": "Its wings can span more than 3 metres (11 feet)."
+    },
+    {
+      "id": "wei-bee-eyes",
+      "category": "weird",
+      "text": "How many eyes does a honeybee have?",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "8"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Honeybee",
+      "fact": "Two big compound eyes and three small simple eyes on top of the head."
+    },
+    {
+      "id": "wei-cow-stomach",
+      "category": "weird",
+      "text": "How many compartments does a cow's stomach have?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "7"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Ruminant"
+    },
+    {
+      "id": "wei-pluto-name",
+      "category": "weird",
+      "text": "Who suggested the name Pluto for the dwarf planet?",
+      "options": [
+        "An astronaut",
+        "A king",
+        "A newspaper editor",
+        "An 11-year-old schoolgirl"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Pluto",
+      "fact": "Venetia Burney of Oxford suggested it in 1930."
+    },
+    {
+      "id": "wei-first-space-animals",
+      "category": "weird",
+      "text": "What were the first animals deliberately sent into space, in 1947?",
+      "options": [
+        "Fruit flies",
+        "Dogs",
+        "Monkeys",
+        "Mice"
+      ],
+      "correctIndex": 0,
+      "source": "NASA — A brief history of animals in space"
+    },
+    {
+      "id": "wei-laika",
+      "category": "weird",
+      "text": "What kind of animal was Laika, the first animal to orbit Earth?",
+      "options": [
+        "A monkey",
+        "A dog",
+        "A cat",
+        "A mouse"
+      ],
+      "correctIndex": 1,
+      "source": "NASA — A brief history of animals in space"
+    },
+    {
+      "id": "wei-axolotl",
+      "category": "weird",
+      "text": "Which animal can regrow lost legs?",
+      "options": [
+        "Rabbit",
+        "Parrot",
+        "Axolotl",
+        "Goldfish"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Magazine — Axolotls and regeneration"
+    },
+    {
+      "id": "wei-lobster-legs",
+      "category": "weird",
+      "text": "How many legs does a lobster have?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "10"
+      ],
+      "correctIndex": 3,
+      "source": "NOAA Fisheries — American lobster",
+      "fact": "Lobsters are decapods, which means 'ten feet'."
+    },
+    {
+      "id": "wei-goat-pupils",
+      "category": "weird",
+      "text": "What shape are a goat's pupils?",
+      "options": [
+        "Rectangular",
+        "Round",
+        "Star-shaped",
+        "Heart-shaped"
+      ],
+      "correctIndex": 0,
+      "source": "Banks, Sprague, et al., Science Advances (2015) — Why do animal eyes have pupils of different shapes?"
+    },
+    {
+      "id": "wei-giraffe-tongue",
+      "category": "weird",
+      "text": "What colour is a giraffe's tongue?",
+      "options": [
+        "Pink",
+        "Dark blue-purple",
+        "Bright red",
+        "Green"
+      ],
+      "correctIndex": 1,
+      "source": "San Diego Zoo Wildlife Alliance — Giraffe"
+    },
+    {
+      "id": "wei-peanut",
+      "category": "weird",
+      "text": "Botanically, what is a peanut?",
+      "options": [
+        "A tree nut",
+        "A seed of a palm",
+        "A legume",
+        "A berry"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Peanut",
+      "fact": "Peanuts grow underground, like peas in a pod."
+    },
+    {
+      "id": "wei-play-doh",
+      "category": "weird",
+      "text": "Play-Doh was originally sold as what?",
+      "options": [
+        "Bread dough",
+        "Modelling clay for sculptors",
+        "Window putty",
+        "Wallpaper cleaner"
+      ],
+      "correctIndex": 3,
+      "source": "The Strong National Museum of Play — Play-Doh"
+    },
+    {
+      "id": "wei-bubble-wrap",
+      "category": "weird",
+      "text": "Bubble wrap was first invented as what?",
+      "options": [
+        "Wallpaper",
+        "Packaging",
+        "Insulation for space suits",
+        "A pool cover"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian Magazine — The history of Bubble Wrap"
+    },
+    {
+      "id": "wei-slinky",
+      "category": "weird",
+      "text": "The Slinky toy was invented by an engineer experimenting with springs for what?",
+      "options": [
+        "Car engines",
+        "Ship instruments",
+        "Clocks",
+        "Bed mattresses"
+      ],
+      "correctIndex": 1,
+      "source": "The Strong National Toy Hall of Fame — Slinky"
+    },
+    {
+      "id": "wei-popsicle",
+      "category": "weird",
+      "text": "Who invented the Popsicle, in 1905?",
+      "options": [
+        "An ice-cream company",
+        "A famous chef",
+        "An 11-year-old boy",
+        "A scientist"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Magazine — The Popsicle was invented by a kid",
+      "fact": "Frank Epperson left a cup of soda with a stirring stick outside on a cold night."
+    },
+    {
+      "id": "wei-tittle",
+      "category": "weird",
+      "text": "What is the dot on a lowercase 'i' or 'j' called?",
+      "options": [
+        "A jot",
+        "A speck",
+        "A dash",
+        "A tittle"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Tittle"
+    },
+    {
+      "id": "wei-aglet",
+      "category": "weird",
+      "text": "What is the plastic tip on the end of a shoelace called?",
+      "options": [
+        "An aglet",
+        "A ferrule",
+        "A tag",
+        "A nib"
+      ],
+      "correctIndex": 0,
+      "source": "Merriam-Webster — Aglet"
+    },
+    {
+      "id": "wei-octothorpe",
+      "category": "weird",
+      "text": "What is an unusual name for the # symbol?",
+      "options": [
+        "Ampersand",
+        "Octothorpe",
+        "Asterisk",
+        "Tilde"
+      ],
+      "correctIndex": 1,
+      "source": "Merriam-Webster — Octothorpe",
+      "fact": "An ampersand is &, an asterisk is *, and a tilde is ~."
+    },
+    {
+      "id": "wei-mudskipper",
+      "category": "weird",
+      "text": "Which fish can walk on land using its fins?",
+      "options": [
+        "Goldfish",
+        "Salmon",
+        "Mudskipper",
+        "Clownfish"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Ocean — Mudskippers"
+    },
+    {
+      "id": "wei-elephant-pregnancy",
+      "category": "weird",
+      "text": "Which land animal has the longest pregnancy, about 22 months?",
+      "options": [
+        "Giraffe",
+        "Rhinoceros",
+        "Hippopotamus",
+        "Elephant"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian's National Zoo — Asian elephant"
+    },
+    {
+      "id": "wei-sloth-algae",
+      "category": "weird",
+      "text": "Sloths move so slowly that what grows in their fur?",
+      "options": [
+        "Algae",
+        "Mushrooms",
+        "Grass",
+        "Flowers"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian Magazine — Sloths and the algae in their fur",
+      "fact": "The green tint helps them hide in the trees."
+    },
+    {
+      "id": "wei-ostrich-egg",
+      "category": "weird",
+      "text": "Which bird lays the largest eggs?",
+      "options": [
+        "Emu",
+        "Ostrich",
+        "Albatross",
+        "Swan"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Ostrich"
+    },
+    {
+      "id": "wei-hummingbird-egg",
+      "category": "weird",
+      "text": "Which bird lays the smallest eggs?",
+      "options": [
+        "Sparrow",
+        "Wren",
+        "Hummingbird",
+        "Finch"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Hummingbird"
+    },
+    {
+      "id": "wei-earth-name",
+      "category": "weird",
+      "text": "Which planet is the only one in our solar system not named after a god?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Uranus",
+        "Earth"
+      ],
+      "correctIndex": 3,
+      "source": "NASA Science — Earth"
+    },
+    {
+      "id": "wei-horseshoe-crab",
+      "category": "weird",
+      "text": "Which sea creature has bright blue blood?",
+      "options": [
+        "Horseshoe crab",
+        "Goldfish",
+        "Seahorse",
+        "Clownfish"
+      ],
+      "correctIndex": 0,
+      "source": "NOAA Fisheries — Horseshoe crab"
+    },
+    {
+      "id": "wei-black-box",
+      "category": "weird",
+      "text": "What colour is an aeroplane's 'black box' flight recorder?",
+      "options": [
+        "Black",
+        "Orange",
+        "Red",
+        "Yellow"
+      ],
+      "correctIndex": 1,
+      "source": "U.S. National Transportation Safety Board — Cockpit voice and flight data recorders",
+      "fact": "Bright orange makes it easier to find after an accident."
+    },
+    {
+      "id": "wei-nepal-flag",
+      "category": "weird",
+      "text": "Which country has a national flag that isn't rectangular?",
+      "options": [
+        "Bhutan",
+        "Japan",
+        "Nepal",
+        "Switzerland"
+      ],
+      "correctIndex": 2,
+      "source": "CIA World Factbook — Nepal flag",
+      "fact": "It's made of two stacked triangles. Switzerland's flag is square."
+    },
+    {
+      "id": "wei-joey-size",
+      "category": "weird",
+      "text": "A newborn kangaroo is about the size of a…",
+      "options": [
+        "Tennis ball",
+        "Kitten",
+        "Shoe",
+        "Jelly bean"
+      ],
+      "correctIndex": 3,
+      "source": "Australian Museum — Kangaroos"
+    },
+    {
+      "id": "wei-ostrich-eye",
+      "category": "weird",
+      "text": "Which bird has eyes bigger than its brain?",
+      "options": [
+        "Ostrich",
+        "Owl",
+        "Eagle",
+        "Parrot"
+      ],
+      "correctIndex": 0,
+      "source": "San Diego Zoo Wildlife Alliance — Ostrich"
+    },
+    {
+      "id": "wei-immortal-jelly",
+      "category": "weird",
+      "text": "Which sea creature can turn back into a younger form, earning the nickname 'immortal'?",
+      "options": [
+        "A shark",
+        "A jellyfish",
+        "A sea turtle",
+        "A lobster"
+      ],
+      "correctIndex": 1,
+      "source": "Smithsonian Ocean — The immortal jellyfish (Turritopsis dohrnii)"
+    },
+    {
+      "id": "wei-first-toothbrush",
+      "category": "weird",
+      "text": "Early toothbrush bristles were often made from what?",
+      "options": [
+        "Horse tails",
+        "Feathers",
+        "Pig hair",
+        "Grass"
+      ],
+      "correctIndex": 2,
+      "source": "Library of Congress — Who invented the toothbrush?"
+    },
+    {
+      "id": "wei-bread-eraser",
+      "category": "weird",
+      "text": "Before rubber erasers, what did people often use to rub out pencil marks?",
+      "options": [
+        "Cheese",
+        "Soap",
+        "Leaves",
+        "Bread"
+      ],
+      "correctIndex": 3,
+      "source": "Smithsonian Magazine — The history of the eraser"
+    },
+    {
+      "id": "wei-elephant-jump",
+      "category": "weird",
+      "text": "Which of these animals cannot jump?",
+      "options": [
+        "Elephant",
+        "Kangaroo",
+        "Cat",
+        "Frog"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian's National Zoo — Elephant facts"
+    },
+    {
+      "id": "wei-sea-star-stomach",
+      "category": "weird",
+      "text": "How does a sea star eat a clam?",
+      "options": [
+        "It bites with hidden teeth",
+        "It pushes its stomach out of its body",
+        "It sucks it up with its arms",
+        "It swallows the shell whole"
+      ],
+      "correctIndex": 1,
+      "source": "NOAA Ocean Service — Sea stars"
+    },
+    {
+      "id": "wei-shark-teeth",
+      "category": "weird",
+      "text": "How many teeth can a shark go through in its lifetime?",
+      "options": [
+        "About 50",
+        "About 200",
+        "Tens of thousands",
+        "Exactly 32"
+      ],
+      "correctIndex": 2,
+      "source": "Smithsonian Ocean — Sharks",
+      "fact": "Sharks shed and replace teeth constantly."
+    },
+    {
+      "id": "wei-strawberry-seeds",
+      "category": "weird",
+      "text": "Which fruit carries its seeds on the outside?",
+      "options": [
+        "Kiwi",
+        "Banana",
+        "Orange",
+        "Strawberry"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Strawberry"
+    },
+    {
+      "id": "wei-turnip-lanterns",
+      "category": "weird",
+      "text": "Before pumpkins, what did people in Ireland carve into jack-o'-lanterns?",
+      "options": [
+        "Turnips",
+        "Potatoes",
+        "Apples",
+        "Carrots"
+      ],
+      "correctIndex": 0,
+      "source": "Smithsonian Magazine — The history of the jack-o'-lantern"
+    },
+    {
+      "id": "wei-purple-carrots",
+      "category": "weird",
+      "text": "What colour were the first cultivated carrots?",
+      "options": [
+        "Orange",
+        "Purple or yellow",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Carrot",
+      "fact": "Orange carrots became popular much later."
+    },
+    {
+      "id": "wei-enceladus",
+      "category": "weird",
+      "text": "Saturn's moon Enceladus sprays giant jets of what into space?",
+      "options": [
+        "Lava",
+        "Sand",
+        "Water ice and vapour",
+        "Oil"
+      ],
+      "correctIndex": 2,
+      "source": "NASA Science — Enceladus"
+    },
+    {
+      "id": "wei-mars-sunset",
+      "category": "weird",
+      "text": "What colour do sunsets look on Mars?",
+      "options": [
+        "Red",
+        "Green",
+        "Purple",
+        "Blue"
+      ],
+      "correctIndex": 3,
+      "source": "NASA — Curiosity rover images of a Martian sunset"
+    },
+    {
+      "id": "wei-moon-footprints",
+      "category": "weird",
+      "text": "Why could astronauts' footprints on the Moon last for millions of years?",
+      "options": [
+        "There's no wind or water to wear them away",
+        "Moon dust is sticky",
+        "Robots guard them",
+        "They're frozen solid"
+      ],
+      "correctIndex": 0,
+      "source": "NASA — Apollo landing sites"
+    },
+    {
+      "id": "wei-drive-to-space",
+      "category": "weird",
+      "text": "If you could drive straight up at highway speed (about 100 km/h), roughly how long would it take to reach space?",
+      "options": [
+        "About a minute",
+        "About an hour",
+        "About a day",
+        "About a week"
+      ],
+      "correctIndex": 1,
+      "source": "FAI — The Kármán line (100 km); 100 km ÷ 100 km/h"
+    },
+    {
+      "id": "wei-earths-in-sun",
+      "category": "weird",
+      "text": "Roughly how many Earths could fit inside the Sun?",
+      "options": [
+        "About 100",
+        "About 1,000",
+        "About 1.3 million",
+        "About 1 billion"
+      ],
+      "correctIndex": 2,
+      "source": "NASA Science — The Sun"
+    },
+    {
+      "id": "wei-fresh-water",
+      "category": "weird",
+      "text": "Roughly what share of Earth's water is fresh water?",
+      "options": [
+        "About 30%",
+        "About 50%",
+        "About 70%",
+        "About 3%"
+      ],
+      "correctIndex": 3,
+      "source": "U.S. Geological Survey — Where is Earth's water?"
+    },
+    {
+      "id": "wei-great-wall-moon",
+      "category": "weird",
+      "text": "Can you see the Great Wall of China from the Moon with the naked eye?",
+      "options": [
+        "No",
+        "Yes, easily",
+        "Only at night",
+        "Only in winter"
+      ],
+      "correctIndex": 0,
+      "source": "NASA — Great Wall of China from space"
+    },
+    {
+      "id": "wei-bats-sleep",
+      "category": "weird",
+      "text": "How do most bats sleep?",
+      "options": [
+        "Standing up",
+        "Hanging upside down",
+        "Floating in water",
+        "Curled in nests on the ground"
+      ],
+      "correctIndex": 1,
+      "source": "Bat Conservation International — Bat facts"
+    },
+    {
+      "id": "wei-densest-fur",
+      "category": "weird",
+      "text": "Which animal has the densest fur of any animal?",
+      "options": [
+        "Polar bear",
+        "Arctic fox",
+        "Sea otter",
+        "Musk ox"
+      ],
+      "correctIndex": 2,
+      "source": "Monterey Bay Aquarium — Sea otters",
+      "fact": "Up to a million hairs per square inch."
+    },
+    {
+      "id": "wei-murmuration",
+      "category": "weird",
+      "text": "What is a 'murmuration'?",
+      "options": [
+        "A group of whispering people",
+        "A school of fish",
+        "A type of cloud",
+        "A huge swirling flock of starlings"
+      ],
+      "correctIndex": 3,
+      "source": "RSPB — Starling murmurations"
+    },
+    {
+      "id": "wei-venus-backwards",
+      "category": "weird",
+      "text": "On which planet does the Sun rise in the west?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correctIndex": 0,
+      "source": "NASA Science — Venus",
+      "fact": "Venus spins in the opposite direction to most planets."
+    },
+    {
+      "id": "gen-pentagon",
+      "category": "general",
+      "text": "How many sides does a pentagon have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Polygon"
+    },
+    {
+      "id": "gen-hours-week",
+      "category": "general",
+      "text": "How many hours are in a week?",
+      "options": [
+        "148",
+        "160",
+        "168",
+        "186"
+      ],
+      "correctIndex": 2,
+      "source": "Arithmetic: 7 days × 24 hours"
+    },
+    {
+      "id": "gen-seconds-hour",
+      "category": "general",
+      "text": "How many seconds are in an hour?",
+      "options": [
+        "360",
+        "1,440",
+        "6,000",
+        "3,600"
+      ],
+      "correctIndex": 3,
+      "source": "Arithmetic: 60 minutes × 60 seconds"
+    },
+    {
+      "id": "gen-weeks-year",
+      "category": "general",
+      "text": "About how many weeks are in a year?",
+      "options": [
+        "52",
+        "48",
+        "50",
+        "56"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Year"
+    },
+    {
+      "id": "gen-chessboard",
+      "category": "general",
+      "text": "How many squares are on a chessboard?",
+      "options": [
+        "49",
+        "64",
+        "81",
+        "100"
+      ],
+      "correctIndex": 1,
+      "source": "FIDE — Laws of Chess"
+    },
+    {
+      "id": "gen-die-opposite",
+      "category": "general",
+      "text": "On a standard die, the numbers on opposite faces always add up to what?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "12"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Dice"
+    },
+    {
+      "id": "gen-deck",
+      "category": "general",
+      "text": "How many cards are in a standard deck, not counting jokers?",
+      "options": [
+        "50",
+        "54",
+        "56",
+        "52"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Playing card"
+    },
+    {
+      "id": "gen-suits",
+      "category": "general",
+      "text": "How many suits are in a standard deck of cards?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "6"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Playing card"
+    },
+    {
+      "id": "gen-roman-x",
+      "category": "general",
+      "text": "What is the Roman numeral for 10?",
+      "options": [
+        "V",
+        "X",
+        "L",
+        "C"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Roman numerals"
+    },
+    {
+      "id": "gen-roman-c",
+      "category": "general",
+      "text": "What number does the Roman numeral C stand for?",
+      "options": [
+        "50",
+        "500",
+        "100",
+        "1,000"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Roman numerals"
+    },
+    {
+      "id": "gen-12x12",
+      "category": "general",
+      "text": "What is 12 × 12?",
+      "options": [
+        "124",
+        "132",
+        "154",
+        "144"
+      ],
+      "correctIndex": 3,
+      "source": "Arithmetic"
+    },
+    {
+      "id": "gen-15-percent",
+      "category": "general",
+      "text": "What is 15% of 200?",
+      "options": [
+        "30",
+        "15",
+        "20",
+        "35"
+      ],
+      "correctIndex": 0,
+      "source": "Arithmetic"
+    },
+    {
+      "id": "gen-cm-metre",
+      "category": "general",
+      "text": "How many centimetres are in a metre?",
+      "options": [
+        "10",
+        "100",
+        "12",
+        "1,000"
+      ],
+      "correctIndex": 1,
+      "source": "NIST — SI units"
+    },
+    {
+      "id": "gen-grams-kg",
+      "category": "general",
+      "text": "How many grams are in a kilogram?",
+      "options": [
+        "10",
+        "100",
+        "1,000",
+        "10,000"
+      ],
+      "correctIndex": 2,
+      "source": "NIST — SI units"
+    },
+    {
+      "id": "gen-inches-foot",
+      "category": "general",
+      "text": "How many inches are in a foot?",
+      "options": [
+        "6",
+        "10",
+        "16",
+        "12"
+      ],
+      "correctIndex": 3,
+      "source": "NIST — U.S. customary units"
+    },
+    {
+      "id": "gen-feet-yard",
+      "category": "general",
+      "text": "How many feet are in a yard?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "12"
+      ],
+      "correctIndex": 0,
+      "source": "NIST — U.S. customary units"
+    },
+    {
+      "id": "gen-century",
+      "category": "general",
+      "text": "How many years are in a century?",
+      "options": [
+        "10",
+        "100",
+        "50",
+        "1,000"
+      ],
+      "correctIndex": 1,
+      "source": "Merriam-Webster — Century"
+    },
+    {
+      "id": "gen-millennium",
+      "category": "general",
+      "text": "How long is a millennium?",
+      "options": [
+        "100 years",
+        "10,000 years",
+        "1,000 years",
+        "1 million years"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Millennium"
+    },
+    {
+      "id": "gen-palindrome",
+      "category": "general",
+      "text": "What is a word that reads the same backwards and forwards, like 'racecar', called?",
+      "options": [
+        "An anagram",
+        "An acronym",
+        "A homophone",
+        "A palindrome"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Palindrome"
+    },
+    {
+      "id": "gen-anagram-listen",
+      "category": "general",
+      "text": "Which of these words is an anagram of 'listen'?",
+      "options": [
+        "Silent",
+        "Lessen",
+        "Linens",
+        "Tinted"
+      ],
+      "correctIndex": 0,
+      "source": "Merriam-Webster — Anagram"
+    },
+    {
+      "id": "gen-sunrise",
+      "category": "general",
+      "text": "In which direction does the Sun rise?",
+      "options": [
+        "West",
+        "East",
+        "North",
+        "South"
+      ],
+      "correctIndex": 1,
+      "source": "NOAA — Sunrise and sunset"
+    },
+    {
+      "id": "gen-red-white",
+      "category": "general",
+      "text": "What colour do you get by mixing red and white paint?",
+      "options": [
+        "Purple",
+        "Orange",
+        "Pink",
+        "Brown"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Colour mixing"
+    },
+    {
+      "id": "gen-blue-red",
+      "category": "general",
+      "text": "What colour do you get by mixing blue and red paint?",
+      "options": [
+        "Green",
+        "Orange",
+        "Brown",
+        "Purple"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Colour mixing"
+    },
+    {
+      "id": "gen-first-30-day-month",
+      "category": "general",
+      "text": "Which is the first month of the year with exactly 30 days?",
+      "options": [
+        "April",
+        "June",
+        "September",
+        "November"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Gregorian calendar"
+    },
+    {
+      "id": "gen-no-corners",
+      "category": "general",
+      "text": "Which shape has no corners?",
+      "options": [
+        "Square",
+        "Circle",
+        "Triangle",
+        "Pentagon"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Circle"
+    },
+    {
+      "id": "gen-mice",
+      "category": "general",
+      "text": "What is the plural of 'mouse' (the animal)?",
+      "options": [
+        "Mouses",
+        "Meese",
+        "Mice",
+        "Mices"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Mouse"
+    },
+    {
+      "id": "gen-geese",
+      "category": "general",
+      "text": "What is the plural of 'goose'?",
+      "options": [
+        "Gooses",
+        "Geeses",
+        "Goosen",
+        "Geese"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Goose"
+    },
+    {
+      "id": "gen-thermometer",
+      "category": "general",
+      "text": "Which instrument measures temperature?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Speedometer",
+        "Odometer"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Thermometer"
+    },
+    {
+      "id": "gen-guacamole",
+      "category": "general",
+      "text": "What is the main ingredient in guacamole?",
+      "options": [
+        "Peas",
+        "Avocado",
+        "Cucumber",
+        "Green peppers"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Guacamole"
+    },
+    {
+      "id": "gen-hummus",
+      "category": "general",
+      "text": "What is the main ingredient in hummus?",
+      "options": [
+        "Lentils",
+        "Peanuts",
+        "Chickpeas",
+        "Potatoes"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Hummus"
+    },
+    {
+      "id": "gen-pizza",
+      "category": "general",
+      "text": "Which country is pizza originally from?",
+      "options": [
+        "Greece",
+        "United States",
+        "France",
+        "Italy"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Pizza"
+    },
+    {
+      "id": "gen-tofu",
+      "category": "general",
+      "text": "Tofu is made from which beans?",
+      "options": [
+        "Soybeans",
+        "Kidney beans",
+        "Black beans",
+        "Coffee beans"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Tofu"
+    },
+    {
+      "id": "gen-marzipan",
+      "category": "general",
+      "text": "Which nut is used to make marzipan?",
+      "options": [
+        "Walnut",
+        "Almond",
+        "Cashew",
+        "Hazelnut"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Marzipan"
+    },
+    {
+      "id": "gen-saffron",
+      "category": "general",
+      "text": "Which spice is the most expensive by weight?",
+      "options": [
+        "Vanilla",
+        "Cinnamon",
+        "Saffron",
+        "Black pepper"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Saffron",
+      "fact": "Each flower gives just three tiny threads, picked by hand."
+    },
+    {
+      "id": "gen-popcorn",
+      "category": "general",
+      "text": "Popcorn is made from which grain?",
+      "options": [
+        "Rice",
+        "Wheat",
+        "Oats",
+        "Corn"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Popcorn"
+    },
+    {
+      "id": "gen-yeast",
+      "category": "general",
+      "text": "What makes ordinary bread dough rise?",
+      "options": [
+        "Yeast",
+        "Salt",
+        "Sugar",
+        "Butter"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Bread"
+    },
+    {
+      "id": "gen-raisins",
+      "category": "general",
+      "text": "Raisins are dried what?",
+      "options": [
+        "Plums",
+        "Grapes",
+        "Figs",
+        "Dates"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Raisin"
+    },
+    {
+      "id": "gen-prunes",
+      "category": "general",
+      "text": "Prunes are dried what?",
+      "options": [
+        "Grapes",
+        "Apricots",
+        "Plums",
+        "Figs"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Prune"
+    },
+    {
+      "id": "gen-emerald",
+      "category": "general",
+      "text": "What colour is an emerald?",
+      "options": [
+        "Red",
+        "Blue",
+        "Purple",
+        "Green"
+      ],
+      "correctIndex": 3,
+      "source": "Gemological Institute of America — Emerald"
+    },
+    {
+      "id": "gen-april-stone",
+      "category": "general",
+      "text": "What is the traditional birthstone for April?",
+      "options": [
+        "Diamond",
+        "Ruby",
+        "Emerald",
+        "Sapphire"
+      ],
+      "correctIndex": 0,
+      "source": "Gemological Institute of America — Birthstones by month"
+    },
+    {
+      "id": "gen-pearl",
+      "category": "general",
+      "text": "Which gem is formed inside an oyster or mussel?",
+      "options": [
+        "Opal",
+        "Pearl",
+        "Amber",
+        "Topaz"
+      ],
+      "correctIndex": 1,
+      "source": "Gemological Institute of America — Pearl"
+    },
+    {
+      "id": "gen-amber",
+      "category": "general",
+      "text": "Amber is fossilised what?",
+      "options": [
+        "Honey",
+        "Flower nectar",
+        "Tree resin",
+        "Dinosaur eggs"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Amber"
+    },
+    {
+      "id": "gen-thirteen",
+      "category": "general",
+      "text": "Which number is considered unlucky in many Western cultures?",
+      "options": [
+        "4",
+        "7",
+        "9",
+        "13"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Triskaidekaphobia",
+      "fact": "In parts of East Asia, 4 is considered unlucky instead."
+    },
+    {
+      "id": "gen-million-zeros",
+      "category": "general",
+      "text": "How many zeros are in one million?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "9"
+      ],
+      "correctIndex": 0,
+      "source": "Arithmetic: 1,000,000"
+    },
+    {
+      "id": "gen-billion-zeros",
+      "category": "general",
+      "text": "How many zeros are in one billion (a thousand million)?",
+      "options": [
+        "6",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctIndex": 1,
+      "source": "Arithmetic: 1,000,000,000"
+    },
+    {
+      "id": "gen-sqrt-81",
+      "category": "general",
+      "text": "What is the square root of 81?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "18"
+      ],
+      "correctIndex": 2,
+      "source": "Arithmetic"
+    },
+    {
+      "id": "gen-7x8",
+      "category": "general",
+      "text": "What is 7 × 8?",
+      "options": [
+        "54",
+        "63",
+        "64",
+        "56"
+      ],
+      "correctIndex": 3,
+      "source": "Arithmetic"
+    },
+    {
+      "id": "gen-prime",
+      "category": "general",
+      "text": "Which of these is a prime number?",
+      "options": [
+        "13",
+        "15",
+        "21",
+        "27"
+      ],
+      "correctIndex": 0,
+      "source": "Arithmetic: 13 has no factors other than 1 and itself"
+    },
+    {
+      "id": "gen-right-angle",
+      "category": "general",
+      "text": "How many degrees are in a right angle?",
+      "options": [
+        "45",
+        "90",
+        "180",
+        "360"
+      ],
+      "correctIndex": 1,
+      "source": "Encyclopaedia Britannica — Right angle"
+    },
+    {
+      "id": "gen-circle-degrees",
+      "category": "general",
+      "text": "How many degrees are in a full circle?",
+      "options": [
+        "100",
+        "180",
+        "360",
+        "400"
+      ],
+      "correctIndex": 2,
+      "source": "Encyclopaedia Britannica — Degree (angle)"
+    },
+    {
+      "id": "gen-triangle-angles",
+      "category": "general",
+      "text": "The three angles of a triangle always add up to how many degrees?",
+      "options": [
+        "90",
+        "270",
+        "360",
+        "180"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Triangle"
+    },
+    {
+      "id": "gen-fibonacci",
+      "category": "general",
+      "text": "What comes next: 1, 1, 2, 3, 5, 8, …?",
+      "options": [
+        "13",
+        "11",
+        "12",
+        "16"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Fibonacci sequence",
+      "fact": "Each number is the sum of the two before it."
+    },
+    {
+      "id": "gen-bonjour",
+      "category": "general",
+      "text": "In which language does 'bonjour' mean hello?",
+      "options": [
+        "Spanish",
+        "French",
+        "Italian",
+        "Portuguese"
+      ],
+      "correctIndex": 1,
+      "source": "Merriam-Webster — Bonjour"
+    },
+    {
+      "id": "gen-gracias",
+      "category": "general",
+      "text": "What does the Spanish word 'gracias' mean?",
+      "options": [
+        "Please",
+        "Goodbye",
+        "Thank you",
+        "Hello"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Gracias"
+    },
+    {
+      "id": "gen-danke",
+      "category": "general",
+      "text": "'Danke' means thank you in which language?",
+      "options": [
+        "Dutch",
+        "Swedish",
+        "Polish",
+        "German"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — German language"
+    },
+    {
+      "id": "gen-arigato",
+      "category": "general",
+      "text": "What does the Japanese word 'arigatō' mean?",
+      "options": [
+        "Thank you",
+        "Hello",
+        "Goodbye",
+        "Sorry"
+      ],
+      "correctIndex": 0,
+      "source": "Encyclopaedia Britannica — Japanese language"
+    },
+    {
+      "id": "gen-mandarin",
+      "category": "general",
+      "text": "Which language has the most native speakers in the world?",
+      "options": [
+        "English",
+        "Mandarin Chinese",
+        "Spanish",
+        "Hindi"
+      ],
+      "correctIndex": 1,
+      "source": "Ethnologue — Languages with the most native speakers"
+    },
+    {
+      "id": "gen-tripod",
+      "category": "general",
+      "text": "How many legs does a tripod have?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "correctIndex": 2,
+      "source": "Merriam-Webster — Tripod"
+    },
+    {
+      "id": "gen-baby-goat",
+      "category": "general",
+      "text": "What is a baby goat called?",
+      "options": [
+        "A calf",
+        "A foal",
+        "A cub",
+        "A kid"
+      ],
+      "correctIndex": 3,
+      "source": "Merriam-Webster — Kid"
+    },
+    {
+      "id": "gen-foal",
+      "category": "general",
+      "text": "What is a baby horse called?",
+      "options": [
+        "A foal",
+        "A calf",
+        "A kid",
+        "A joey"
+      ],
+      "correctIndex": 0,
+      "source": "Merriam-Webster — Foal"
+    },
+    {
+      "id": "gen-cygnet",
+      "category": "general",
+      "text": "What is a baby swan called?",
+      "options": [
+        "A gosling",
+        "A cygnet",
+        "A duckling",
+        "A squab"
+      ],
+      "correctIndex": 1,
+      "source": "RSPB — Mute swan",
+      "fact": "A gosling is a baby goose."
+    },
+    {
+      "id": "gen-owlet",
+      "category": "general",
+      "text": "What is a baby owl called?",
+      "options": [
+        "A hootling",
+        "A chickling",
+        "An owlet",
+        "A fledgeling owl"
+      ],
+      "correctIndex": 2,
+      "source": "RSPB — Owls"
+    },
+    {
+      "id": "gen-light-primaries",
+      "category": "general",
+      "text": "Which of these is NOT a primary colour of light?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "correctIndex": 3,
+      "source": "Encyclopaedia Britannica — Additive colour mixing",
+      "fact": "Screens make every colour from red, green and blue light."
+    },
+    {
+      "id": "gen-homophone",
+      "category": "general",
+      "text": "What is a word that sounds the same as another but means something different, like 'there' and 'their'?",
+      "options": [
+        "A homophone",
+        "A synonym",
+        "An antonym",
+        "A palindrome"
+      ],
+      "correctIndex": 0,
+      "source": "Merriam-Webster — Homophone"
+    },
+    {
+      "id": "gen-synonym-happy",
+      "category": "general",
+      "text": "Which word is a synonym for 'happy'?",
+      "options": [
+        "Gloomy",
+        "Joyful",
+        "Angry",
+        "Tired"
+      ],
+      "correctIndex": 1,
+      "source": "Merriam-Webster Thesaurus — Happy"
+    },
+    {
+      "id": "gen-monopoly",
+      "category": "general",
+      "text": "In the original U.S. edition of Monopoly, which is the most expensive property?",
+      "options": [
+        "Park Place",
+        "Marvin Gardens",
+        "Boardwalk",
+        "Atlantic Avenue"
+      ],
+      "correctIndex": 2,
+      "source": "Hasbro — Monopoly",
+      "fact": "In the UK edition it's Mayfair."
+    },
+    {
+      "id": "gen-scrabble-board",
+      "category": "general",
+      "text": "How many squares wide is a standard Scrabble board?",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "15"
+      ],
+      "correctIndex": 3,
+      "source": "Hasbro — Scrabble rules"
+    },
+    {
+      "id": "gen-scrabble-q",
+      "category": "general",
+      "text": "In English-language Scrabble, how many points is the letter Q worth?",
+      "options": [
+        "10",
+        "5",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "source": "Hasbro — Scrabble rules",
+      "fact": "Z is also worth 10."
+    },
+    {
+      "id": "gen-chess-pieces",
+      "category": "general",
+      "text": "How many pieces does each player start with in chess?",
+      "options": [
+        "12",
+        "16",
+        "18",
+        "20"
+      ],
+      "correctIndex": 1,
+      "source": "FIDE — Laws of Chess"
+    },
+    {
+      "id": "gen-die-total",
+      "category": "general",
+      "text": "What do all the dots on a standard six-sided die add up to?",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24"
+      ],
+      "correctIndex": 2,
+      "source": "Arithmetic: 1 + 2 + 3 + 4 + 5 + 6"
     }
   ]
 }
