@@ -4,16 +4,16 @@ import { QUESTIONS, validateQuestionBank } from "../../shared/questions";
 import bank from "../../shared/data/questions.json";
 
 describe("question bank", () => {
-  it("has at least 100 valid questions", () => {
+  it("has at least 600 valid questions (the spec requires 100)", () => {
     const { errors, questions } = validateQuestionBank(bank);
     expect(errors).toEqual([]);
-    expect(questions.length).toBeGreaterThanOrEqual(100);
+    expect(questions.length).toBeGreaterThanOrEqual(600);
     expect(QUESTIONS.length).toBe(questions.length);
   });
 
-  it("covers every category with enough questions for a 20-round game per category", () => {
+  it("covers every category with plenty of questions for repeated 20-round games", () => {
     for (const c of CATEGORIES) {
-      expect(QUESTIONS.filter((q) => q.category === c).length, c).toBeGreaterThanOrEqual(15);
+      expect(QUESTIONS.filter((q) => q.category === c).length, c).toBeGreaterThanOrEqual(80);
     }
   });
 

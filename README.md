@@ -96,7 +96,7 @@ See `.env.example`. Deployment steps are in [docs/DEPLOYMENT.md](docs/DEPLOYMENT
 
 ## Questions
 
-`shared/data/questions.json` holds 119 family-friendly questions across Science & Nature, Sports, Movies & Entertainment, Geography, History, Weird Facts and General Knowledge. Each one has four options, one correct answer, a source reference, and usually a fun fact shown at the reveal. The bank only ever ships inside the Worker. The browser bundle doesn't contain it, so answers can't be read from the frontend code. To add your own questions, see [docs/QUESTIONS.md](docs/QUESTIONS.md).
+`shared/data/questions.json` holds 619 family-friendly questions (roughly 88 each) across Science & Nature, Sports, Movies & Entertainment, Geography, History, Weird Facts and General Knowledge. Each one has four options, one correct answer, a source reference, and usually a fun fact shown at the reveal. The bank only ever ships inside the Worker. The browser bundle doesn't contain it, so answers can't be read from the frontend code. To add your own questions, see [docs/QUESTIONS.md](docs/QUESTIONS.md).
 
 ---
 
@@ -106,10 +106,10 @@ See `.env.example`. Deployment steps are in [docs/DEPLOYMENT.md](docs/DEPLOYMENT
 npm test
 ```
 
-That runs 58 Vitest tests covering:
+That runs 59 Vitest tests covering:
 
 - **Chip maths** (`tests/unit/scoring.test.ts`): wager limits and steps, the worked example, zero and all-in wagers, abstentions, round allowances, broke players, no negative balances, tied rankings, highlights and awards.
-- **Question bank** (`tests/unit/questions.test.ts`): at least 100 questions, every category covered, four distinct options, one answer, a source each, and helpful validation errors.
+- **Question bank** (`tests/unit/questions.test.ts`): at least 600 questions, at least 80 in every category, four distinct options, one answer, a source each, and helpful validation errors.
 - **The room server** (`tests/integration/room.test.ts`): the real `RoomCore` driven through fake sockets, storage and alarms. It covers lobby rules, host-only controls, random questions that never repeat, private bets, editing then locking, idempotent locks, auto-close, timeouts that finalise the last valid draft, abstentions, late, stale and unauthorized submissions, disconnected players, wagers revealed before answers, **chips applied exactly once despite replays, repeated alarms and hibernation**, skips, pause and resume, ties, game end, rematch, reconnection, host and TV refresh, token and answer leak scans, and room isolation.
 - **The Worker router** (`tests/integration/worker.test.ts`): the real `GameRoom` Durable Object class against in-memory storage. It covers room-code collisions, info lookups and the origin allow-list.
 
@@ -138,7 +138,7 @@ shared/              Code used by the server and (types/constants only) the brow
   protocol.ts        zod-validated WebSocket messages
   views.ts           Client-facing projection types (all that's ever sent to browsers)
   questions.ts       Question bank loader + validator (server only)
-  data/questions.json  119 trivia questions with sources (see docs/QUESTIONS.md)
+  data/questions.json  619 trivia questions with sources (see docs/QUESTIONS.md)
   engine/
     engine.ts        Authoritative state machine (pure: time + randomness injected)
     scoring.ts       Wager validation, settling bets, rankings, highlights, awards
