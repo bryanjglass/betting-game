@@ -1,11 +1,16 @@
 /**
  * The authoritative game state machine.
  *
- *   lobby → betting ─(all locked | timer | host)→ wagerReveal ─(host)→ answerReveal ─(host)→ scoreboard
- *             ▲  │ skip (new question, same round)                                            │
- *             │  └──────────────┘                                                             │
- *             └──────────────────────────── (host: next round) ───────────────────────────────┤
- *                                                                  (host, after final round) ─┴→ gameOver ─rematch→ betting | lobby
+ *   lobby → betting ─(all locked | timer)→ wagerReveal ─(timer)→ answerReveal ─(timer)→ scoreboard
+ *             ▲  │ skip (new question, same round)                                         │
+ *             │  └──────────────┘                                                          │
+ *             └────────────────────────── (timer: next round) ─────────────────────────────┤
+ *                                                               (timer, after final round) ─┴→ gameOver ─rematch→ betting | lobby
+ *
+ * Hands-free: once the host presses Start, every in-game phase is timed by the
+ * server and the game plays through to gameOver with no further host input.
+ * The host may still skip ahead (`advance`), skip a question, or pause/resume
+ * at any point. gameOver waits for the host to start a rematch.
  *
  * All functions are pure with respect to I/O: time and randomness are injected
  * through EngineContext, and state is mutated in place only after an action
@@ -18,7 +23,7 @@
  *  - Correct answer: +wager. Wrong answer: −wager. No answer: no wager.
  *  - Balances are only changed once per round, on entering the answer reveal.
  */
-import { CATEGORIES, CHIPS, DEFAULT_CONFIG, LIMITS, ROUND_OPTIONS, TIMER_OPTIONS, type Category } from "../constants";
+import { CATEGORIES, CHIPS, DEFAULT_CONFIG, LIMITS, PHASE_TIMING, ROUND_OPTIONS, TIMER_OPTIONS, type Category } from "../constants";
 import type { Action, ConfigPatch, ErrorCode } from "../protocol";
 import type { GameConfig } from "../views";
 import { randomId, shuffle, type RandomSource } from "./random";
@@ -146,8 +151,8 @@ export function setPresence(state: GameState, playerId: string, connected: boole
 // Timers
 // ---------------------------------------------------------------------------
 
-function setPhaseTimer(state: GameState, seconds: number, now: number) {
-  const ms = seconds * 1000;
+/** Start the current phase's countdown. While the host has paused, it starts frozen. */
+function setPhaseTimer(state: GameState, ms: number, now: number) {
   state.timer = state.paused
     ? { deadline: null, pausedRemainingMs: ms, durationMs: ms }
     : { deadline: now + ms, pausedRemainingMs: null, durationMs: ms };
@@ -180,8 +185,7 @@ export function nextWakeTime(state: GameState, now: number): number | null {
 export function tick(state: GameState, ctx: EngineContext): boolean {
   let changed = false;
   if (state.timer?.deadline != null && ctx.now >= state.timer.deadline) {
-    if (state.phase === "betting") closeBetting(state);
-    else state.timer = null;
+    if (!advancePhase(state, ctx)) state.timer = null;
     changed = true;
   }
   changed = autoAdvance(state, ctx) || changed;
@@ -192,7 +196,7 @@ export function tick(state: GameState, ctx: EngineContext): boolean {
 /** Close betting early once everyone eligible has locked in. */
 export function autoAdvance(state: GameState, ctx: EngineContext): boolean {
   if (state.phase === "betting" && everyoneLocked(state, ctx.now)) {
-    closeBetting(state);
+    closeBetting(state, ctx.now);
     return true;
   }
   return false;
@@ -270,17 +274,17 @@ function dealRound(state: GameState, number: number, ctx: EngineContext) {
     ranksBefore: null,
   };
   state.phase = "betting";
-  setPhaseTimer(state, state.config.bettingSeconds, ctx.now);
+  setPhaseTimer(state, state.config.bettingSeconds * 1000, ctx.now);
 }
 
 /**
  * Close betting: freeze every player's last valid server-received bet.
  * Players without an answer abstain (no wager). Runs at most once per deal.
  */
-function closeBetting(state: GameState) {
+function closeBetting(state: GameState, now: number) {
   const round = state.round!;
   state.phase = "wagerReveal";
-  state.timer = null;
+  setPhaseTimer(state, wagerRevealMs(state.players.length), now);
   if (round.finalBets) return; // idempotency guard
   const finalBets: Record<string, FinalBet> = {};
   for (const p of state.players) {
@@ -298,10 +302,10 @@ function closeBetting(state: GameState) {
  * Reveal the answer and settle every bet. Chip balances change here and only
  * here, and the `results` guard means it can never be applied twice.
  */
-function revealAnswer(state: GameState) {
+function revealAnswer(state: GameState, now: number) {
   const round = state.round!;
   state.phase = "answerReveal";
-  state.timer = null;
+  setPhaseTimer(state, PHASE_TIMING.answerRevealMs, now);
   if (round.results) return; // idempotency guard — never settle twice
   round.ranksBefore = Object.fromEntries(rankByChips(state.players));
   const results: ServerRound["results"] = {};
@@ -314,6 +318,37 @@ function revealAnswer(state: GameState) {
   round.results = results;
   if (!state.history.some((h) => h.number === round.number)) {
     state.history.push({ number: round.number, questionId: round.questionId, results });
+  }
+}
+
+/** How long the wager reveal stays up: long enough for every player's stack to land. */
+export function wagerRevealMs(playerCount: number): number {
+  return PHASE_TIMING.wagerRevealBaseMs + playerCount * PHASE_TIMING.wagerRevealPerPlayerMs;
+}
+
+/**
+ * Move to the next phase — on the host's "advance" or when the phase timer
+ * runs out. Returns false if the current phase has no "next" (lobby, gameOver).
+ */
+function advancePhase(state: GameState, ctx: EngineContext): boolean {
+  const round = state.round;
+  switch (state.phase) {
+    case "betting":
+      closeBetting(state, ctx.now);
+      return true;
+    case "wagerReveal":
+      revealAnswer(state, ctx.now);
+      return true;
+    case "answerReveal":
+      state.phase = "scoreboard";
+      setPhaseTimer(state, PHASE_TIMING.scoreboardMs, ctx.now);
+      return true;
+    case "scoreboard":
+      if (round!.number >= state.config.rounds) endGame(state);
+      else dealRound(state, round!.number + 1, ctx);
+      return true;
+    default:
+      return false;
   }
 }
 
@@ -531,23 +566,7 @@ function dispatch(state: GameState, actor: Actor, action: Action, ctx: EngineCon
       if (round && from.dealId !== undefined && from.dealId !== round.dealId) {
         return fail("stale", "The game has already moved on");
       }
-      switch (state.phase) {
-        case "betting":
-          closeBetting(state);
-          return OK_CHANGED;
-        case "wagerReveal":
-          revealAnswer(state);
-          return OK_CHANGED;
-        case "answerReveal":
-          state.phase = "scoreboard";
-          return OK_CHANGED;
-        case "scoreboard":
-          if (round!.number >= state.config.rounds) endGame(state);
-          else dealRound(state, round!.number + 1, ctx);
-          return OK_CHANGED;
-        default:
-          return fail("wrong_phase", "Nothing to advance");
-      }
+      return advancePhase(state, ctx) ? OK_CHANGED : fail("wrong_phase", "Nothing to advance");
     }
 
     case "skipQuestion": {

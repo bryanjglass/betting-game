@@ -31,16 +31,18 @@ Game-specific pieces are `shared/engine/*`, `shared/views.ts`, `shared/protocol.
 ## State machine
 
 ```
-lobby ─start─▶ betting ─(all locked | timer | host)─▶ wagerReveal ─(host)─▶ answerReveal ─(host)─▶ scoreboard
-                 ▲  │                                      │                                       │
-                 │  └── skip (new question, same round) ◀──┘                                       │
-                 └────────────────────────────── (host: next round) ◀──────────────────────────────┤
-                                                              (host, after final round) ──▶ gameOver ─rematch─▶ betting | lobby
+lobby ─start─▶ betting ─(all locked | timer)─▶ wagerReveal ─(timer)─▶ answerReveal ─(timer)─▶ scoreboard
+               ▲  │                                 │                                              │
+               │  └◀─ skip (new question) ──────────┘                                              │
+               └────────────────────────────── (timer: next round) ◀───────────────────────────────┤
+                                                                     (timer, after final round) ──▶ gameOver ─rematch─▶ betting | lobby
 ```
+
+- **Hands-free after Start.** Every in-game phase is timed by the server, so a game plays from Start to `gameOver` with no host input: `betting` (host-configured), `wagerReveal` (4.5 s + 0.7 s per player, to match the TV's staggered stacks), `answerReveal` (10 s) and `scoreboard` (10 s). The durations live in `PHASE_TIMING` in `shared/constants.ts`. The host can still skip ahead with `advance` (the timer and the host share one `advancePhase()` transition), skip a question, pause/resume, or end the game. `gameOver` waits for the host's rematch.
 
 - Every transition happens in `shared/engine/engine.ts`. The engine is pure: time and randomness come in through `EngineContext`, which makes it deterministic in tests.
 - Invalid actions are rejected with a typed error code: `wrong_phase`, `too_late`, `stale`, `already_locked`, `invalid_wager`, `unauthorized`, and so on.
-- The host's `advance` carries a `from` snapshot (`phase`, `round`, `dealId`). A double-click or a replayed message no longer matches and gets `stale`, so it can never skip ahead twice. `skipQuestion` carries the `dealId` for the same reason.
+- The host's `advance` carries a `from` snapshot (`phase`, `round`, `dealId`). A double-click, a replayed message, or a click that lands just after the timer already moved on no longer matches and gets `stale`, so it can never skip ahead twice. `skipQuestion` carries the `dealId` for the same reason.
 - **Bets are frozen exactly once**, when betting closes (`round.finalBets`). **Chips are settled exactly once**, on entering the answer reveal. That step is guarded by `round.results`, and history is guarded by round number. Repeated advances, alarms that fire twice, hibernation and message replays have no effect, as the tests show.
 - Balances change only at the answer reveal, so a skip during betting or the wager reveal can't touch them.
 
@@ -54,13 +56,13 @@ lobby ─start─▶ betting ─(all locked | timer | host)─▶ wagerReveal �
 
 ## Timers
 
-Timers run on the server. The betting phase stores an absolute `deadline`, or `pausedRemainingMs` while paused, in Durable Object storage. The object's single storage alarm is set to the earliest of:
+Timers run on the server. Every in-game phase stores an absolute `deadline`, or `pausedRemainingMs` while paused, in Durable Object storage. The object's single storage alarm is set to the earliest of:
 
-- the betting deadline;
+- the current phase's deadline;
 - the end of a disconnected player's presence grace period (15 s);
 - the room's expiry.
 
-`tick()` runs on every alarm *and* before every incoming message. So even if an alarm fires late, a bet sent after the deadline is still rejected as `too_late`. Clients render the countdown from `deadline` plus a clock offset they estimate from `serverNow`. Pausing freezes the remaining time, players can still adjust bets while paused, and a betting phase reached while paused starts frozen. Reveals and the scoreboard are paced by the host.
+`tick()` runs on every alarm *and* before every incoming message. When a deadline passes, `tick()` moves to the next phase and starts its timer. So even if an alarm fires late, a bet sent after the deadline is still rejected as `too_late`. Clients render the countdown from `deadline` plus a clock offset they estimate from `serverNow`. Pausing freezes the remaining time in any phase (the host can linger on a reveal or the leaderboard), players can still adjust bets while paused, and any phase reached while paused starts frozen.
 
 ## Secrecy: per-role projections
 
