@@ -46,6 +46,21 @@ export const CHIPS = {
   bigBetFraction: 0.5,
 } as const;
 
+/**
+ * How long each post-betting phase stays on screen before the server moves
+ * on by itself. Together with the betting timer, this makes every in-game
+ * phase timed, so a game plays from Start to the final results hands-free.
+ */
+export const PHASE_TIMING = {
+  /** Wager reveal: a base, plus time for each player's stack to drop in (the TV staggers them). */
+  wagerRevealBaseMs: 4500,
+  wagerRevealPerPlayerMs: 700,
+  /** Answer reveal: the drum-roll, results, balance count-up and the fun fact. */
+  answerRevealMs: 10_000,
+  /** Leaderboard before the next question (or the final results). */
+  scoreboardMs: 10_000,
+} as const;
+
 export const LIMITS = {
   minPlayers: 2,
   maxPlayers: 10,

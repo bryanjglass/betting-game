@@ -14,6 +14,7 @@ import { displayJoinHost, joinUrl } from "../../lib/config";
 import { burstConfetti } from "../../lib/effects";
 import { setSoundEnabled, sfx } from "../../lib/sound";
 import { storage } from "../../lib/storage";
+import { useCountdown } from "../../lib/useCountdown";
 import { useGame } from "../../store/gameStore";
 import { AnswerRevealScene, WagerRevealScene } from "./BigBetReveal";
 
@@ -271,6 +272,8 @@ function TvScoreboard({ view }: { view: ClientView }) {
   const ordered = settled ? rows : prevOrder;
   const top = Math.max(1, ...rows.map((r) => r.chips));
   const players = new Map(view.players.map((p) => [p.id, p]));
+  const last = sb.number >= (view.round?.total ?? 0);
+  const { remainingMs } = useCountdown(view.timer);
   return (
     <div className="flex h-full gap-10 px-16 pt-28">
       <div className="flex flex-1 flex-col">
@@ -302,6 +305,10 @@ function TvScoreboard({ view }: { view: ClientView }) {
             <p className="text-2xl text-cream/70">{h.description}</p>
           </motion.div>
         ))}
+        <p className="mb-10 mt-auto text-center font-display text-4xl text-cream/80" data-testid="tv-next-countdown">
+          {last ? "Final results in " : "Next question in "}
+          <span className="tabular-nums text-gold">{view.timer && !view.paused ? Math.ceil(remainingMs / 1000) : "…"}</span>
+        </p>
       </aside>
     </div>
   );

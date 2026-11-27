@@ -81,11 +81,11 @@ function primaryAction(view: ClientView, a: ReturnType<typeof useHostActions>): 
     case "betting":
       return { label: "Close Betting Now ▶", run: a.advance };
     case "wagerReveal":
-      return { label: "Reveal the Answer ▶", run: a.advance };
+      return { label: "Reveal the Answer Now ▶", run: a.advance };
     case "answerReveal":
-      return { label: "Show Leaderboard ▶", run: a.advance };
+      return { label: "Show Leaderboard Now ▶", run: a.advance };
     case "scoreboard":
-      return { label: round!.number >= round!.total ? "Final Results ▶" : "Next Question ▶", run: a.advance };
+      return { label: round!.number >= round!.total ? "Final Results Now ▶" : "Next Question Now ▶", run: a.advance };
     case "gameOver":
       return { label: "Rematch ▶", run: () => a.rematch(false) };
   }
@@ -142,33 +142,26 @@ function HostDashboard({ view }: { view: ClientView }) {
 
       <div className="grid gap-5 lg:grid-cols-[1fr_400px]">
         <Card className="flex flex-col gap-4">
-          {view.phase === "betting" && (
-            <div className="flex items-center gap-4">
-              <TimerBar timer={view.timer} className="flex-1" />
-              {view.paused ? (
-                <Button variant="success" onClick={actions.resume} data-testid="resume">
-                  ▶ Resume
-                </Button>
-              ) : (
-                <Button variant="secondary" onClick={actions.pause} data-testid="pause">
-                  ❚❚ Pause
-                </Button>
-              )}
-            </div>
-          )}
-          {view.phase !== "betting" && inGame && (
-            <div className="flex items-center justify-between gap-3 rounded-2xl bg-ink-900/50 px-4 py-2 text-sm text-cream/70">
-              <span>{view.paused ? "Game is paused — the next betting timer will start frozen." : "You control the pace of the reveal."}</span>
-              {view.paused ? (
-                <Button size="sm" variant="success" onClick={actions.resume} data-testid="resume">
-                  ▶ Resume
-                </Button>
-              ) : (
-                <Button size="sm" variant="ghost" onClick={actions.pause} data-testid="pause">
-                  ❚❚ Pause
-                </Button>
-              )}
-            </div>
+          {inGame && (
+            <>
+              <div className="flex items-center gap-4">
+                <TimerBar timer={view.timer} className="flex-1" />
+                {view.paused ? (
+                  <Button variant="success" onClick={actions.resume} data-testid="resume">
+                    ▶ Resume
+                  </Button>
+                ) : (
+                  <Button variant="secondary" onClick={actions.pause} data-testid="pause">
+                    ❚❚ Pause
+                  </Button>
+                )}
+              </div>
+              <p className="rounded-2xl bg-ink-900/50 px-4 py-2 text-sm text-cream/70" data-testid="host-autopilot">
+                {view.paused
+                  ? "❚❚ Paused — the clock is frozen until you resume."
+                  : "⚙️ The game runs itself from here — every step moves on when its timer runs out. Use the buttons only to pause or skip ahead."}
+              </p>
+            </>
           )}
           <PhasePanel view={view} actions={actions} />
           <div className="flex flex-wrap items-center gap-3 border-t border-white/10 pt-4">
@@ -463,6 +456,9 @@ function LobbySettings({ view, configure }: { view: ClientView; configure: (c: P
       <p className="rounded-2xl bg-felt/40 p-3 text-sm text-cream/80">
         Everyone starts with {formatChips(CHIPS.starting)} chips and gets {CHIPS.roundAllowance} more every round. Bets go in steps of{" "}
         {CHIPS.wagerStep}. Virtual chips only — no real money.
+      </p>
+      <p className="text-center text-sm text-cream/70" data-testid="hands-free-hint">
+        Once you press Start, the whole game plays itself on timers — you can join from your phone and play too. You can pause or skip ahead at any time.
       </p>
       {view.host && view.host.startBlockers.length > 0 && (
         <p className="rounded-2xl bg-ink-900/60 p-3 text-cream/70" data-testid="start-blockers">

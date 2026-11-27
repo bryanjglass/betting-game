@@ -607,6 +607,10 @@ function ScorePhone({ view, me }: { view: ClientView; me: MyPrivateView }) {
         <ChipAmount value={mine.chips} size={30} />
       </p>
       <p className={`font-display text-xl ${mine.roundDelta >= 0 ? "text-pop-green" : "text-pop-red"}`}>{signedChips(mine.roundDelta)} this round</p>
+      <div className="w-full" data-testid="next-countdown">
+        <p className="mb-1 text-sm text-cream/70">{sb.number >= (view.round?.total ?? 0) ? "Final results in…" : "Next question in…"}</p>
+        <TimerBar timer={view.timer} />
+      </div>
       <ol className="w-full space-y-1 text-left">
         {sb.standings.map((s) => (
           <li key={s.playerId} className={`flex items-center gap-2 rounded-xl px-3 py-1.5 ${s.playerId === me.id ? "bg-gold/20" : "bg-ink-800/60"}`}>

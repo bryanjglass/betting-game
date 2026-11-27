@@ -4,7 +4,7 @@ A browser-based family trivia game where you bet virtual chips on how sure you a
 
 All chips are virtual. There's no real money anywhere in the game.
 
-- **Host controller**: a desktop Chrome tab that creates the room and runs the game.
+- **Host controller**: a desktop Chrome tab that creates the room and starts the game. After **Start** the game runs itself on timers, so the host only needs it to pause or skip ahead.
 - **TV display**: a second tab you cast to the television. It's a fixed 1920×1080 stage scaled to fit the screen.
 - **Player controllers**: phones (iOS Safari or Android Chrome). Players join with a 4-letter code or a QR scan. There are no accounts and nothing to install. The host can also play from their own phone.
 
@@ -59,12 +59,12 @@ Then browse to `http://<your-LAN-IP>:5173` on the computer. You can also set `VI
 
 ## How to play
 
-1. **Lobby**: the host creates a room. The TV shows a QR code and the room code. Each player picks a unique name (ignoring case) and one of 16 cartoon avatars. The host chooses 5, 10, 15 or 20 questions, a 15, 30, 45 or 60-second betting timer, and any of the seven categories.
+1. **Lobby**: the host creates a room. The TV shows a QR code and the room code. Each player picks a unique name (ignoring case) and one of 16 cartoon avatars. The host chooses 5, 10, 15 or 20 questions, a 15, 30, 45 or 60-second betting timer, and any of the seven categories, then presses **Start**. From here the game plays itself to the final results: every step below moves on when its timer runs out. The host can **pause** (to linger on a screen), skip ahead, or skip a question, but never has to.
 2. **Question and betting**: the TV shows the question, four answers, a countdown and who has locked in. On their phone, each player picks an answer and sets a wager with the slider, the ±50 buttons, or the quick picks (0, 25%, 50%, ALL IN). The phone always shows the exact amount at risk and the balance if right or wrong. Bets can be changed until the player taps **Lock In**. Every change is saved to the server, so if time runs out, the last saved bet counts.
-3. **The Big Bet Reveal**: when everyone has locked in, or time runs out, the TV reveals each player's wager from smallest to largest, as stacks of chips. Big bets and all-ins get extra drama. Answers are still hidden.
-4. **Answer reveal**: after a drum-roll, the correct answer lights up. The TV shows everyone's pick, winning stacks double, losing stacks crumble ("BUSTED!" for a lost all-in), and balances count to their new values.
-5. **Leaderboard**: the rankings animate, with rank changes and round highlights.
-6. **Next question**: the host advances. After the last round comes **Game Over**: the champion (or tied champions), final standings, statistics and awards, then **Rematch**.
+3. **The Big Bet Reveal**: when everyone has locked in, or time runs out, the TV reveals each player's wager from smallest to largest, as stacks of chips. Big bets and all-ins get extra drama. Answers are still hidden. It stays up for 4.5 s plus 0.7 s per player, so every stack has landed.
+4. **Answer reveal**: after a drum-roll, the correct answer lights up. The TV shows everyone's pick, winning stacks double, losing stacks crumble ("BUSTED!" for a lost all-in), and balances count to their new values (10 s).
+5. **Leaderboard**: the rankings animate, with rank changes and round highlights. The TV and phones count down 10 s to the next question.
+6. **Next question**: starts automatically. After the last round comes **Game Over**: the champion (or tied champions), final standings, statistics and awards. Game Over waits for the host to start a **Rematch**.
 
 ### Chip rules (computed only on the server)
 
@@ -110,7 +110,7 @@ That runs 59 Vitest tests covering:
 
 - **Chip maths** (`tests/unit/scoring.test.ts`): wager limits and steps, the worked example, zero and all-in wagers, abstentions, round allowances, broke players, no negative balances, tied rankings, highlights and awards.
 - **Question bank** (`tests/unit/questions.test.ts`): at least 600 questions, at least 80 in every category, four distinct options, one answer, a source each, and helpful validation errors.
-- **The room server** (`tests/integration/room.test.ts`): the real `RoomCore` driven through fake sockets, storage and alarms. It covers lobby rules, host-only controls, random questions that never repeat, private bets, editing then locking, idempotent locks, auto-close, timeouts that finalise the last valid draft, abstentions, late, stale and unauthorized submissions, disconnected players, wagers revealed before answers, **chips applied exactly once despite replays, repeated alarms and hibernation**, skips, pause and resume, ties, game end, rematch, reconnection, host and TV refresh, token and answer leak scans, and room isolation.
+- **The room server** (`tests/integration/room.test.ts`): the real `RoomCore` driven through fake sockets, storage and alarms. It covers lobby rules, host-only controls, random questions that never repeat, private bets, editing then locking, idempotent locks, auto-close, timeouts that finalise the last valid draft, abstentions, late, stale and unauthorized submissions, disconnected players, wagers revealed before answers, **chips applied exactly once despite replays, repeated alarms and hibernation**, skips, pause and resume, **hands-free play from Start to Game Over with no host input**, ties, game end, rematch, reconnection, host and TV refresh, token and answer leak scans, and room isolation.
 - **The Worker router** (`tests/integration/worker.test.ts`): the real `GameRoom` Durable Object class against in-memory storage. It covers room-code collisions, info lookups and the origin allow-list.
 
 ```bash

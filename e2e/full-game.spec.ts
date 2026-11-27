@@ -7,6 +7,10 @@
  * all-in wins and losses, a broke player betting the round allowance, a
  * skipped question, a timeout that finalises an unlocked draft bet, a player
  * who never bets (abstains), refresh recovery, final standings and a rematch.
+ *
+ * Hands-free: in round 1 the host skips ahead through every phase with the big
+ * button; from round 2 on nobody touches the host controller and the server
+ * timers carry the game from reveal to reveal and on to the final results.
  */
 import { devices, expect, test, type BrowserContext, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
@@ -19,6 +23,8 @@ const bank = JSON.parse(readFileSync(new URL("../shared/data/questions.json", im
 const NAMES = ["Abby", "Owen", "Mom", "Dad"] as const;
 type Name = (typeof NAMES)[number];
 const TIMER = 15;
+/** Generous upper bound for any timed reveal/leaderboard phase to move on by itself. */
+const PHASE_WAIT = { timeout: 20_000 };
 
 type Wager = number | "zero" | "25" | "50" | "all" | { plus: number };
 type Bet = { pick: "right" | "wrong"; wager: Wager; lock?: boolean } | null;
@@ -127,6 +133,7 @@ async function placeBet(page: Page, bet: NonNullable<Bet>, correct: string, last
 }
 
 test("host, TV and four phones play a full five-round game with exact chip balances, then a rematch", async ({ browser }) => {
+  test.setTimeout(420_000); // rounds 2–5 run at the real timer pace
   // ---- Host + TV -----------------------------------------------------------
   const hostCtx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const host = await hostCtx.newPage();
@@ -188,7 +195,8 @@ test("host, TV and four phones play a full five-round game with exact chip balan
 
   for (const [r, round] of ROUNDS.entries()) {
     const number = r + 1;
-    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "betting");
+    const hostSkipsAhead = number === 1;
+    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "betting", PHASE_WAIT);
     await expect(tv.getByTestId("tv-round")).toContainText(`Round ${number}`);
 
     if (round.skipFirst) {
@@ -260,10 +268,11 @@ test("host, TV and four phones play a full five-round game with exact chip balan
       await expect(tv.locator(`[data-testid=tv-wager][data-name="${n}"]`)).toHaveAttribute("data-wager", String(expectedWagers[n]));
     }
     await expect(host.getByTestId("host-app")).toHaveAttribute("data-phase", "wagerReveal");
-    await host.getByTestId("host-primary").click(); // Reveal the answer
+    await expect(host.getByTestId("host-autopilot")).toContainText("runs itself");
+    if (hostSkipsAhead) await host.getByTestId("host-primary").click(); // Reveal the answer now
 
     // ---- Answer reveal ----
-    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "answerReveal");
+    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "answerReveal", PHASE_WAIT);
     await expect(tv.getByTestId("tv-correct-option")).toContainText(correct);
     for (const n of NAMES) {
       const result = tv.locator(`[data-testid=tv-result][data-name="${n}"]`);
@@ -274,20 +283,32 @@ test("host, TV and four phones play a full five-round game with exact chip balan
     }
     if (number === 1) await expect(tv.locator(`[data-testid=tv-result][data-name="Dad"]`)).toContainText("BUSTED");
     if (number === 2) await expect(tv.locator(`[data-testid=tv-result][data-name="Abby"]`)).toContainText("ALL-IN WIN");
-    await host.getByTestId("host-primary").click(); // Show leaderboard
+    if (hostSkipsAhead) await host.getByTestId("host-primary").click(); // Show leaderboard now
 
     // ---- Scoreboard: exact balances everywhere ----
-    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "scoreboard");
+    await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "scoreboard", PHASE_WAIT);
     balances = { ...round.expected };
     await expect.poll(() => readStandings(host, "standing-row")).toEqual(balances);
     await expect.poll(() => readStandings(tv, "tv-standing-row")).toEqual(balances);
     for (const n of NAMES) await expect(phones[n].getByTestId("me-chips")).toHaveText(balances[n].toLocaleString("en-US"));
     await expect(host.getByTestId("host-app")).toHaveAttribute("data-phase", "scoreboard");
-    await host.getByTestId("host-primary").click(); // Next question / Final results
+    const nextUp = number === ROUNDS.length ? "Final results in" : "Next question in";
+    await expect(tv.getByTestId("tv-next-countdown")).toContainText(nextUp);
+    await expect(phones.Abby.getByTestId("next-countdown")).toContainText(nextUp);
+    if (number === 3) {
+      // The host can pause to linger on the leaderboard; everyone sees it, then it carries on.
+      await host.getByTestId("pause").click();
+      await expect(tv.getByTestId("tv-paused")).toBeVisible();
+      await expect(host.getByTestId("host-autopilot")).toContainText("Paused");
+      await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "scoreboard");
+      await host.getByTestId("resume").click();
+      await expect(tv.getByTestId("tv-paused")).toHaveCount(0);
+    }
+    if (hostSkipsAhead) await host.getByTestId("host-primary").click(); // Next question now
   }
 
-  // ---- Final results ----
-  await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "gameOver");
+  // ---- Final results (reached with no host input) ----
+  await expect(tv.getByTestId("tv-app")).toHaveAttribute("data-phase", "gameOver", PHASE_WAIT);
   await expect(tv.getByTestId("tv-winners")).toHaveText("Abby");
   await expect.poll(() => readStandings(tv, "tv-standing-row")).toEqual({ Abby: 5250, Mom: 4350, Dad: 1000, Owen: 0 });
   await expect

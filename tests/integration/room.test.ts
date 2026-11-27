@@ -4,7 +4,8 @@
  * scoring, secrecy, idempotency, timers, hibernation and reconnection.
  */
 import { describe, expect, it } from "vitest";
-import { CHIPS, LIMITS } from "../../shared/constants";
+import { CHIPS, LIMITS, PHASE_TIMING } from "../../shared/constants";
+import { wagerRevealMs } from "../../shared/engine/engine";
 import { QUESTIONS } from "../../shared/questions";
 import type { ClientView } from "../../shared/views";
 import {
@@ -276,7 +277,7 @@ describe("betting", () => {
     expect(room.tv.lastView().round!.lockedIds).toHaveLength(1);
     await lockBet(room.world, P(room, "B").socket, 1, 100);
     expect(room.world.state.phase).toBe("wagerReveal");
-    expect(room.world.state.timer).toBeNull();
+    expect(room.world.state.timer?.durationMs).toBe(wagerRevealMs(2));
   });
 
   it("on timeout, finalises the last valid draft and treats players with no answer as abstaining", async () => {
@@ -578,6 +579,116 @@ describe("game lifecycle", () => {
     expect(room.world.state.phase).toBe("gameOver");
     expect(chips(room)).toEqual({ A: 1750, B: 750 });
     expect(room.tv.lastView().final!.roundsPlayed).toBe(1);
+  });
+});
+
+/** Let the clock run (firing alarms) until `done` holds, in 500 ms steps. */
+async function runUntil(w: FakeWorld, done: () => boolean, maxMs = 10 * 60_000) {
+  for (let t = 0; !done(); t += 500) {
+    if (t > maxMs) throw new Error(`still in ${w.state.phase} after ${maxMs} ms`);
+    await w.advance(500);
+  }
+}
+
+describe("hands-free play", () => {
+  it("times every phase after betting and moves on by itself", async () => {
+    const room = await setupRoom(["A", "B", "C"]);
+    await start(room);
+    const w = room.world;
+    await placeBets(room, { A: { pick: "right", wager: 300 }, B: { pick: "wrong", wager: 200 }, C: { pick: "right", wager: 0 } });
+
+    const steps = [
+      ["wagerReveal", wagerRevealMs(3), "answerReveal"],
+      ["answerReveal", PHASE_TIMING.answerRevealMs, "scoreboard"],
+      ["scoreboard", PHASE_TIMING.scoreboardMs, "betting"],
+    ] as const;
+    for (const [phase, ms, next] of steps) {
+      expect(w.state.phase).toBe(phase);
+      expect(room.tv.lastView().timer).toMatchObject({ durationMs: ms, paused: false });
+      expect(w.alarm).toBe(w.state.timer!.deadline); // the Durable Object alarm drives it
+      await w.advance(ms - 1);
+      expect(w.state.phase).toBe(phase);
+      await w.advance(1);
+      expect(w.state.phase).toBe(next);
+    }
+    expect(w.state.round!.number).toBe(2);
+    expect(chips(room)).toEqual({ A: 1550, B: 1050, C: 1250 });
+  });
+
+  it("after Start, plays every round to the final results with no host input", async () => {
+    const room = await setupRoom(["A", "B", "C"]);
+    await start(room, { rounds: 5 });
+    const w = room.world;
+    await w.disconnect(room.host); // the host can even walk away
+    for (let r = 1; r <= 5; r++) {
+      expect(w.state.phase).toBe("betting");
+      expect(w.state.round!.number).toBe(r);
+      await placeBets(room, { A: { pick: "right", wager: 100 }, B: { pick: "wrong", wager: 100 }, C: { pick: "right", wager: 100 } });
+      await runUntil(w, () => w.state.phase === "gameOver" || (w.state.phase === "betting" && w.state.round!.number === r + 1));
+    }
+    expect(w.state.phase).toBe("gameOver");
+    expect(w.state.timer).toBeNull(); // game over waits for the host's rematch
+    expect(w.state.history).toHaveLength(5);
+    expect(chips(room)).toEqual({ A: 2750, B: 1750, C: 2750 });
+    expect(room.tv.lastView().final!.winnerIds).toEqual([P(room, "A").id, P(room, "C").id]);
+  });
+
+  it("even with nobody touching a phone, timers carry the game to the end", async () => {
+    const room = await setupRoom(["A", "B"]);
+    await start(room, { rounds: 5 });
+    await runUntil(room.world, () => room.world.state.phase === "gameOver");
+    // Everyone abstained every round, so each just banked the round allowances.
+    expect(chips(room)).toEqual({ A: 1000 + 5 * CHIPS.roundAllowance, B: 1000 + 5 * CHIPS.roundAllowance });
+  });
+
+  it("the host can pause any phase to linger, and resume with the time left", async () => {
+    const room = await setupRoom(["A", "B"]);
+    await start(room);
+    const w = room.world;
+    await placeBets(room, { A: { pick: "right", wager: 100 }, B: { pick: "right", wager: 100 } });
+    await runUntil(w, () => w.state.phase === "scoreboard");
+    await w.advance(4_000);
+    const left = w.state.timer!.deadline! - w.now;
+    expect(left).toBeGreaterThan(0);
+    await w.act(room.host, { type: "pause" });
+    expect(room.tv.lastView()).toMatchObject({ paused: true, timer: { paused: true, remainingMs: left } });
+    await w.advance(60 * 60_000);
+    expect(w.state.phase).toBe("scoreboard");
+    await w.act(room.host, { type: "resume" });
+    await w.advance(left - 1);
+    expect(w.state.phase).toBe("scoreboard");
+    await w.advance(1);
+    expect(w.state.phase).toBe("betting");
+    expect(w.state.round!.number).toBe(2);
+  });
+
+  it("a phase entered while paused starts with its timer frozen", async () => {
+    const room = await setupRoom(["A", "B"]);
+    await start(room);
+    const w = room.world;
+    await w.act(room.host, { type: "pause" });
+    await hostAdvance(w, room.host); // the host can still skip ahead while paused
+    expect(w.state.phase).toBe("wagerReveal");
+    expect(room.tv.lastView().timer).toMatchObject({ paused: true, deadline: null, remainingMs: wagerRevealMs(2) });
+    await w.advance(60 * 60_000);
+    expect(w.state.phase).toBe("wagerReveal");
+    await w.act(room.host, { type: "resume" });
+    await w.advance(wagerRevealMs(2));
+    expect(w.state.phase).toBe("answerReveal");
+  });
+
+  it("a host click that arrives after the timer already moved on is rejected, not applied twice", async () => {
+    const room = await setupRoom(["A", "B"]);
+    await start(room);
+    const w = room.world;
+    await placeBets(room, { A: { pick: "right", wager: 100 }, B: { pick: "wrong", wager: 100 } });
+    const late = { phase: "wagerReveal" as const, round: 1, dealId: w.state.round!.dealId };
+    await w.advance(wagerRevealMs(2));
+    expect(w.state.phase).toBe("answerReveal");
+    await w.act(room.host, { type: "advance", from: late });
+    expect(room.host.lastError()?.code).toBe("stale");
+    expect(w.state.phase).toBe("answerReveal");
+    expect(chips(room)).toEqual({ A: 1350, B: 1150 });
   });
 });
 
